@@ -26,5 +26,5 @@ production:
   database: production_bestsf
   pool: 5
   username: root
-  password: root
+  password: dragon1234
   host: localhost

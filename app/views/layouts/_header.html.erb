@@ -26,7 +26,7 @@
   <body class="<%= yield(:body_class) %>">
   <!-- Header Section -->
     <div class="header">
-      <div class="cities-section">
+      <div class="cities-section wow bounceInDown center" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInDown;" data-wow-delay="0.5s">
         <div class="container">
           <div class="row">
             <div class="cities-inner">
@@ -235,3 +235,6 @@
 </div>
 <!--End header section-->
 
+<script>
+              new WOW().init();
+</script>

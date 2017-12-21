@@ -18,7 +18,7 @@
                   function initialize() {
                         var mapCanvas = document.getElementById('contact-map');
                         var mapOptions = {
-                            center: new google.maps.LatLng(37.801599, -122.405323),
+                            center: new google.maps.LatLng(51.4804346, -0.10958000000005086),
                             zoom: 17,
                             scrollwheel: false,
 						    navigationControl: false,
@@ -29,7 +29,7 @@
                         var map = new google.maps.Map(mapCanvas, mapOptions);
                         var icon = "<%= asset_path('icon-google-map.png') %>";
                         var pointMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(37.801599, -122.405323),
+                            position: new google.maps.LatLng(51.4804346, -0.10958000000005086),
                             map: map,
                             icon: icon
                         });

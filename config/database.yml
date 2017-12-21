@@ -23,8 +23,8 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: production_bestsf
+  database: bestsf_production
   pool: 5
-  username: root
+  username: postgres
   password: dragon1234
   host: localhost

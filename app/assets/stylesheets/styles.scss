@@ -1143,6 +1143,8 @@
         opacity: 0.7; }
 
 .media-section {
+  background: #e9eef3;
+  padding-top: 30px;
   padding-bottom: 50px; }
   .media-section a {
     float: left;
@@ -2331,6 +2333,9 @@ footer {
     margin-top: 10px; } }
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
+  .logo-section img{
+    width: 190px;
+  }
   .header .navbar .menu-container .menu-header {
     position: relative; }
   .header .navbar .menu-container .menu-tabs-section .menu-listings-section {
@@ -2514,6 +2519,9 @@ footer {
     display: none !important; } }
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+  .logo-section img{
+    width: 150px;
+  }
   .header .navbar .pages-section {
     padding-left: 0px; }
     .header .navbar .pages-section .pages-list {

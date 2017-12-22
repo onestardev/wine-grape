@@ -7,6 +7,10 @@ class IndexController < ApplicationController
 
 	end
 
+	def grow
+
+	end
+
 	def contact
 		unless params[:contact].nil?			
 			@user = params[:contact]

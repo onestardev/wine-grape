@@ -1,0 +1,26 @@
+<h1>show</h1>
+
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @wine.name %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @wine.content %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @wine.date %>
+</p>
+
+<p>
+  <strong>Pic:</strong>
+  <%= @wine.pic %>
+</p>
+
+<%= link_to 'Edit', edit_wine_path(@wine) %> |
+<%= link_to 'Back', wines_path %>

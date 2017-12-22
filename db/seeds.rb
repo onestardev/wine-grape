@@ -7,8 +7,8 @@ Category.create!([
   {name: "Places"}
 ])
 Company.create!([
-  {name: "Four Seasons Hotel San Francisco", category: 3, subcategory: nil, city: "San Francisco", share: 5, like: 2, lat: 37.786134, lng: -122.4043034, photo: "https://maps.googleapis.com/maps/api/place/photo?maxheight=400&photoreference=CoQBdwAAADdGfQb1pmgcMLZD6s89vWbz-ylO7WVeYpmQGM8UIocDD8aMJI1eYjxpNITjMf3P7alUhskBXts6biqw0uNjMr91U89W-J0Pf7VEKyva9egkVSgUPgzDTgl88C_AM6M9lcEPa7FcuN5xzsoIlm-Lp1SvBioAh6uFgEe-ln-_DyFjEhDBKk7xhK-V5v6oF07C_scuGhTPeEiQCUMrHrCaYHBPQanr5NNgwg&key=AIzaSyD_mMKLGBULdpg7KvEFfdoHQpdbu83EG-Q", address: "757 Market St, San Francisco, CA 94103, United States"},
-  {name: "Palace Hotel Luxury Collection Hotel San Francisco", category: 3, subcategory: nil, city: "San Francisco", share: 4, like: 2, lat: 37.779044, lng: -122.418757, photo: "place-image.png", address: "1 Dr Carlton B Goodlett Pl, San Francisco, CA 94102"},
+  {name: "Four Seasons Hotel San Francisco", category: 3, subcategory: nil, city: "San Francisco", share: 5, like: 6, lat: 37.786134, lng: -122.4043034, photo: "https://maps.googleapis.com/maps/api/place/photo?maxheight=400&photoreference=CoQBdwAAADdGfQb1pmgcMLZD6s89vWbz-ylO7WVeYpmQGM8UIocDD8aMJI1eYjxpNITjMf3P7alUhskBXts6biqw0uNjMr91U89W-J0Pf7VEKyva9egkVSgUPgzDTgl88C_AM6M9lcEPa7FcuN5xzsoIlm-Lp1SvBioAh6uFgEe-ln-_DyFjEhDBKk7xhK-V5v6oF07C_scuGhTPeEiQCUMrHrCaYHBPQanr5NNgwg&key=AIzaSyD_mMKLGBULdpg7KvEFfdoHQpdbu83EG-Q", address: "757 Market St, San Francisco, CA 94103, United States"},
+  {name: "Palace Hotel Luxury Collection Hotel San Francisco", category: 3, subcategory: nil, city: "San Francisco", share: 4, like: 4, lat: 37.779044, lng: -122.418757, photo: "place-image.png", address: "1 Dr Carlton B Goodlett Pl, San Francisco, CA 94102"},
   {name: "San Francisco Marriott Marquis Union Square", category: 3, subcategory: nil, city: "San Francisco", share: 2, like: 1, lat: 37.779044, lng: -122.418757, photo: "place-image.png", address: "1 Dr Carlton B Goodlett Pl, San Francisco, CA 94102"},
   {name: "The Westin St Francis San Francisco On Union Square", category: 3, subcategory: nil, city: "San Francisco", share: 2, like: 1, lat: 37.779044, lng: -122.418757, photo: "place-image.png", address: "1 Dr Carlton B Goodlett Pl, San Francisco, CA 94102"},
   {name: "CABERNET SAUVIGNON", category: 1, subcategory: nil, city: "San Francisco", share: 89, like: 2, lat: 37.779044, lng: -122.418757, photo: "place-image.png", address: "1 Dr Carlton B Goodlett Pl, San Francisco, CA 94102"},
@@ -220,7 +220,13 @@ Ip.create!([
   {address: nil, company_id: 5, share: 1, like: nil},
   {address: nil, company_id: 7, share: nil, like: 1},
   {address: nil, company_id: 8, share: nil, like: 1},
-  {address: nil, company_id: 11, share: 1, like: nil}
+  {address: nil, company_id: 11, share: 1, like: nil},
+  {address: nil, company_id: 1, share: nil, like: 1},
+  {address: nil, company_id: 1, share: nil, like: 1},
+  {address: nil, company_id: 1, share: nil, like: 1},
+  {address: nil, company_id: 1, share: nil, like: 1},
+  {address: nil, company_id: 2, share: nil, like: 1},
+  {address: nil, company_id: 2, share: nil, like: 1}
 ])
 SubCategory.create!([
   {name: "Sub Brunch Place 6", category_id: 1},
@@ -239,4 +245,14 @@ SubCategory.create!([
   {name: "Sub Craft Breweire 7", category_id: 5},
   {name: "Sub Craft Breweire 8", category_id: 5},
   {name: "Italian Restaurants", category_id: 6}
+])
+Wine.create!([
+  {name: "CHARISMATIC ZINFANDEL", content: "The ancient grape Carmenère is considered one of the six original red grapes of Bordeaux, though it is almost impossible to find in France today.The ancient grape Carmenère is considered one of the six original red grapes of Bordeaux, though it is almost impossible to find in France today.The ancient grape Carmenère is considered one of the six original red grapes of Bordeaux, though it is almost impossible to find in France today.", date: "2017.2.1", pic: "Carmenere 1.jpg"},
+  {name: "Albariño", content: "The ancient grape Carmenère is considered one of the six original red grapes of Bordeaux, though it is almost impossible to find in France today.", date: "2017.2.1", pic: "Carmenere 2.jpg"},
+  {name: "Albariño", content: "The ancient grape Carmenère is considered one of the six original red grapes of Bordeaux, though it is almost impossible to find in France today.", date: "2017.2.1", pic: "Carmenere 1.jpg"},
+  {name: "Carmenere", content: "The ancient grape Carmenère is considered one of the six original red grapes of Bordeaux, though it is almost impossible to find in France today.", date: "2017.2.1", pic: "Carmenere 2.jpg"},
+  {name: "Carmenere", content: "The ancient grape Carmenère is considered one of the six original red grapes of Bordeaux, though it is almost impossible to find in France today.", date: "2017.2.1", pic: "Carmenere 3.jpg"},
+  {name: "Carmenere", content: "The ancient grape Carmenère is considered one of the six original red grapes of Bordeaux, though it is almost impossible to find in France today.The ancient grape Carmenère is considered one of the six original red grapes of Bordeaux, though it is almost impossible to find in France today.The ancient grape Carmenère is considered one of the six original red grapes of Bordeaux, though it is almost impossible to find in France today.The ancient grape Carmenère is considered one of the six original red grapes of Bordeaux, though it is almost impossible to find in France today.", date: "2017.2.1", pic: "Carmenere 3.jpg"},
+  {name: "Carmenere", content: "The ancient grape Carmenère is considered one of the six original red grapes of Bordeaux, though it is almost impossible to find in France today.", date: "2017.2.1", pic: "Carmenere 1.jpg"},
+  {name: "Carmenere", content: "The ancient grape Carmenère is considered one of the six original red grapes of Bordeaux, though it is almost impossible to find in France today.The ancient grape Carmenère is considered one of the six original red grapes of Bordeaux, though it is almost impossible to find in France today.The ancient grape Carmenère is considered one of the six original red grapes of Bordeaux, though it is almost impossible to find in France today.", date: "2017.2.1", pic: "Carmenere 3.jpg"}
 ])

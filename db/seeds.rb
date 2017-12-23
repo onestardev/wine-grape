@@ -256,3 +256,4 @@ Wine.create!([
   {name: "Carmenere", content: "The ancient grape Carmenère is considered one of the six original red grapes of Bordeaux, though it is almost impossible to find in France today.", date: "2017.2.1", pic: "Carmenere 1.jpg"},
   {name: "Carmenere", content: "The ancient grape Carmenère is considered one of the six original red grapes of Bordeaux, though it is almost impossible to find in France today.The ancient grape Carmenère is considered one of the six original red grapes of Bordeaux, though it is almost impossible to find in France today.The ancient grape Carmenère is considered one of the six original red grapes of Bordeaux, though it is almost impossible to find in France today.", date: "2017.2.1", pic: "Carmenere 3.jpg"}
 ])
+AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password') if Rails.env.development?

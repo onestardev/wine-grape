@@ -183,5 +183,7 @@ $( document ).on('turbolinks:load',function() {
     $('.social-modal span').on('click', function(){
         //index = $('.share-button span').index($(this));
         $('.social-modal').fadeOut(1000);
-    });   
+    });
+
+    new WOW().init();   
 });

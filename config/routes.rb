@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'users/new'
+
   resources :grapes
   resources :wines
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
@@ -12,6 +14,9 @@ Rails.application.routes.draw do
   get '/shareup/:id', to: 'index#share_up', as: 'shareup'
   get '/likeup/:id', to: 'index#like_up', as: 'likeup'
   get '/wines', to: 'wines#index'
+  get  '/signup',  to: 'users#new'
+  post '/signup',  to: 'users#create'
+   resources :users
   
   scope 'admin' do
     resources :companies

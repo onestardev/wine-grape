@@ -1,12 +1,12 @@
 Rails.application.routes.draw do
+  resources :wines
+  resources :grapes
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
   get 'sessions/new'
 
   get 'users/new'
 
-  resources :grapes
-  resources :wines
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   get '/home', to: 'index#home'
   get '/about', to: 'index#about', as: 'about'

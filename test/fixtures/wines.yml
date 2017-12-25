@@ -2,12 +2,18 @@
 
 one:
   name: MyString
-  content: MyText
-  date: MyString
+  short_des: MyString
+  long_des: MyText
   pic: MyString
+  regions: MyString
+  wine: MyString
+  publish: false
 
 two:
   name: MyString
-  content: MyText
-  date: MyString
+  short_des: MyString
+  long_des: MyText
   pic: MyString
+  regions: MyString
+  wine: MyString
+  publish: false

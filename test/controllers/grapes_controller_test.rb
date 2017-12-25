@@ -17,7 +17,7 @@ class GrapesControllerTest < ActionDispatch::IntegrationTest
 
   test "should create grape" do
     assert_difference('Grape.count') do
-      post grapes_url, params: { grape: { content: @grape.content, date: @grape.date, name: @grape.name, pic: @grape.pic } }
+      post grapes_url, params: { grape: { logn_des: @grape.logn_des, name: @grape.name, pic: @grape.pic, publish: @grape.publish, regions: @grape.regions, short_des: @grape.short_des } }
     end
 
     assert_redirected_to grape_url(Grape.last)
@@ -34,7 +34,7 @@ class GrapesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update grape" do
-    patch grape_url(@grape), params: { grape: { content: @grape.content, date: @grape.date, name: @grape.name, pic: @grape.pic } }
+    patch grape_url(@grape), params: { grape: { logn_des: @grape.logn_des, name: @grape.name, pic: @grape.pic, publish: @grape.publish, regions: @grape.regions, short_des: @grape.short_des } }
     assert_redirected_to grape_url(@grape)
   end
 

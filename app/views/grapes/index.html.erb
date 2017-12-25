@@ -6,9 +6,11 @@
   <thead>
     <tr>
       <th>Name</th>
-      <th>Content</th>
-      <th>Date</th>
-      <th>Pic</th>
+      <th>Short description</th>
+      <th>Logn description</th>
+      <th>Image</th>
+      <th>Regions</th>
+      <th>Publish</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -17,9 +19,11 @@
     <% @grapes.each do |grape| %>
       <tr>
         <td><%= grape.name %></td>
-        <td><%= grape.content %></td>
-        <td><%= grape.date %></td>
+        <td><%= grape.short_des %></td>
+        <td><%= grape.logn_des %></td>
         <td><%= grape.pic %></td>
+        <td><%= grape.regions %></td>
+        <td><%= grape.publish %></td>
         <td><%= link_to 'Show', grape %></td>
         <td><%= link_to 'Edit', edit_grape_path(grape) %></td>
         <td><%= link_to 'Destroy', grape, method: :delete, data: { confirm: 'Are you sure?' } %></td>

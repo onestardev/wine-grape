@@ -17,7 +17,7 @@ class WinesControllerTest < ActionDispatch::IntegrationTest
 
   test "should create wine" do
     assert_difference('Wine.count') do
-      post wines_url, params: { wine: { content: @wine.content, date: @wine.date, name: @wine.name, pic: @wine.pic } }
+      post wines_url, params: { wine: { long_des: @wine.long_des, name: @wine.name, pic: @wine.pic, publish: @wine.publish, regions: @wine.regions, short_des: @wine.short_des, wine: @wine.wine } }
     end
 
     assert_redirected_to wine_url(Wine.last)
@@ -34,7 +34,7 @@ class WinesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update wine" do
-    patch wine_url(@wine), params: { wine: { content: @wine.content, date: @wine.date, name: @wine.name, pic: @wine.pic } }
+    patch wine_url(@wine), params: { wine: { long_des: @wine.long_des, name: @wine.name, pic: @wine.pic, publish: @wine.publish, regions: @wine.regions, short_des: @wine.short_des, wine: @wine.wine } }
     assert_redirected_to wine_url(@wine)
   end
 

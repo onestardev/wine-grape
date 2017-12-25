@@ -2,12 +2,16 @@
 
 one:
   name: MyString
-  content: MyText
-  date: MyString
+  short_des: MyString
+  logn_des: MyText
   pic: MyString
+  regions: MyString
+  publish: false
 
 two:
   name: MyString
-  content: MyText
-  date: MyString
+  short_des: MyString
+  logn_des: MyText
   pic: MyString
+  regions: MyString
+  publish: false

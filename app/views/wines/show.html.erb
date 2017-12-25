@@ -1,5 +1,3 @@
-<h1>show</h1>
-
 <p id="notice"><%= notice %></p>
 
 <p>
@@ -8,18 +6,33 @@
 </p>
 
 <p>
-  <strong>Content:</strong>
-  <%= @wine.content %>
+  <strong>Short des:</strong>
+  <%= @wine.short_des %>
 </p>
 
 <p>
-  <strong>Date:</strong>
-  <%= @wine.date %>
+  <strong>Long des:</strong>
+  <%= @wine.long_des %>
 </p>
 
 <p>
   <strong>Pic:</strong>
   <%= @wine.pic %>
+</p>
+
+<p>
+  <strong>Regions:</strong>
+  <%= @wine.regions %>
+</p>
+
+<p>
+  <strong>Wine:</strong>
+  <%= @wine.wine %>
+</p>
+
+<p>
+  <strong>Publish:</strong>
+  <%= @wine.publish %>
 </p>
 
 <%= link_to 'Edit', edit_wine_path(@wine) %> |

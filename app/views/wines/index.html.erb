@@ -51,8 +51,31 @@
                               <%= wine.long_des %>
                             </p>
                         </div>
+                        <div class="social-container">
+                                <div class="share-container">
+                                    <div class="share-button">
+                                        <%= link_to shareup_path( wine.id ), remote: true do %>
+                                            <span class="text hidden-xs hidden-sm">Share</span>
+                                            <span class="share-icon"></span>
+                                            <span class="separator "></span>
+                                            <div class="share-count " id = "share-text-<%= wine.id %>"><%= wine.share %></div>
+                                        <% end %>
+                                    </div>
+
+                                </div>
+                                <div class="like-container">
+                                    <div class="like-button">
+                                        <%= link_to likeup_path( wine.id ), remote: true do %>
+                                            <span class="text hidden-xs hidden-sm">Like</span>
+                                            <span class="like-icon"></span>
+                                            <span class="separator "></span>
+                                            <div class="like-count " id = "like-text-<%= wine.id %>"><%= wine.like %></div>
+                                        <% end %>
+                                    </div>
+                                </div>
+                          </div>
                         <div class="buttons-container">
-                            <div class="learn-more-button"><a href="#">Learn more</a></div>
+                            <div class="learn-more-button"><%= link_to "READ MORE", wine %></div>
                         </div>
 
                     </div>

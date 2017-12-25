@@ -1,34 +1,106 @@
-<p id="notice"><%= notice %></p>
+<% provide(:body_class, "place-page") %>
+<!--Start of banner section-->
+<section class="main-banner-section">
+    <div class="container-fluid no-padding">
+        <div class="banner-container">
+            <div class="container">
+                <div class="row">
+                    <div class="text-container">
+                        <h1>
+                            <div class="category-title col-xs-12 col-sm-12 col-lg-12">
+                                <span class="number"><%= @no %> <span class="separator"></span></span>
+                                <span class="category-name"><%= @grape.name %></span>
+                            </div>
+                            <div class="location-wrapper col-xs-12 col-sm-12 col-lg-12">
+                                <span class="location-container"><span class="location-icon"></span> </span>
+                                <div class="share-container col-md-2 hidden-md hidden-lg  no-padding">
+                                </div>
+                            </div>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--end of banner section-->
+<div class="social-modal">
+    <div class="container">
+      <h1>Share</h1>
+        <span class="glyphicon glyphicon-remove-circle"></span>
+    </div>
+</div> 
+<!--Start of buttons section-->
+<section class="places-buttons-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12 buttons-wrapper">
+                <div class="directions-container col-md-2 col-xs-3 no-padding">
+                    <a href="#">Grapes</a>
+                </div>
+                <div class="contact-container col-md-2 col-xs-3 no-padding">
+                    <a href="#">Contact</a>
+                </div>
+                <div class="website-container col-md-2 col-xs-3 no-padding">
+                    <a href="#">Wines</a>
+                </div>
+                <div class="view-menu-container col-md-2 col-xs-3 no-padding">
+                    <a href="#">View menu</a>
+                </div>
+                <div class="share-container col-md-2 hidden-xs hidden-sm  no-padding">
+                </div>
+                <div class="like-container col-md-2 hidden-xs hidden-sm no-padding">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--end of buttons section-->
 
-<p>
-  <strong>Name:</strong>
-  <%= @grape.name %>
-</p>
-
-<p>
-  <strong>Short des:</strong>
-  <%= @grape.short_des %>
-</p>
-
-<p>
-  <strong>Logn des:</strong>
-  <%= @grape.logn_des %>
-</p>
-
-<p>
-  <strong>Pic:</strong>
-  <%= @grape.pic %>
-</p>
-
-<p>
-  <strong>Regions:</strong>
-  <%= @grape.regions %>
-</p>
-
-<p>
-  <strong>Publish:</strong>
-  <%= @grape.publish %>
-</p>
-
-<%= link_to 'Edit', edit_grape_path(@grape) %> |
-<%= link_to 'Back', grapes_path %>
+<!--Start of main info container-->
+<section class="main-info-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 map-container">
+                <span>
+                    <%= link_to image_tag( @grape.pic, class: 'img-responsive' )%>
+                </span>
+            </div>
+            <div class="col-md-8 text-container">
+              <div class="grape-title">
+                <h1 class="text-center"><%= @grape.name %></h1>
+              </div>
+              <div class="grape-long_description">
+                <span>
+                   <%= @grape.logn_des %>
+                </span>
+              </div>
+              <div class="grape-region">
+               <span>Region:</span><strong><%= @grape.regions %></strong>
+              </div>
+              <div class="grape-supplier">
+               <span>Supplier:</span> <strong><%= @grape.supply %></strong>
+              </div>    
+            </div>
+        </div>
+    </div>
+</section>
+<!--end of main info container -->
+<section class="place-slider-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 b_slider_wrapper">
+                <h1>Related wines</h1>
+                <div class="b_slider">
+                    <%= image_tag 'download-1.jpg', class: 'b_slider__slide img-responsive' %>
+                    <%= image_tag 'download-2.jpg', class: 'b_slider__slide img-responsive' %>
+                    <%= image_tag 'download-3.jpg', class: 'b_slider__slide img-responsive' %>
+                    <%= image_tag 'download-4.jpg', class: 'b_slider__slide img-responsive' %>
+                    <%= image_tag 'images-wine-2.jpg', class: 'b_slider__slide img-responsive' %>
+                    <%= image_tag 'images-wine-3.jpg', class: 'b_slider__slide img-responsive' %>
+                    <%= image_tag 'images-wine-1.jpg', class: 'b_slider__slide img-responsive' %>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

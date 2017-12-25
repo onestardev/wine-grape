@@ -191,4 +191,69 @@
 		  	
 	}
 }
-
+// Place all the styles related to the Wines controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.wines-list-section{
+	padding: 50px 0px;
+}
+.wine-section .banner-container{
+	position: relative;
+    background-image: url(/assets/banner-place-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 340px;
+    height: 340px;
+    background-position: center 50%;
+    width: 100%;
+}
+.wines h1{
+	color: #fff;
+	margin-top: 17%;
+}
+.learn-more-button a,{
+	background-color: #cf0f40;
+    font-family: Proxima_nova, sans-serif;
+    font-size: 12px;
+    line-height: 19px;
+    color: white;
+    text-transform: uppercase;
+    float: left;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    max-width: 130px;
+    width: 100%;
+    border-radius: 4px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.go-to-website-button a{
+	background-color: #cf0000;
+	margin-left: 30px;
+    font-family: Proxima_nova, sans-serif;
+    font-size: 12px;
+    line-height: 19px;
+    color: white;
+    text-transform: uppercase;
+    float: left;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    max-width: 130px;
+    width: 100%;
+    border-radius: 4px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.info-container{
+	padding: 20px;
+}

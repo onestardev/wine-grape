@@ -1195,7 +1195,7 @@ footer {
         height: 40px;
         padding-left: 16px;
         margin-left: 10px;
-        width: 222px; }
+        width: 211px; }
         footer .newsletter-container .join-wrapper .newsletter_input::-webkit-input-placeholder {
           /* Safari, Chrome and Opera */
           color: #7c858c;
@@ -1713,11 +1713,11 @@ footer {
 
 .ranking-page .main-banner-section .banner-container {
   position: relative;
-  background-image: url(asset_path('image-places.jpg'));
+  background-image: url(asset_path('grapes-poisoning.jpg'));
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 340px;
-  height: 340px;
+  min-height: 450px;
+  height: 450px;
   background-position: center 50%;
   width: 100%; }
   .ranking-page .main-banner-section .banner-container h1 {
@@ -1753,7 +1753,7 @@ footer {
   margin-bottom: 30px; }
   .ranking-page .places-list-section .place-container .image-container img {
     border-radius: 4px;
-    width: 100%; }
+    width: 85%; }
   .ranking-page .places-list-section .place-container .info-container .header-section .number-container {
     float: left;
     color: #cf0f40;
@@ -1800,16 +1800,16 @@ footer {
         background-repeat: no-repeat;
         display: inline-block;
         margin-right: 5px; }
-  .ranking-page .places-list-section .place-container .info-container .header-section .social-container {
+  .ranking-page .places-list-section .place-container .info-container .social-container {
     float: left;
-    width: 50%;
-    text-align: right;
+    width: 60%;
+    text-align: left;
     position: relative;
-    top: -6px; }
-    .ranking-page .places-list-section .place-container .info-container .header-section .social-container .share-container {
+    top: 16px; }
+    .ranking-page .places-list-section .place-container .info-container .social-container .share-container {
       display: inline-block;
       margin-right: 15px; }
-      .ranking-page .places-list-section .place-container .info-container .header-section .social-container .share-container .share-button a {
+      .ranking-page .places-list-section .place-container .info-container .social-container .share-container .share-button a {
         font-size: 12px;
         line-height: 19px;
         font-family: Proxima_nova, sans-serif;
@@ -1822,10 +1822,10 @@ footer {
         display: inline-block;
         text-transform: uppercase;
         padding: 12px; }
-        .ranking-page .places-list-section .place-container .info-container .header-section .social-container .share-container .share-button a .text {
+        .ranking-page .places-list-section .place-container .info-container .social-container .share-container .share-button a .text {
           float: left;
           margin-left: 6px; }
-        .ranking-page .places-list-section .place-container .info-container .header-section .social-container .share-container .share-button a .share-icon {
+        .ranking-page .places-list-section .place-container .info-container .social-container .share-container .share-button a .share-icon {
           background-image: url(asset_path('icon-share.png'));
           background-repeat: no-repeat;
           height: 15px;
@@ -1835,7 +1835,7 @@ footer {
           margin-left: 10px;
           position: relative;
           top: 1px; }
-        .ranking-page .places-list-section .place-container .info-container .header-section .social-container .share-container .share-button a .separator {
+        .ranking-page .places-list-section .place-container .info-container .social-container .share-container .share-button a .separator {
           background-image: url(asset_path('icon-separator-mini.png'));
           float: left;
           background-repeat: no-repeat;
@@ -1844,14 +1844,14 @@ footer {
           margin-left: 10px;
           position: relative;
           top: 0px; }
-        .ranking-page .places-list-section .place-container .info-container .header-section .social-container .share-container .share-button a .share-count {
+        .ranking-page .places-list-section .place-container .info-container .social-container .share-container .share-button a .share-count {
           float: left;
           margin-left: 12px; }
-        .ranking-page .places-list-section .place-container .info-container .header-section .social-container .share-container .share-button a:hover {
+        .ranking-page .places-list-section .place-container .info-container .social-container .share-container .share-button a:hover {
           opacity: 0.8; }
-    .ranking-page .places-list-section .place-container .info-container .header-section .social-container .like-container {
+    .ranking-page .places-list-section .place-container .info-container .social-container .like-container {
       display: inline-block; }
-      .ranking-page .places-list-section .place-container .info-container .header-section .social-container .like-container .like-button a {
+      .ranking-page .places-list-section .place-container .info-container .social-container .like-container .like-button a {
         font-size: 12px;
         line-height: 19px;
         font-family: Proxima_nova, sans-serif;
@@ -1864,10 +1864,10 @@ footer {
         display: inline-block;
         text-transform: uppercase;
         padding: 12px; }
-        .ranking-page .places-list-section .place-container .info-container .header-section .social-container .like-container .like-button a .text {
+        .ranking-page .places-list-section .place-container .info-container .social-container .like-container .like-button a .text {
           float: left;
           margin-left: 10px; }
-        .ranking-page .places-list-section .place-container .info-container .header-section .social-container .like-container .like-button a .like-icon {
+        .ranking-page .places-list-section .place-container .info-container .social-container .like-container .like-button a .like-icon {
           background-image: url(asset_path('icon-like.png'));
           background-repeat: no-repeat;
           height: 14px;
@@ -1877,7 +1877,7 @@ footer {
           margin-left: 10px;
           position: relative;
           top: 1px; }
-        .ranking-page .places-list-section .place-container .info-container .header-section .social-container .like-container .like-button a .separator {
+        .ranking-page .places-list-section .place-container .info-container .social-container .like-container .like-button a .separator {
           background-image: url(asset_path('icon-separator-mini.png'));
           float: left;
           background-repeat: no-repeat;
@@ -1886,10 +1886,10 @@ footer {
           margin-left: 10px;
           position: relative;
           top: 0px; }
-        .ranking-page .places-list-section .place-container .info-container .header-section .social-container .like-container .like-button a .like-count {
+        .ranking-page .places-list-section .place-container .info-container .social-container .like-container .like-button a .like-count {
           float: left;
           margin-left: 12px; }
-        .ranking-page .places-list-section .place-container .info-container .header-section .social-container .like-container .like-button a:hover {
+        .ranking-page .places-list-section .place-container .info-container .social-container .like-container .like-button a:hover {
           opacity: 0.8; }
   .ranking-page .places-list-section .place-container .info-container .main-text-container {
     font-family: Raleway, sans-serif;
@@ -1903,7 +1903,7 @@ footer {
   .ranking-page .places-list-section .place-container .info-container .buttons-container {
     float: left;
     width: 100%;
-    margin-top: 18px; }
+    margin-top: 48px; }
     .ranking-page .places-list-section .place-container .info-container .buttons-container .learn-more-button a {
       background-color: #cf0f40;
       font-family: Proxima_nova, sans-serif;
@@ -2323,7 +2323,7 @@ footer {
   .ranking-page .places-list-section .place-container .info-container .header-section .name-container {
     width: 30%; }
 
-  .ranking-page .places-list-section .place-container .info-container .header-section .social-container {
+  .ranking-page .places-list-section .place-container .info-container .social-container {
     width: 55%; }
 
   .ranking-page .places-list-section .place-container .info-container .header-section .name-container .title-container {
@@ -2458,21 +2458,21 @@ footer {
     font-size: 20px;
     margin-top: 10px; }
 
-  .ranking-page .places-list-section .place-container .info-container .header-section .social-container .share-container .share-button a,
-  .ranking-page .places-list-section .place-container .info-container .header-section .social-container .like-container .like-button a {
+  .ranking-page .places-list-section .place-container .info-container .social-container .share-container .share-button a,
+  .ranking-page .places-list-section .place-container .info-container .social-container .like-container .like-button a {
     width: 95px; }
 
   .ranking-page .image-for-mobile img {
     width: 100%; }
 
-  .ranking-page .places-list-section .place-container .info-container .header-section .social-container {
+  .ranking-page .places-list-section .place-container .info-container .social-container {
     width: 31%;
     float: right; }
 
-  .ranking-page .places-list-section .place-container .info-container .header-section .social-container .share-container .share-button a .share-icon {
+  .ranking-page .places-list-section .place-container .info-container .social-container .share-container .share-button a .share-icon {
     margin-left: 7px; }
 
-  .ranking-page .places-list-section .place-container .info-container .header-section .social-container .like-container .like-button a .like-icon {
+  .ranking-page .places-list-section .place-container .info-container .social-container .like-container .like-button a .like-icon {
     margin-left: 7px; }
 
   .ranking-page .places-list-section .place-container .info-container .buttons-container .learn-more-button a,
@@ -2826,15 +2826,15 @@ footer {
   .ranking-page .places-list-section .place-container .info-container .header-section .name-container {
     width: 70%; }
 
-  .ranking-page .places-list-section .place-container .info-container .header-section .social-container .share-container .share-button a,
-  .ranking-page .places-list-section .place-container .info-container .header-section .social-container .like-container .like-button a {
+  .ranking-page .places-list-section .place-container .info-container .social-container .share-container .share-button a,
+  .ranking-page .places-list-section .place-container .info-container .social-container .like-container .like-button a {
     width: 95px; }
 
-  .ranking-page .places-list-section .place-container .info-container .header-section .social-container .share-container .share-button a .share-icon,
-  .ranking-page .places-list-section .place-container .info-container .header-section .social-container .like-container .like-button a .like-icon {
+  .ranking-page .places-list-section .place-container .info-container .social-container .share-container .share-button a .share-icon,
+  .ranking-page .places-list-section .place-container .info-container .social-container .like-container .like-button a .like-icon {
     margin-left: 8px; }
 
-  .ranking-page .places-list-section .place-container .info-container .header-section .social-container {
+  .ranking-page .places-list-section .place-container .info-container .social-container {
     top: 0px;
     left: -4px;
     width: 100%; }
@@ -2896,21 +2896,21 @@ footer {
     padding-left: 15px;
     padding-right: 15px; }
 
-  .ranking-page .places-list-section .place-container .info-container .header-section .social-container .share-container .share-button a,
-  .ranking-page .places-list-section .place-container .info-container .header-section .social-container .like-container .like-button a {
+  .ranking-page .places-list-section .place-container .info-container .social-container .share-container .share-button a,
+  .ranking-page .places-list-section .place-container .info-container .social-container .like-container .like-button a {
     width: 95px; }
 
   .ranking-page .image-for-mobile img {
     width: 100%; }
 
-  .ranking-page .places-list-section .place-container .info-container .header-section .social-container {
+  .ranking-page .places-list-section .place-container .info-container .social-container {
     width: 31%;
     float: right; }
 
-  .ranking-page .places-list-section .place-container .info-container .header-section .social-container .share-container .share-button a .share-icon {
+  .ranking-page .places-list-section .place-container .info-container .social-container .share-container .share-button a .share-icon {
     margin-left: 7px; }
 
-  .ranking-page .places-list-section .place-container .info-container .header-section .social-container .like-container .like-button a .like-icon {
+  .ranking-page .places-list-section .place-container .info-container .social-container .like-container .like-button a .like-icon {
     margin-left: 7px; }
 
   .ranking-page .places-list-section .place-container .info-container .buttons-container .learn-more-button a,

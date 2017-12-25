@@ -1,37 +1,95 @@
-<p id="notice"><%= notice %></p>
+<% provide(:body_class, "ranking-page") %>
+<!--Start of Banner section-->
+<section class="main-banner-section">
+    <div class="container-fluid no-padding">
+        <div class="banner-container">
+            <div class="container">
+                <div class="row">
+                    <div class="category-title col-xs-12 col-sm-12 col-lg-12">
+                        <span class="separator">Top Grape|</span>
+                        <span class="date-container "> <%= DateTime.now.strftime "%B %Y" %></span>
+                    </div>
+                    <h1 class="places-container col-xs-12 col-sm-12 col-lg-12">Grape</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End of Banner section-->
 
-<h1>Grapes</h1>
+<!--Start of places list section-->
+<section class="places-list-section">
+<% @grapes.each_with_index do |grape, index| %>
+  <div class="social-modal">
+    <div class="container">
+      <h1>Share</h1>
+      <%= social_share_button_tag(grape.name, :image => asset_path("images-places-#{index+1}.png")) %>
+      <span class="glyphicon glyphicon-remove-circle"></span>
+    </div>                          
+  </div>
+    <!--Start of place cont-->
+    <div class="container-fluid no-padding">
+        <div class="place-container container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-4 image-container no-padding hidden-sm hidden-xs">
+                      <%= link_to image_tag( grape.pic, class: 'img-responsive' )%>
+                    </div>
+                    <div class="col-md-8 col-sm-12 col-xs-12 info-container">
+                        <div class="header-section">
+                            <div class="number-container"><%= index+1 %></div>
+                            <div class="separator"></div>
+                            <div class="name-container">
+                                <div class="title-container"><%= set_title grape.name %></div>
+                            </div>
+                        </div>
+                        <div class="image-for-mobile hidden-lg hidden-md">
+                            <%= image_tag "images-places-#{index+1}.png", class: 'img-responsive' %>
+                        </div>
+                        <div class="main-text-container">
+                            <p>
+                              <%= grape.short_des %>
+                            </p>
+                        </div>
+                         <div class="social-container">
+                                <div class="share-container">
+                                    <div class="share-button">
+                                        <%= link_to shareup_path( grape.id ), remote: true do %>
+                                            <span class="text hidden-xs hidden-sm">Share</span>
+                                            <span class="share-icon"></span>
+                                            <span class="separator "></span>
+                                            <div class="share-count " id = "share-text-<%= grape.id %>"><%= grape.share %></div>
+                                        <% end %>
+                                    </div>
 
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Short description</th>
-      <th>Logn description</th>
-      <th>Image</th>
-      <th>Regions</th>
-      <th>Publish</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+                                </div>
+                                <div class="like-container">
+                                    <div class="like-button">
+                                        <%= link_to likeup_path( grape.id ), remote: true do %>
+                                            <span class="text hidden-xs hidden-sm">Like</span>
+                                            <span class="like-icon"></span>
+                                            <span class="separator "></span>
+                                            <div class="like-count " id = "like-text-<%= grape.id %>"><%= grape.like %></div>
+                                        <% end %>
+                                    </div>
+                                </div>
+                          </div>
+                          <div class="buttons-container">
+                                <div class="learn-more-button">
+                                    <%= link_to "LEARN MORE", grape %>
+                                </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end of place container-->                          
+<% end %>    
+</section>
+<!--End of places list section-->
+<!--google map section-->
+<!-- <p id="notice"><%= notice %></p>
 
-  <tbody>
-    <% @grapes.each do |grape| %>
-      <tr>
-        <td><%= grape.name %></td>
-        <td><%= grape.short_des %></td>
-        <td><%= grape.logn_des %></td>
-        <td><%= grape.pic %></td>
-        <td><%= grape.regions %></td>
-        <td><%= grape.publish %></td>
-        <td><%= link_to 'Show', grape %></td>
-        <td><%= link_to 'Edit', edit_grape_path(grape) %></td>
-        <td><%= link_to 'Destroy', grape, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+<h1>grapes</h1>
 
-<br>
-
-<%= link_to 'New Grape', new_grape_path %>

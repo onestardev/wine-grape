@@ -18,6 +18,7 @@ Rails.application.routes.draw do
   get '/shareup/:id', to: 'index#share_up', as: 'shareup'
   get '/likeup/:id', to: 'index#like_up', as: 'likeup'
   get '/wines', to: 'wines#index'
+  get '/groups', to: 'groups#index'
   get  '/signup',  to: 'users#new'
   post '/signup',  to: 'users#create'
   get    '/login',   to: 'sessions#new'

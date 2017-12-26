@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171225180435) do
+ActiveRecord::Schema.define(version: 20171226124230) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string   "namespace"
@@ -67,7 +67,7 @@ ActiveRecord::Schema.define(version: 20171225180435) do
   create_table "grapes", force: :cascade do |t|
     t.string   "name"
     t.string   "short_des"
-    t.text     "logn_des"
+    t.text     "long_des"
     t.string   "pic"
     t.string   "regions"
     t.boolean  "publish"

@@ -605,7 +605,7 @@
           opacity: 0.7; }
 
 .places-section {
-  margin-top: 30px; }
+  margin-top: 60px; }
   .places-section .place-content-container {
     position: relative; }
     .places-section .place-content-container a.place-link {
@@ -689,12 +689,12 @@
     font-size: 14px;
     line-height: 27px; }
   .places-section .small-places-container .info-container .title-container {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 26px; }
 
 .we-make-easy-section {
   background-color: #f6f6f6;
-  margin-top: 20px; }
+  margin-top: 50px; }
   .we-make-easy-section .title-container {
     padding-top: 80px;
     font-family: "Proxima_nova",sans-serif;
@@ -2052,6 +2052,7 @@ footer {
 
 .place-page .main-banner-section .banner-container {
   position: relative;
+  transition:all 2s ease;
   background-image: url(asset_path('grapes-poisoning.jpg'));
   background-size: cover;
   background-repeat: no-repeat;
@@ -3044,3 +3045,14 @@ footer {
     margin-right: 0px; } }
 
 /*# sourceMappingURL=styles.css.map */
+.places-section .place-content-container:hover{
+  .info-container .title-container{
+    color: #571623;
+  }
+  .info-container .category-container{
+    color: #571623;
+  }
+  .info-container .social-container{
+    color: #571623;
+  }
+}

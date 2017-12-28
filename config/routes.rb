@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :blogs
+  resources :firmware_images
   resources :wines
   resources :grapes
   devise_for :admin_users, ActiveAdmin::Devise.config

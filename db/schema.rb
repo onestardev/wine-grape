@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171226124230) do
+ActiveRecord::Schema.define(version: 20171228010214) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string   "namespace"
@@ -43,6 +43,16 @@ ActiveRecord::Schema.define(version: 20171226124230) do
     t.index ["reset_password_token"], name: "index_admin_users_on_reset_password_token", unique: true
   end
 
+  create_table "blogs", force: :cascade do |t|
+    t.string   "title"
+    t.text     "des"
+    t.string   "pic"
+    t.string   "tags"
+    t.boolean  "publish"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "categories", force: :cascade do |t|
     t.string   "name"
     t.datetime "created_at", null: false
@@ -62,6 +72,13 @@ ActiveRecord::Schema.define(version: 20171226124230) do
     t.         "lng"
     t.string   "photo"
     t.string   "address"
+  end
+
+  create_table "firmware_images", force: :cascade do |t|
+    t.string   "firmware_image_filename"
+    t.binary   "firmware_image",          limit: 10485760
+    t.datetime "created_at",                               null: false
+    t.datetime "updated_at",                               null: false
   end
 
   create_table "grapes", force: :cascade do |t|

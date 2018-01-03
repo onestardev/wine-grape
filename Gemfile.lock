@@ -339,7 +339,7 @@ DEPENDENCIES
   activeadmin!
   bcrypt
   byebug
-  capistrano (~> 3.4.0)
+  capistrano (~> 3.4.1)
   capistrano-rails
   capistrano-rvm
   capistrano-sidekiq

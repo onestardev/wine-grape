@@ -1,0 +1,71 @@
+# Logfile created on 2018-01-03 21:03:04 -0800 by logger.rb/56815
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-03 21:03:04 -0800 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [36d40875] Running [ -d ~/.rvm ] as deploy@xxx.xxx.xxx.xxx
+ DEBUG [36d40875] Command: [ -d ~/.rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-03 21:05:09 -0800 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [b09b3776] Running [ -d ~/.rvm ] as deploy@212.111.43.97
+ DEBUG [b09b3776] Command: [ -d ~/.rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-03 21:06:43 -0800 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [39c48665] Running [ -d ~/.rvm ] as deployer@212.111.43.97
+ DEBUG [39c48665] Command: [ -d ~/.rvm ]
+ DEBUG [39c48665] Finished in 13.794 seconds with exit status 1 (failed).
+ DEBUG [1274eba8] Running [ -d /usr/local/rvm ] as deployer@212.111.43.97
+ DEBUG [1274eba8] Command: [ -d /usr/local/rvm ]
+ DEBUG [1274eba8] Finished in 1.001 seconds with exit status 0 (successful).
+ DEBUG [4cbdb4bd] Running /usr/local/rvm/bin/rvm version as deployer@212.111.43.97
+ DEBUG [4cbdb4bd] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [4cbdb4bd] 	rvm 1.29.3 (master) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [4cbdb4bd] Finished in 21.063 seconds with exit status 0 (successful).
+ DEBUG [c19bc948] Running /usr/local/rvm/bin/rvm current as deployer@212.111.43.97
+ DEBUG [c19bc948] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [c19bc948] 	system
+ DEBUG [c19bc948] Finished in 1.919 seconds with exit status 0 (successful).
+ DEBUG [3badd78c] Running /usr/local/rvm/bin/rvm default do ruby --version as deployer@212.111.43.97
+ DEBUG [3badd78c] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [3badd78c] 	/usr/local/rvm/scripts/set: line 19: exec: ruby: not found
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-03 21:11:30 -0800 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [88f3e3af] Running [ -d ~/.rvm ] as deployer@212.111.43.97
+ DEBUG [88f3e3af] Command: [ -d ~/.rvm ]
+ DEBUG [88f3e3af] Finished in 10.578 seconds with exit status 1 (failed).
+ DEBUG [d43a9cc3] Running [ -d /usr/local/rvm ] as deployer@212.111.43.97
+ DEBUG [d43a9cc3] Command: [ -d /usr/local/rvm ]
+ DEBUG [d43a9cc3] Finished in 1.966 seconds with exit status 0 (successful).
+ DEBUG [eecf771c] Running /usr/local/rvm/bin/rvm version as deployer@212.111.43.97
+ DEBUG [eecf771c] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [eecf771c] 	rvm 1.29.3 (master) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [eecf771c] Finished in 12.050 seconds with exit status 0 (successful).
+ DEBUG [31ac77ac] Running /usr/local/rvm/bin/rvm current as deployer@212.111.43.97
+ DEBUG [31ac77ac] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [31ac77ac] 	system
+ DEBUG [31ac77ac] Finished in 1.086 seconds with exit status 0 (successful).
+ DEBUG [dad56a6a] Running /usr/local/rvm/bin/rvm default do ruby --version as deployer@212.111.43.97
+ DEBUG [dad56a6a] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [dad56a6a] 	/usr/local/rvm/scripts/set: line 19: exec: ruby: not found
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-03 21:13:29 -0800 cap production deploy:upload
+  INFO ---------------------------------------------------------------------------
+ DEBUG [4c33e7b1] Running [ -d ~/.rvm ] as deployer@212.111.43.97
+ DEBUG [4c33e7b1] Command: [ -d ~/.rvm ]
+ DEBUG [4c33e7b1] Finished in 23.168 seconds with exit status 1 (failed).
+ DEBUG [05cd9180] Running [ -d /usr/local/rvm ] as deployer@212.111.43.97
+ DEBUG [05cd9180] Command: [ -d /usr/local/rvm ]
+ DEBUG [05cd9180] Finished in 2.194 seconds with exit status 0 (successful).
+ DEBUG [8ff09d64] Running /usr/local/rvm/bin/rvm version as deployer@212.111.43.97
+ DEBUG [8ff09d64] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [8ff09d64] 	rvm 1.29.3 (master) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [8ff09d64] Finished in 14.715 seconds with exit status 0 (successful).
+ DEBUG [5e3a71b5] Running /usr/local/rvm/bin/rvm current as deployer@212.111.43.97
+ DEBUG [5e3a71b5] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [5e3a71b5] 	system
+ DEBUG [5e3a71b5] Finished in 2.046 seconds with exit status 0 (successful).
+ DEBUG [e84b76f3] Running /usr/local/rvm/bin/rvm default do ruby --version as deployer@212.111.43.97
+ DEBUG [e84b76f3] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [e84b76f3] 	/usr/local/rvm/scripts/set: line 19: exec: ruby: not found

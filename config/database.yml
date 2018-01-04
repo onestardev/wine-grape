@@ -21,10 +21,10 @@ test:
   database: db/test.sqlite3
 
 production:
-  adapter: postgresql
-  encoding: unicode
+  adapter: mysql2
+  encoding: utf8
   database: bestsf_production
   pool: 5
-  username: postgres
-  password: dragon1234
-  host: localhost
+  username: root
+  password: 1234
+  socket: /var/run/mysqld/mysqld.sock

@@ -69,3 +69,415 @@
  DEBUG [e84b76f3] Running /usr/local/rvm/bin/rvm default do ruby --version as deployer@212.111.43.97
  DEBUG [e84b76f3] Command: /usr/local/rvm/bin/rvm default do ruby --version
  DEBUG [e84b76f3] 	/usr/local/rvm/scripts/set: line 19: exec: ruby: not found
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-03 21:30:31 -0800 cap production deploy:upload
+  INFO ---------------------------------------------------------------------------
+ DEBUG [d1cb6d3f] Running [ -d ~/.rvm ] as deployer@212.111.43.97
+ DEBUG [d1cb6d3f] Command: [ -d ~/.rvm ]
+ DEBUG [d1cb6d3f] Finished in 11.287 seconds with exit status 1 (failed).
+ DEBUG [ac5a4f7c] Running [ -d /usr/local/rvm ] as deployer@212.111.43.97
+ DEBUG [ac5a4f7c] Command: [ -d /usr/local/rvm ]
+ DEBUG [ac5a4f7c] Finished in 1.761 seconds with exit status 0 (successful).
+ DEBUG [70af7eb8] Running /usr/local/rvm/bin/rvm version as deployer@212.111.43.97
+ DEBUG [70af7eb8] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [70af7eb8] 	rvm 1.29.3 (master) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [70af7eb8] Finished in 12.787 seconds with exit status 0 (successful).
+ DEBUG [5b0e2c94] Running /usr/local/rvm/bin/rvm current as deployer@212.111.43.97
+ DEBUG [5b0e2c94] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [5b0e2c94] 	system
+ DEBUG [5b0e2c94] Finished in 1.856 seconds with exit status 0 (successful).
+ DEBUG [cced56e3] Running /usr/local/rvm/bin/rvm default do ruby --version as deployer@212.111.43.97
+ DEBUG [cced56e3] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [cced56e3] 	/usr/local/rvm/scripts/set: line 19: exec: ruby: not found
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-03 21:34:55 -0800 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [181cfd81] Running [ -d ~/.rvm ] as deployer@212.111.43.97
+ DEBUG [181cfd81] Command: [ -d ~/.rvm ]
+ DEBUG [181cfd81] Finished in 14.075 seconds with exit status 1 (failed).
+ DEBUG [0fdf7d13] Running [ -d /usr/local/rvm ] as deployer@212.111.43.97
+ DEBUG [0fdf7d13] Command: [ -d /usr/local/rvm ]
+ DEBUG [0fdf7d13] Finished in 3.201 seconds with exit status 0 (successful).
+ DEBUG [d23ec3b0] Running /usr/local/rvm/bin/rvm version as deployer@212.111.43.97
+ DEBUG [d23ec3b0] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [d23ec3b0] 	rvm 1.29.3 (master) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [d23ec3b0] Finished in 13.338 seconds with exit status 0 (successful).
+ DEBUG [99ab1822] Running /usr/local/rvm/bin/rvm current as deployer@212.111.43.97
+ DEBUG [99ab1822] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [99ab1822] 	system
+ DEBUG [99ab1822] Finished in 1.510 seconds with exit status 0 (successful).
+ DEBUG [948c957c] Running /usr/local/rvm/bin/rvm default do ruby --version as deployer@212.111.43.97
+ DEBUG [948c957c] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [948c957c] 	/usr/local/rvm/scripts/set: line 19: exec: ruby: not found
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-05 03:21:42 -0800 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [1706be60] Running [ -d ~/.rvm ] as deploy@212.111.43.97
+ DEBUG [1706be60] Command: [ -d ~/.rvm ]
+ DEBUG [1706be60] Finished in 10.228 seconds with exit status 1 (failed).
+ DEBUG [7e2a8ac0] Running [ -d /usr/local/rvm ] as deploy@212.111.43.97
+ DEBUG [7e2a8ac0] Command: [ -d /usr/local/rvm ]
+ DEBUG [7e2a8ac0] Finished in 1.268 seconds with exit status 0 (successful).
+ DEBUG [1bd4a0ec] Running /usr/local/rvm/bin/rvm version as deploy@212.111.43.97
+ DEBUG [1bd4a0ec] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [1bd4a0ec] 	rvm 1.29.3 (master) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [1bd4a0ec] Finished in 1.482 seconds with exit status 0 (successful).
+ DEBUG [5bd4ce2d] Running /usr/local/rvm/bin/rvm current as deploy@212.111.43.97
+ DEBUG [5bd4ce2d] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [5bd4ce2d] 	system
+ DEBUG [5bd4ce2d] Finished in 1.138 seconds with exit status 0 (successful).
+ DEBUG [bed16758] Running /usr/local/rvm/bin/rvm default do ruby --version as deploy@212.111.43.97
+ DEBUG [bed16758] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [bed16758] 	/usr/local/rvm/scripts/set: line 19: exec: ruby: not found
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-05 03:35:04 -0800 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [ccc8a271] Running [ -d ~/.rvm ] as deploy@212.111.43.97
+ DEBUG [ccc8a271] Command: [ -d ~/.rvm ]
+ DEBUG [ccc8a271] Finished in 8.555 seconds with exit status 1 (failed).
+ DEBUG [864295cb] Running [ -d /usr/local/rvm ] as deploy@212.111.43.97
+ DEBUG [864295cb] Command: [ -d /usr/local/rvm ]
+ DEBUG [864295cb] Finished in 2.229 seconds with exit status 0 (successful).
+ DEBUG [d4e8507d] Running /usr/local/rvm/bin/rvm version as deploy@212.111.43.97
+ DEBUG [d4e8507d] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [d4e8507d] 	rvm 1.29.3 (master) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [d4e8507d] Finished in 1.106 seconds with exit status 0 (successful).
+ DEBUG [1321fd1d] Running /usr/local/rvm/bin/rvm current as deploy@212.111.43.97
+ DEBUG [1321fd1d] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [1321fd1d] 	system
+ DEBUG [1321fd1d] Finished in 1.084 seconds with exit status 0 (successful).
+ DEBUG [48076a44] Running /usr/local/rvm/bin/rvm default do ruby --version as deploy@212.111.43.97
+ DEBUG [48076a44] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [48076a44] 	/usr/local/rvm/scripts/set: line 19: exec: ruby: not found
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-05 03:56:33 -0800 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [27eb449b] Running [ -d ~/.rvm ] as deploy@212.111.43.97
+ DEBUG [27eb449b] Command: [ -d ~/.rvm ]
+ DEBUG [27eb449b] Finished in 11.212 seconds with exit status 1 (failed).
+ DEBUG [45242912] Running [ -d /usr/local/rvm ] as deploy@212.111.43.97
+ DEBUG [45242912] Command: [ -d /usr/local/rvm ]
+ DEBUG [45242912] Finished in 0.922 seconds with exit status 0 (successful).
+ DEBUG [ea35a44e] Running /usr/local/rvm/bin/rvm version as deploy@212.111.43.97
+ DEBUG [ea35a44e] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [ea35a44e] 	rvm 1.29.3 (master) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [ea35a44e] Finished in 1.141 seconds with exit status 0 (successful).
+ DEBUG [22af85a6] Running /usr/local/rvm/bin/rvm current as deploy@212.111.43.97
+ DEBUG [22af85a6] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [22af85a6] 	system
+ DEBUG [22af85a6] Finished in 1.141 seconds with exit status 0 (successful).
+ DEBUG [2c6898df] Running /usr/local/rvm/bin/rvm default do ruby --version as deploy@212.111.43.97
+ DEBUG [2c6898df] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [2c6898df] 	/usr/local/rvm/scripts/set: line 19: exec: ruby: not found
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-05 04:15:23 -0800 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [12eb6136] Running [ -d ~/.rvm ] as deploy@212.111.43.97
+ DEBUG [12eb6136] Command: [ -d ~/.rvm ]
+ DEBUG [12eb6136] Finished in 9.156 seconds with exit status 1 (failed).
+ DEBUG [a9d64e6b] Running [ -d /usr/local/rvm ] as deploy@212.111.43.97
+ DEBUG [a9d64e6b] Command: [ -d /usr/local/rvm ]
+ DEBUG [a9d64e6b] Finished in 0.909 seconds with exit status 0 (successful).
+ DEBUG [ce9c73d0] Running /usr/local/rvm/bin/rvm version as deploy@212.111.43.97
+ DEBUG [ce9c73d0] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [ce9c73d0] 	rvm 1.29.3 (master) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [ce9c73d0] Finished in 1.140 seconds with exit status 0 (successful).
+ DEBUG [a1f65eeb] Running /usr/local/rvm/bin/rvm current as deploy@212.111.43.97
+ DEBUG [a1f65eeb] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [a1f65eeb] 	system
+ DEBUG [a1f65eeb] Finished in 1.108 seconds with exit status 0 (successful).
+ DEBUG [08b22f98] Running /usr/local/rvm/bin/rvm default do ruby --version as deploy@212.111.43.97
+ DEBUG [08b22f98] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [08b22f98] 	/usr/local/rvm/scripts/set: line 19: exec: ruby: not found
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-05 04:38:02 -0800 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [fa2a82eb] Running [ -d ~/.rvm ] as deploy@212.111.43.97
+ DEBUG [fa2a82eb] Command: [ -d ~/.rvm ]
+ DEBUG [fa2a82eb] Finished in 8.874 seconds with exit status 0 (successful).
+ DEBUG [85f91d86] Running ~/.rvm/bin/rvm version as deploy@212.111.43.97
+ DEBUG [85f91d86] Command: ~/.rvm/bin/rvm version
+ DEBUG [85f91d86] 	bash: /home/deploy/.rvm/bin/rvm: No such file or directory
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-05 04:52:02 -0800 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [b5ecfd6d] Running [ -d ~/.rvm ] as deploy@212.111.43.97
+ DEBUG [b5ecfd6d] Command: [ -d ~/.rvm ]
+ DEBUG [b5ecfd6d] Finished in 12.475 seconds with exit status 0 (successful).
+ DEBUG [5eaf5119] Running ~/.rvm/bin/rvm version as deploy@212.111.43.97
+ DEBUG [5eaf5119] Command: ~/.rvm/bin/rvm version
+ DEBUG [5eaf5119] 	bash: /home/deploy/.rvm/bin/rvm: No such file or directory
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-05 04:55:39 -0800 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [d2694fb8] Running [ -d ~/.rvm ] as deploy@212.111.43.97
+ DEBUG [d2694fb8] Command: [ -d ~/.rvm ]
+ DEBUG [d2694fb8] Finished in 10.852 seconds with exit status 0 (successful).
+ DEBUG [243c11cb] Running ~/.rvm/bin/rvm version as deploy@212.111.43.97
+ DEBUG [243c11cb] Command: ~/.rvm/bin/rvm version
+ DEBUG [243c11cb] 	bash: /home/deploy/.rvm/bin/rvm: No such file or directory
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-05 04:56:44 -0800 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [9fa16a0f] Running [ -d ~/.rvm ] as deploy@212.111.43.97
+ DEBUG [9fa16a0f] Command: [ -d ~/.rvm ]
+ DEBUG [9fa16a0f] Finished in 10.814 seconds with exit status 0 (successful).
+ DEBUG [42eb2a2f] Running ~/.rvm/bin/rvm version as deploy@212.111.43.97
+ DEBUG [42eb2a2f] Command: ~/.rvm/bin/rvm version
+ DEBUG [42eb2a2f] 	bash: /home/deploy/.rvm/bin/rvm: No such file or directory
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-05 07:23:33 -0800 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [dc28241b] Running [ -d ~/.rvm ] as deploy@212.111.43.97
+ DEBUG [dc28241b] Command: [ -d ~/.rvm ]
+ DEBUG [dc28241b] Finished in 10.165 seconds with exit status 1 (failed).
+ DEBUG [d43fc5d2] Running [ -d /usr/local/rvm ] as deploy@212.111.43.97
+ DEBUG [d43fc5d2] Command: [ -d /usr/local/rvm ]
+ DEBUG [d43fc5d2] Finished in 1.195 seconds with exit status 0 (successful).
+ DEBUG [cb0c97cd] Running /usr/local/rvm/bin/rvm version as deploy@212.111.43.97
+ DEBUG [cb0c97cd] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [cb0c97cd] 	rvm 1.29.3 (master) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [cb0c97cd] Finished in 1.165 seconds with exit status 0 (successful).
+ DEBUG [c2712e2b] Running /usr/local/rvm/bin/rvm current as deploy@212.111.43.97
+ DEBUG [c2712e2b] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [c2712e2b] 	ruby-2.3.1
+ DEBUG [c2712e2b] Finished in 1.622 seconds with exit status 0 (successful).
+ DEBUG [4228b7c6] Running /usr/local/rvm/bin/rvm default do ruby --version as deploy@212.111.43.97
+ DEBUG [4228b7c6] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [4228b7c6] 	ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-linux]
+ DEBUG [4228b7c6] Finished in 2.167 seconds with exit status 0 (successful).
+  INFO [044425a4] Running /usr/bin/env mkdir -p /tmp as deploy@212.111.43.97
+ DEBUG [044425a4] Command: /usr/bin/env mkdir -p /tmp
+  INFO [044425a4] Finished in 0.950 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-wine-grape-production-dragonstar.sh 0.0%
+  INFO Uploading /tmp/git-ssh-wine-grape-production-dragonstar.sh 100.0%
+  INFO [d967016a] Running /usr/bin/env chmod 700 /tmp/git-ssh-wine-grape-production-dragonstar.sh as deploy@212.111.43.97
+ DEBUG [d967016a] Command: /usr/bin/env chmod 700 /tmp/git-ssh-wine-grape-production-dragonstar.sh
+  INFO [d967016a] Finished in 1.199 seconds with exit status 0 (successful).
+  INFO [d0b024c0] Running /usr/bin/env git ls-remote --heads git@github.com: smart-web-rock/wine-grape as deploy@212.111.43.97
+ DEBUG [d0b024c0] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wine-grape-production-dragonstar.sh" ; /usr/bin/env git ls-remote --heads git@github.com: smart-web-rock/wine-grape )
+ DEBUG [d0b024c0] 	Warning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.
+ DEBUG [d0b024c0] 	Permission denied (publickey).
+ DEBUG [d0b024c0] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+ DEBUG [d0b024c0] 	and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-05 07:31:30 -0800 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [33d36520] Running [ -d ~/.rvm ] as deploy@212.111.43.97
+ DEBUG [33d36520] Command: [ -d ~/.rvm ]
+ DEBUG [33d36520] Finished in 10.674 seconds with exit status 1 (failed).
+ DEBUG [a53c0541] Running [ -d /usr/local/rvm ] as deploy@212.111.43.97
+ DEBUG [a53c0541] Command: [ -d /usr/local/rvm ]
+ DEBUG [a53c0541] Finished in 1.239 seconds with exit status 0 (successful).
+ DEBUG [778f2914] Running /usr/local/rvm/bin/rvm version as deploy@212.111.43.97
+ DEBUG [778f2914] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [778f2914] 	rvm 1.29.3 (master) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [778f2914] Finished in 1.397 seconds with exit status 0 (successful).
+ DEBUG [8ef088ff] Running /usr/local/rvm/bin/rvm current as deploy@212.111.43.97
+ DEBUG [8ef088ff] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [8ef088ff] 	ruby-2.3.1
+ DEBUG [8ef088ff] Finished in 1.437 seconds with exit status 0 (successful).
+ DEBUG [ccd9ddd0] Running /usr/local/rvm/bin/rvm default do ruby --version as deploy@212.111.43.97
+ DEBUG [ccd9ddd0] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [ccd9ddd0] 	ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-linux]
+ DEBUG [ccd9ddd0] Finished in 1.737 seconds with exit status 0 (successful).
+  INFO [cbc7145c] Running /usr/bin/env mkdir -p /tmp as deploy@212.111.43.97
+ DEBUG [cbc7145c] Command: /usr/bin/env mkdir -p /tmp
+  INFO [cbc7145c] Finished in 1.237 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-wine-grape-production-dragonstar.sh 0.0%
+  INFO Uploading /tmp/git-ssh-wine-grape-production-dragonstar.sh 100.0%
+  INFO [43f9620d] Running /usr/bin/env chmod 700 /tmp/git-ssh-wine-grape-production-dragonstar.sh as deploy@212.111.43.97
+ DEBUG [43f9620d] Command: /usr/bin/env chmod 700 /tmp/git-ssh-wine-grape-production-dragonstar.sh
+  INFO [43f9620d] Finished in 2.281 seconds with exit status 0 (successful).
+  INFO [69597d46] Running /usr/bin/env git ls-remote --heads git@github.com: smart-web-rock/wine-grape as deploy@212.111.43.97
+ DEBUG [69597d46] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wine-grape-production-dragonstar.sh" ; /usr/bin/env git ls-remote --heads git@github.com: smart-web-rock/wine-grape )
+ DEBUG [69597d46] 	Warning: Permanently added the RSA host key for IP address '192.30.253.113' to the list of known hosts.
+ DEBUG [69597d46] 	Permission denied (publickey).
+ DEBUG [69597d46] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+ DEBUG [69597d46] 	and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-05 07:32:37 -0800 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [b5d025c7] Running [ -d ~/.rvm ] as deploy@212.111.43.97
+ DEBUG [b5d025c7] Command: [ -d ~/.rvm ]
+ DEBUG [b5d025c7] Finished in 11.373 seconds with exit status 1 (failed).
+ DEBUG [250fa954] Running [ -d /usr/local/rvm ] as deploy@212.111.43.97
+ DEBUG [250fa954] Command: [ -d /usr/local/rvm ]
+ DEBUG [250fa954] Finished in 0.914 seconds with exit status 0 (successful).
+ DEBUG [55a2c41f] Running /usr/local/rvm/bin/rvm version as deploy@212.111.43.97
+ DEBUG [55a2c41f] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [55a2c41f] 	rvm 1.29.3 (master) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [55a2c41f] Finished in 1.804 seconds with exit status 0 (successful).
+ DEBUG [44201bc3] Running /usr/local/rvm/bin/rvm current as deploy@212.111.43.97
+ DEBUG [44201bc3] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [44201bc3] 	ruby-2.3.1
+ DEBUG [44201bc3] Finished in 1.394 seconds with exit status 0 (successful).
+ DEBUG [65bce237] Running /usr/local/rvm/bin/rvm default do ruby --version as deploy@212.111.43.97
+ DEBUG [65bce237] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [65bce237] 	ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-linux]
+ DEBUG [65bce237] Finished in 1.705 seconds with exit status 0 (successful).
+  INFO [1d585e91] Running /usr/bin/env mkdir -p /tmp as deploy@212.111.43.97
+ DEBUG [1d585e91] Command: /usr/bin/env mkdir -p /tmp
+  INFO [1d585e91] Finished in 0.915 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-wine-grape-production-dragonstar.sh 0.0%
+  INFO Uploading /tmp/git-ssh-wine-grape-production-dragonstar.sh 100.0%
+  INFO [33558e6f] Running /usr/bin/env chmod 700 /tmp/git-ssh-wine-grape-production-dragonstar.sh as deploy@212.111.43.97
+ DEBUG [33558e6f] Command: /usr/bin/env chmod 700 /tmp/git-ssh-wine-grape-production-dragonstar.sh
+  INFO [33558e6f] Finished in 0.915 seconds with exit status 0 (successful).
+  INFO [a77c1b4f] Running /usr/bin/env git ls-remote --heads git@github.com: smart-web-rock/wine-grape as deploy@212.111.43.97
+ DEBUG [a77c1b4f] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wine-grape-production-dragonstar.sh" ; /usr/bin/env git ls-remote --heads git@github.com: smart-web-rock/wine-grape )
+ DEBUG [a77c1b4f] 	Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-05 07:51:31 -0800 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [2ffa9218] Running [ -d ~/.rvm ] as deploy@212.111.43.97
+ DEBUG [2ffa9218] Command: [ -d ~/.rvm ]
+ DEBUG [2ffa9218] Finished in 11.517 seconds with exit status 1 (failed).
+ DEBUG [2271a654] Running [ -d /usr/local/rvm ] as deploy@212.111.43.97
+ DEBUG [2271a654] Command: [ -d /usr/local/rvm ]
+ DEBUG [2271a654] Finished in 0.927 seconds with exit status 0 (successful).
+ DEBUG [b462529d] Running /usr/local/rvm/bin/rvm version as deploy@212.111.43.97
+ DEBUG [b462529d] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [b462529d] 	rvm 1.29.3 (master) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [b462529d] Finished in 1.137 seconds with exit status 0 (successful).
+ DEBUG [5c17b9cb] Running /usr/local/rvm/bin/rvm current as deploy@212.111.43.97
+ DEBUG [5c17b9cb] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [5c17b9cb] 	ruby-2.3.1
+ DEBUG [5c17b9cb] Finished in 1.338 seconds with exit status 0 (successful).
+ DEBUG [53b3b46e] Running /usr/local/rvm/bin/rvm default do ruby --version as deploy@212.111.43.97
+ DEBUG [53b3b46e] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [53b3b46e] 	ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-linux]
+ DEBUG [53b3b46e] Finished in 1.283 seconds with exit status 0 (successful).
+  INFO [69346efc] Running /usr/bin/env mkdir -p /tmp as deploy@212.111.43.97
+ DEBUG [69346efc] Command: /usr/bin/env mkdir -p /tmp
+  INFO [69346efc] Finished in 1.512 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-wine-grape-production-dragonstar.sh 0.0%
+  INFO Uploading /tmp/git-ssh-wine-grape-production-dragonstar.sh 100.0%
+  INFO [1430a949] Running /usr/bin/env chmod 700 /tmp/git-ssh-wine-grape-production-dragonstar.sh as deploy@212.111.43.97
+ DEBUG [1430a949] Command: /usr/bin/env chmod 700 /tmp/git-ssh-wine-grape-production-dragonstar.sh
+  INFO [1430a949] Finished in 0.929 seconds with exit status 0 (successful).
+  INFO [2f654760] Running /usr/bin/env git ls-remote --heads git@github.com: smart-web-rock/wine-grape as deploy@212.111.43.97
+ DEBUG [2f654760] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wine-grape-production-dragonstar.sh" ; /usr/bin/env git ls-remote --heads git@github.com: smart-web-rock/wine-grape )
+ DEBUG [2f654760] 	Permission denied (publickey).
+ DEBUG [2f654760] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+ DEBUG [2f654760] 	and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-05 08:19:41 -0800 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [f2899277] Running [ -d ~/.rvm ] as deploy@212.111.43.97
+ DEBUG [f2899277] Command: [ -d ~/.rvm ]
+ DEBUG [f2899277] Finished in 9.916 seconds with exit status 1 (failed).
+ DEBUG [a85e1977] Running [ -d /usr/local/rvm ] as deploy@212.111.43.97
+ DEBUG [a85e1977] Command: [ -d /usr/local/rvm ]
+ DEBUG [a85e1977] Finished in 1.241 seconds with exit status 0 (successful).
+ DEBUG [4b8e27b9] Running /usr/local/rvm/bin/rvm version as deploy@212.111.43.97
+ DEBUG [4b8e27b9] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [4b8e27b9] 	rvm 1.29.3 (master) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [4b8e27b9] Finished in 1.198 seconds with exit status 0 (successful).
+ DEBUG [9d51e0d3] Running /usr/local/rvm/bin/rvm current as deploy@212.111.43.97
+ DEBUG [9d51e0d3] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [9d51e0d3] 	ruby-2.3.1
+ DEBUG [9d51e0d3] Finished in 1.183 seconds with exit status 0 (successful).
+ DEBUG [98a36ed8] Running /usr/local/rvm/bin/rvm default do ruby --version as deploy@212.111.43.97
+ DEBUG [98a36ed8] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [98a36ed8] 	ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-linux]
+ DEBUG [98a36ed8] Finished in 1.802 seconds with exit status 0 (successful).
+  INFO [6eef14eb] Running /usr/bin/env mkdir -p /tmp as deploy@212.111.43.97
+ DEBUG [6eef14eb] Command: /usr/bin/env mkdir -p /tmp
+  INFO [6eef14eb] Finished in 1.558 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-wine-grape-production-dragonstar.sh 0.0%
+  INFO Uploading /tmp/git-ssh-wine-grape-production-dragonstar.sh 100.0%
+  INFO [b4eab96c] Running /usr/bin/env chmod 700 /tmp/git-ssh-wine-grape-production-dragonstar.sh as deploy@212.111.43.97
+ DEBUG [b4eab96c] Command: /usr/bin/env chmod 700 /tmp/git-ssh-wine-grape-production-dragonstar.sh
+  INFO [b4eab96c] Finished in 1.453 seconds with exit status 0 (successful).
+  INFO [d35eb301] Running /usr/bin/env git ls-remote --heads git@github.com: smart-web-rock/wine-grape as deploy@212.111.43.97
+ DEBUG [d35eb301] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wine-grape-production-dragonstar.sh" ; /usr/bin/env git ls-remote --heads git@github.com: smart-web-rock/wine-grape )
+ DEBUG [d35eb301] 	Permission denied (publickey).
+ DEBUG [d35eb301] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+ DEBUG [d35eb301] 	and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-05 08:42:39 -0800 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [4bde199a] Running [ -d ~/.rvm ] as deploy@212.111.43.97
+ DEBUG [4bde199a] Command: [ -d ~/.rvm ]
+ DEBUG [4bde199a] Finished in 14.094 seconds with exit status 1 (failed).
+ DEBUG [7604bfe0] Running [ -d /usr/local/rvm ] as deploy@212.111.43.97
+ DEBUG [7604bfe0] Command: [ -d /usr/local/rvm ]
+ DEBUG [7604bfe0] Finished in 1.430 seconds with exit status 0 (successful).
+ DEBUG [bba76837] Running /usr/local/rvm/bin/rvm version as deploy@212.111.43.97
+ DEBUG [bba76837] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [bba76837] 	rvm 1.29.3 (master) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [bba76837] Finished in 1.490 seconds with exit status 0 (successful).
+ DEBUG [87325740] Running /usr/local/rvm/bin/rvm current as deploy@212.111.43.97
+ DEBUG [87325740] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [87325740] 	ruby-2.3.1
+ DEBUG [87325740] Finished in 1.102 seconds with exit status 0 (successful).
+ DEBUG [4a647ea0] Running /usr/local/rvm/bin/rvm default do ruby --version as deploy@212.111.43.97
+ DEBUG [4a647ea0] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [4a647ea0] 	ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-linux]
+ DEBUG [4a647ea0] Finished in 1.692 seconds with exit status 0 (successful).
+  INFO [6a1fa268] Running /usr/bin/env mkdir -p /tmp as deploy@212.111.43.97
+ DEBUG [6a1fa268] Command: /usr/bin/env mkdir -p /tmp
+  INFO [6a1fa268] Finished in 0.908 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-wine-grape-production-dragonstar.sh 0.0%
+  INFO Uploading /tmp/git-ssh-wine-grape-production-dragonstar.sh 100.0%
+  INFO [fdb0e6ac] Running /usr/bin/env chmod 700 /tmp/git-ssh-wine-grape-production-dragonstar.sh as deploy@212.111.43.97
+ DEBUG [fdb0e6ac] Command: /usr/bin/env chmod 700 /tmp/git-ssh-wine-grape-production-dragonstar.sh
+  INFO [fdb0e6ac] Finished in 1.136 seconds with exit status 0 (successful).
+  INFO [6e3cca2e] Running /usr/bin/env git ls-remote --heads git@github.com: smart-web-rock/wine-grape as deploy@212.111.43.97
+ DEBUG [6e3cca2e] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wine-grape-production-dragonstar.sh" ; /usr/bin/env git ls-remote --heads git@github.com: smart-web-rock/wine-grape )
+ DEBUG [6e3cca2e] 	Failed to add the host to the list of known hosts (/home/deploy/.ssh/known_hosts).
+ DEBUG [6e3cca2e] 	Permission denied (publickey).
+ DEBUG [6e3cca2e] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-05 18:19:31 -0800 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [7a2f6ded] Running [ -d ~/.rvm ] as deploy@212.111.43.97
+ DEBUG [7a2f6ded] Command: [ -d ~/.rvm ]
+ DEBUG [7a2f6ded] Finished in 8.327 seconds with exit status 1 (failed).
+ DEBUG [c7ce2d38] Running [ -d /usr/local/rvm ] as deploy@212.111.43.97
+ DEBUG [c7ce2d38] Command: [ -d /usr/local/rvm ]
+ DEBUG [c7ce2d38] Finished in 1.413 seconds with exit status 0 (successful).
+ DEBUG [e5b8429c] Running /usr/local/rvm/bin/rvm version as deploy@212.111.43.97
+ DEBUG [e5b8429c] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [e5b8429c] 	rvm 1.29.3 (master) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [e5b8429c] Finished in 0.981 seconds with exit status 0 (successful).
+ DEBUG [2f4b8f5c] Running /usr/local/rvm/bin/rvm current as deploy@212.111.43.97
+ DEBUG [2f4b8f5c] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [2f4b8f5c] 	ruby-2.3.1
+ DEBUG [2f4b8f5c] Finished in 1.042 seconds with exit status 0 (successful).
+ DEBUG [09c5874b] Running /usr/local/rvm/bin/rvm default do ruby --version as deploy@212.111.43.97
+ DEBUG [09c5874b] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [09c5874b] 	ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-linux]
+ DEBUG [09c5874b] Finished in 1.354 seconds with exit status 0 (successful).
+  INFO [858f04a5] Running /usr/bin/env mkdir -p /tmp as deploy@212.111.43.97
+ DEBUG [858f04a5] Command: /usr/bin/env mkdir -p /tmp
+  INFO [858f04a5] Finished in 0.823 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-wine-grape-production-dragonstar.sh 0.0%
+  INFO Uploading /tmp/git-ssh-wine-grape-production-dragonstar.sh 100.0%
+  INFO [ff509d04] Running /usr/bin/env chmod 700 /tmp/git-ssh-wine-grape-production-dragonstar.sh as deploy@212.111.43.97
+ DEBUG [ff509d04] Command: /usr/bin/env chmod 700 /tmp/git-ssh-wine-grape-production-dragonstar.sh
+  INFO [ff509d04] Finished in 0.820 seconds with exit status 0 (successful).
+  INFO [bbfb68d6] Running /usr/bin/env git ls-remote --heads git@github.com: smart-web-rock/wine-grape as deploy@212.111.43.97
+ DEBUG [bbfb68d6] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wine-grape-production-dragonstar.sh" ; /usr/bin/env git ls-remote --heads git@github.com: smart-web-rock/wine-grape )
+ DEBUG [bbfb68d6] 	Failed to add the host to the list of known hosts (/home/deploy/.ssh/known_hosts).
+ DEBUG [bbfb68d6] 	Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.

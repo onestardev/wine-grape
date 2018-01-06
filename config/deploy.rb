@@ -1,7 +1,7 @@
 # config valid only for current version of Capistrano
 
-
-set :repo_url,        'git@github.com: smart-web-rock/wine-grape'
+set :rvm_bin_path, "$HOME/bin"
+set :repo_url,        'git@github.com:smart-web-rock/wine-grape.git'
 set :application,     'wine-grape'
 set :user,            'deploy'
 set :puma_threads,    [4, 16]

@@ -481,3 +481,1423 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-05 19:01:35 -0800 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [adc920da] Running [ -d ~/.rvm ] as deploy@212.111.43.97
+ DEBUG [adc920da] Command: [ -d ~/.rvm ]
+ DEBUG [adc920da] Finished in 21.439 seconds with exit status 1 (failed).
+ DEBUG [d6a7f48c] Running [ -d /usr/local/rvm ] as deploy@212.111.43.97
+ DEBUG [d6a7f48c] Command: [ -d /usr/local/rvm ]
+ DEBUG [d6a7f48c] Finished in 0.821 seconds with exit status 0 (successful).
+ DEBUG [aa606b15] Running /usr/local/rvm/bin/rvm version as deploy@212.111.43.97
+ DEBUG [aa606b15] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [aa606b15] 	rvm 1.29.3 (master) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [aa606b15] Finished in 0.986 seconds with exit status 0 (successful).
+ DEBUG [f0485f17] Running /usr/local/rvm/bin/rvm current as deploy@212.111.43.97
+ DEBUG [f0485f17] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [f0485f17] 	ruby-2.3.1
+ DEBUG [f0485f17] Finished in 1.211 seconds with exit status 0 (successful).
+ DEBUG [c3628708] Running /usr/local/rvm/bin/rvm default do ruby --version as deploy@212.111.43.97
+ DEBUG [c3628708] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [c3628708] 	ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-linux]
+ DEBUG [c3628708] Finished in 1.146 seconds with exit status 0 (successful).
+  INFO [d09d741d] Running /usr/bin/env mkdir -p /tmp as deploy@212.111.43.97
+ DEBUG [d09d741d] Command: /usr/bin/env mkdir -p /tmp
+  INFO [d09d741d] Finished in 0.821 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-wine-grape-production-dragonstar.sh 0.0%
+  INFO Uploading /tmp/git-ssh-wine-grape-production-dragonstar.sh 100.0%
+  INFO [dbb91402] Running /usr/bin/env chmod 700 /tmp/git-ssh-wine-grape-production-dragonstar.sh as deploy@212.111.43.97
+ DEBUG [dbb91402] Command: /usr/bin/env chmod 700 /tmp/git-ssh-wine-grape-production-dragonstar.sh
+  INFO [dbb91402] Finished in 0.902 seconds with exit status 0 (successful).
+  INFO [545ee52a] Running /usr/bin/env git ls-remote --heads git@github.com:smart-web-rock/wine-grape.git as deploy@212.111.43.97
+ DEBUG [545ee52a] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wine-grape-production-dragonstar.sh" ; /usr/bin/env git ls-remote --heads git@github.com:smart-web-rock/wine-grape.git )
+ DEBUG [545ee52a] 	Failed to add the host to the list of known hosts (/home/deploy/.ssh/known_hosts).
+ DEBUG [545ee52a] 	Permission denied (publickey).
+ DEBUG [545ee52a] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+ DEBUG [545ee52a] 	and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-05 19:10:04 -0800 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [7aa2ece5] Running [ -d ~/.rvm ] as deploy@212.111.43.97
+ DEBUG [7aa2ece5] Command: [ -d ~/.rvm ]
+ DEBUG [7aa2ece5] Finished in 9.309 seconds with exit status 1 (failed).
+ DEBUG [cff4e2ea] Running [ -d /usr/local/rvm ] as deploy@212.111.43.97
+ DEBUG [cff4e2ea] Command: [ -d /usr/local/rvm ]
+ DEBUG [cff4e2ea] Finished in 0.828 seconds with exit status 0 (successful).
+ DEBUG [9a4aff3a] Running /usr/local/rvm/bin/rvm version as deploy@212.111.43.97
+ DEBUG [9a4aff3a] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [9a4aff3a] 	rvm 1.29.3 (master) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [9a4aff3a] Finished in 1.012 seconds with exit status 0 (successful).
+ DEBUG [6619b275] Running /usr/local/rvm/bin/rvm current as deploy@212.111.43.97
+ DEBUG [6619b275] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [6619b275] 	ruby-2.3.1
+ DEBUG [6619b275] Finished in 1.008 seconds with exit status 0 (successful).
+ DEBUG [5f218344] Running /usr/local/rvm/bin/rvm default do ruby --version as deploy@212.111.43.97
+ DEBUG [5f218344] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [5f218344] 	ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-linux]
+ DEBUG [5f218344] Finished in 1.105 seconds with exit status 0 (successful).
+  INFO [d32b22c1] Running /usr/bin/env mkdir -p /tmp as deploy@212.111.43.97
+ DEBUG [d32b22c1] Command: /usr/bin/env mkdir -p /tmp
+  INFO [d32b22c1] Finished in 0.828 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-wine-grape-production-dragonstar.sh 0.0%
+  INFO Uploading /tmp/git-ssh-wine-grape-production-dragonstar.sh 100.0%
+  INFO [649f6a60] Running /usr/bin/env chmod 700 /tmp/git-ssh-wine-grape-production-dragonstar.sh as deploy@212.111.43.97
+ DEBUG [649f6a60] Command: /usr/bin/env chmod 700 /tmp/git-ssh-wine-grape-production-dragonstar.sh
+  INFO [649f6a60] Finished in 0.827 seconds with exit status 0 (successful).
+  INFO [dafabec5] Running /usr/bin/env git ls-remote --heads git@github.com:smart-web-rock/wine-grape.git as deploy@212.111.43.97
+ DEBUG [dafabec5] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wine-grape-production-dragonstar.sh" ; /usr/bin/env git ls-remote --heads git@github.com:smart-web-rock/wine-grape.git )
+ DEBUG [dafabec5] 	Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
+ DEBUG [dafabec5] 	7729b77c04a467272e64295e105c6d5fd49c7b0c	refs/heads/master
+  INFO [dafabec5] Finished in 3.174 seconds with exit status 0 (successful).
+  INFO [0e0f997f] Running /usr/bin/env mkdir -p /home/deploy/wine-grape/shared /home/deploy/wine-grape/releases as deploy@212.111.43.97
+ DEBUG [0e0f997f] Command: /usr/bin/env mkdir -p /home/deploy/wine-grape/shared /home/deploy/wine-grape/releases
+  INFO [0e0f997f] Finished in 0.828 seconds with exit status 0 (successful).
+  INFO [85913bf0] Running /usr/bin/env mkdir -p /home/deploy/wine-grape/shared/bin /home/deploy/wine-grape/shared/log /home/deploy/wine-grape/shared/tmp/pids /home/deploy/wine-grape/shared/tmp/cache /home/deploy/wine-grape/shared/tmp/sockets /home/deploy/wine-grape/shared/vendor/bundle /home/deploy/wine-grape/shared/public/system /home/deploy/wine-grape/shared/public/assets as deploy@212.111.43.97
+ DEBUG [85913bf0] Command: /usr/bin/env mkdir -p /home/deploy/wine-grape/shared/bin /home/deploy/wine-grape/shared/log /home/deploy/wine-grape/shared/tmp/pids /home/deploy/wine-grape/shared/tmp/cache /home/deploy/wine-grape/shared/tmp/sockets /home/deploy/wine-grape/shared/vendor/bundle /home/deploy/wine-grape/shared/public/system /home/deploy/wine-grape/shared/public/assets
+  INFO [85913bf0] Finished in 1.055 seconds with exit status 0 (successful).
+  INFO [efec21ae] Running /usr/bin/env mkdir -p /home/deploy/wine-grape/shared/config as deploy@212.111.43.97
+ DEBUG [efec21ae] Command: /usr/bin/env mkdir -p /home/deploy/wine-grape/shared/config
+  INFO [efec21ae] Finished in 1.303 seconds with exit status 0 (successful).
+ DEBUG [651fd1d1] Running [ -f /home/deploy/wine-grape/shared/config/database.yml ] as deploy@212.111.43.97
+ DEBUG [651fd1d1] Command: [ -f /home/deploy/wine-grape/shared/config/database.yml ]
+ DEBUG [651fd1d1] Finished in 1.278 seconds with exit status 1 (failed).
+ ERROR linked file /home/deploy/wine-grape/shared/config/database.yml does not exist on 212.111.43.97
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-05 19:19:41 -0800 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [59f72bf1] Running [ -d ~/.rvm ] as deploy@212.111.43.97
+ DEBUG [59f72bf1] Command: [ -d ~/.rvm ]
+ DEBUG [59f72bf1] Finished in 9.654 seconds with exit status 1 (failed).
+ DEBUG [5ae63b03] Running [ -d /usr/local/rvm ] as deploy@212.111.43.97
+ DEBUG [5ae63b03] Command: [ -d /usr/local/rvm ]
+ DEBUG [5ae63b03] Finished in 0.884 seconds with exit status 0 (successful).
+ DEBUG [4ce7fef6] Running /usr/local/rvm/bin/rvm version as deploy@212.111.43.97
+ DEBUG [4ce7fef6] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [4ce7fef6] 	rvm 1.29.3 (master) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [4ce7fef6] Finished in 1.028 seconds with exit status 0 (successful).
+ DEBUG [ba806b6c] Running /usr/local/rvm/bin/rvm current as deploy@212.111.43.97
+ DEBUG [ba806b6c] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [ba806b6c] 	ruby-2.3.1
+ DEBUG [ba806b6c] Finished in 0.997 seconds with exit status 0 (successful).
+ DEBUG [e00e657a] Running /usr/local/rvm/bin/rvm default do ruby --version as deploy@212.111.43.97
+ DEBUG [e00e657a] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [e00e657a] 	ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-linux]
+ DEBUG [e00e657a] Finished in 1.121 seconds with exit status 0 (successful).
+  INFO [eb800dcc] Running /usr/bin/env mkdir -p /tmp as deploy@212.111.43.97
+ DEBUG [eb800dcc] Command: /usr/bin/env mkdir -p /tmp
+  INFO [eb800dcc] Finished in 0.869 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-wine-grape-production-dragonstar.sh 0.0%
+  INFO Uploading /tmp/git-ssh-wine-grape-production-dragonstar.sh 100.0%
+  INFO [1313fb53] Running /usr/bin/env chmod 700 /tmp/git-ssh-wine-grape-production-dragonstar.sh as deploy@212.111.43.97
+ DEBUG [1313fb53] Command: /usr/bin/env chmod 700 /tmp/git-ssh-wine-grape-production-dragonstar.sh
+  INFO [1313fb53] Finished in 1.171 seconds with exit status 0 (successful).
+  INFO [fd566630] Running /usr/bin/env git ls-remote --heads git@github.com:smart-web-rock/wine-grape.git as deploy@212.111.43.97
+ DEBUG [fd566630] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wine-grape-production-dragonstar.sh" ; /usr/bin/env git ls-remote --heads git@github.com:smart-web-rock/wine-grape.git )
+ DEBUG [fd566630] 	Warning: Permanently added the RSA host key for IP address '192.30.253.112' to the list of known hosts.
+ DEBUG [fd566630] 	7729b77c04a467272e64295e105c6d5fd49c7b0c	refs/heads/master
+  INFO [fd566630] Finished in 3.237 seconds with exit status 0 (successful).
+  INFO [49a3e054] Running /usr/bin/env mkdir -p /home/deploy/wine-grape/shared /home/deploy/wine-grape/releases as deploy@212.111.43.97
+ DEBUG [49a3e054] Command: /usr/bin/env mkdir -p /home/deploy/wine-grape/shared /home/deploy/wine-grape/releases
+  INFO [49a3e054] Finished in 1.159 seconds with exit status 0 (successful).
+  INFO [4bd88f1a] Running /usr/bin/env mkdir -p /home/deploy/wine-grape/shared/bin /home/deploy/wine-grape/shared/log /home/deploy/wine-grape/shared/tmp/pids /home/deploy/wine-grape/shared/tmp/cache /home/deploy/wine-grape/shared/tmp/sockets /home/deploy/wine-grape/shared/vendor/bundle /home/deploy/wine-grape/shared/public/system /home/deploy/wine-grape/shared/public/assets as deploy@212.111.43.97
+ DEBUG [4bd88f1a] Command: /usr/bin/env mkdir -p /home/deploy/wine-grape/shared/bin /home/deploy/wine-grape/shared/log /home/deploy/wine-grape/shared/tmp/pids /home/deploy/wine-grape/shared/tmp/cache /home/deploy/wine-grape/shared/tmp/sockets /home/deploy/wine-grape/shared/vendor/bundle /home/deploy/wine-grape/shared/public/system /home/deploy/wine-grape/shared/public/assets
+  INFO [4bd88f1a] Finished in 0.888 seconds with exit status 0 (successful).
+  INFO [184746f0] Running /usr/bin/env mkdir -p /home/deploy/wine-grape/shared/config as deploy@212.111.43.97
+ DEBUG [184746f0] Command: /usr/bin/env mkdir -p /home/deploy/wine-grape/shared/config
+  INFO [184746f0] Finished in 0.883 seconds with exit status 0 (successful).
+ DEBUG [d2b70a36] Running [ -f /home/deploy/wine-grape/shared/config/database.yml ] as deploy@212.111.43.97
+ DEBUG [d2b70a36] Command: [ -f /home/deploy/wine-grape/shared/config/database.yml ]
+ DEBUG [d2b70a36] Finished in 0.897 seconds with exit status 0 (successful).
+ DEBUG [f32d9cf3] Running [ -f /home/deploy/wine-grape/shared/config/secrets.yml ] as deploy@212.111.43.97
+ DEBUG [f32d9cf3] Command: [ -f /home/deploy/wine-grape/shared/config/secrets.yml ]
+ DEBUG [f32d9cf3] Finished in 1.238 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-05 19:20:17 -0800 cap production deploy:upload
+  INFO ---------------------------------------------------------------------------
+ DEBUG [73fa83b3] Running [ -d ~/.rvm ] as deploy@212.111.43.97
+ DEBUG [73fa83b3] Command: [ -d ~/.rvm ]
+ DEBUG [73fa83b3] Finished in 8.612 seconds with exit status 1 (failed).
+ DEBUG [8163f413] Running [ -d /usr/local/rvm ] as deploy@212.111.43.97
+ DEBUG [8163f413] Command: [ -d /usr/local/rvm ]
+ DEBUG [8163f413] Finished in 1.312 seconds with exit status 0 (successful).
+ DEBUG [02f9c2c3] Running /usr/local/rvm/bin/rvm version as deploy@212.111.43.97
+ DEBUG [02f9c2c3] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [02f9c2c3] 	rvm 1.29.3 (master) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [02f9c2c3] Finished in 1.021 seconds with exit status 0 (successful).
+ DEBUG [21417fbe] Running /usr/local/rvm/bin/rvm current as deploy@212.111.43.97
+ DEBUG [21417fbe] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [21417fbe] 	ruby-2.3.1
+ DEBUG [21417fbe] Finished in 1.300 seconds with exit status 0 (successful).
+ DEBUG [617e3c54] Running /usr/local/rvm/bin/rvm default do ruby --version as deploy@212.111.43.97
+ DEBUG [617e3c54] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [617e3c54] 	ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-linux]
+ DEBUG [617e3c54] Finished in 1.184 seconds with exit status 0 (successful).
+ DEBUG Uploading config/database.yml 0.0%
+  INFO Uploading config/database.yml 100.0%
+ DEBUG Uploading config/secrets.yml 0.0%
+  INFO Uploading config/secrets.yml 100.0%
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-05 19:20:49 -0800 cap production deploy:initial
+  INFO ---------------------------------------------------------------------------
+ DEBUG [7af9c437] Running [ -d ~/.rvm ] as deploy@212.111.43.97
+ DEBUG [7af9c437] Command: [ -d ~/.rvm ]
+ DEBUG [7af9c437] Finished in 8.869 seconds with exit status 1 (failed).
+ DEBUG [faf8a3fa] Running [ -d /usr/local/rvm ] as deploy@212.111.43.97
+ DEBUG [faf8a3fa] Command: [ -d /usr/local/rvm ]
+ DEBUG [faf8a3fa] Finished in 0.849 seconds with exit status 0 (successful).
+ DEBUG [dddea2be] Running /usr/local/rvm/bin/rvm version as deploy@212.111.43.97
+ DEBUG [dddea2be] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [dddea2be] 	rvm 1.29.3 (master) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [dddea2be] Finished in 1.022 seconds with exit status 0 (successful).
+ DEBUG [0bd11937] Running /usr/local/rvm/bin/rvm current as deploy@212.111.43.97
+ DEBUG [0bd11937] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [0bd11937] 	ruby-2.3.1
+ DEBUG [0bd11937] Finished in 1.013 seconds with exit status 0 (successful).
+ DEBUG [bde6a486] Running /usr/local/rvm/bin/rvm default do ruby --version as deploy@212.111.43.97
+ DEBUG [bde6a486] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [bde6a486] 	ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-linux]
+ DEBUG [bde6a486] Finished in 1.220 seconds with exit status 0 (successful).
+  INFO [bdc09dd8] Running /usr/bin/env mkdir -p /tmp as deploy@212.111.43.97
+ DEBUG [bdc09dd8] Command: /usr/bin/env mkdir -p /tmp
+  INFO [bdc09dd8] Finished in 0.815 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-wine-grape-production-dragonstar.sh 0.0%
+  INFO Uploading /tmp/git-ssh-wine-grape-production-dragonstar.sh 100.0%
+  INFO [6e08a921] Running /usr/bin/env chmod 700 /tmp/git-ssh-wine-grape-production-dragonstar.sh as deploy@212.111.43.97
+ DEBUG [6e08a921] Command: /usr/bin/env chmod 700 /tmp/git-ssh-wine-grape-production-dragonstar.sh
+  INFO [6e08a921] Finished in 1.095 seconds with exit status 0 (successful).
+  INFO [fc498673] Running /usr/bin/env git ls-remote --heads git@github.com:smart-web-rock/wine-grape.git as deploy@212.111.43.97
+ DEBUG [fc498673] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wine-grape-production-dragonstar.sh" ; /usr/bin/env git ls-remote --heads git@github.com:smart-web-rock/wine-grape.git )
+ DEBUG [fc498673] 	7729b77c04a467272e64295e105c6d5fd49c7b0c	refs/heads/master
+  INFO [fc498673] Finished in 2.630 seconds with exit status 0 (successful).
+  INFO [7e6a36ae] Running /usr/bin/env mkdir -p /home/deploy/wine-grape/shared /home/deploy/wine-grape/releases as deploy@212.111.43.97
+ DEBUG [7e6a36ae] Command: /usr/bin/env mkdir -p /home/deploy/wine-grape/shared /home/deploy/wine-grape/releases
+  INFO [7e6a36ae] Finished in 0.841 seconds with exit status 0 (successful).
+  INFO [61e2724d] Running /usr/bin/env mkdir -p /home/deploy/wine-grape/shared/bin /home/deploy/wine-grape/shared/log /home/deploy/wine-grape/shared/tmp/pids /home/deploy/wine-grape/shared/tmp/cache /home/deploy/wine-grape/shared/tmp/sockets /home/deploy/wine-grape/shared/vendor/bundle /home/deploy/wine-grape/shared/public/system /home/deploy/wine-grape/shared/public/assets as deploy@212.111.43.97
+ DEBUG [61e2724d] Command: /usr/bin/env mkdir -p /home/deploy/wine-grape/shared/bin /home/deploy/wine-grape/shared/log /home/deploy/wine-grape/shared/tmp/pids /home/deploy/wine-grape/shared/tmp/cache /home/deploy/wine-grape/shared/tmp/sockets /home/deploy/wine-grape/shared/vendor/bundle /home/deploy/wine-grape/shared/public/system /home/deploy/wine-grape/shared/public/assets
+  INFO [61e2724d] Finished in 0.859 seconds with exit status 0 (successful).
+  INFO [60ddc25e] Running /usr/bin/env mkdir -p /home/deploy/wine-grape/shared/config as deploy@212.111.43.97
+ DEBUG [60ddc25e] Command: /usr/bin/env mkdir -p /home/deploy/wine-grape/shared/config
+  INFO [60ddc25e] Finished in 0.816 seconds with exit status 0 (successful).
+ DEBUG [3600fbac] Running [ -f /home/deploy/wine-grape/shared/config/database.yml ] as deploy@212.111.43.97
+ DEBUG [3600fbac] Command: [ -f /home/deploy/wine-grape/shared/config/database.yml ]
+ DEBUG [3600fbac] Finished in 0.859 seconds with exit status 0 (successful).
+ DEBUG [b43e27f4] Running [ -f /home/deploy/wine-grape/shared/config/secrets.yml ] as deploy@212.111.43.97
+ DEBUG [b43e27f4] Command: [ -f /home/deploy/wine-grape/shared/config/secrets.yml ]
+ DEBUG [b43e27f4] Finished in 0.832 seconds with exit status 0 (successful).
+ DEBUG [441deaf2] Running [ -f /home/deploy/wine-grape/shared/config/puma.rb ] as deploy@212.111.43.97
+ DEBUG [441deaf2] Command: [ -f /home/deploy/wine-grape/shared/config/puma.rb ]
+ DEBUG [441deaf2] Finished in 0.840 seconds with exit status 1 (failed).
+  WARN puma.rb NOT FOUND!
+ DEBUG Uploading /home/deploy/wine-grape/shared/config/puma.rb 0.0%
+  INFO Uploading /home/deploy/wine-grape/shared/config/puma.rb 100.0%
+  INFO puma.rb generated
+ DEBUG [83603e89] Running [ -f /home/deploy/wine-grape/current/REVISION ] as deploy@212.111.43.97
+ DEBUG [83603e89] Command: [ -f /home/deploy/wine-grape/current/REVISION ]
+ DEBUG [83603e89] Finished in 0.836 seconds with exit status 1 (failed).
+ DEBUG [31bc43fb] Running [ -f /home/deploy/wine-grape/repo/HEAD ] as deploy@212.111.43.97
+ DEBUG [31bc43fb] Command: [ -f /home/deploy/wine-grape/repo/HEAD ]
+ DEBUG [31bc43fb] Finished in 1.431 seconds with exit status 1 (failed).
+ DEBUG [10d263bf] Running if test ! -d /home/deploy/wine-grape; then echo "Directory does not exist '/home/deploy/wine-grape'" 1>&2; false; fi as deploy@212.111.43.97
+ DEBUG [10d263bf] Command: if test ! -d /home/deploy/wine-grape; then echo "Directory does not exist '/home/deploy/wine-grape'" 1>&2; false; fi
+ DEBUG [10d263bf] Finished in 0.858 seconds with exit status 0 (successful).
+  INFO [ad352220] Running /usr/bin/env git clone --mirror git@github.com:smart-web-rock/wine-grape.git /home/deploy/wine-grape/repo as deploy@212.111.43.97
+ DEBUG [ad352220] Command: cd /home/deploy/wine-grape && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wine-grape-production-dragonstar.sh" ; /usr/bin/env git clone --mirror git@github.com:smart-web-rock/wine-grape.git /home/deploy/wine-grape/repo )
+ DEBUG [ad352220] 	Cloning into bare repository '/home/deploy/wine-grape/repo'...
+ DEBUG [ad352220] 	remote: Counting objects: 9425, done.[K
+ DEBUG [ad352220] 	remote: Compressing objects:   0% (1/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:   1% (72/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:   2% (144/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:   3% (216/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:   4% (288/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:   5% (360/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:   6% (432/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:   7% (504/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:   8% (576/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:   9% (648/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  10% (720/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  11% (792/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  12% (864/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  13% (936/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  14% (1008/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  15% (1080/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  16% (1152/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  17% (1224/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  18% (1296/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  19% (1368/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  20% (1439/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  21% (1511/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  22% (1583/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  23% (1655/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  24% (1727/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  25% (1799/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  26% (1871/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  27% (1943/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  28% (2015/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  29% (2087/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  30% (2159/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  31% (2231/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  32% (2303/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  33% (2375/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  34% (2447/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  35% (2519/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  36% (2591/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  37% (2663/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  38% (2735/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  39% (2807/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  40% (2878/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  41% (2950/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  42% (3022/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  43% (3094/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  44% (3166/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  45% (3238/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  46% (3310/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  47% (3382/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  48% (3454/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  49% (3526/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  50% (3598/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  51% (3670/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  52% (3742/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  53% (3814/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  54% (3886/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  55% (3958/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  56% (4030/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  57% (4102/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  58% (4174/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  59% (4246/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  60% (4317/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  61% (4389/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  62% (4461/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  63% (4533/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  64% (4605/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  65% (4677/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  66% (4749/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  67% (4821/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  68% (4893/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  69% (4965/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  70% (5037/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  71% (5109/7195)   [Kremote: Compressing objects:  72% (5181/7195)   [Kremote: Compressing objects:  73% (5253/7195)   [Kremote: Compressing objects:  74% (5325/7195)   [Kremote: Compressing objects:  75% (5397/7195)   [Kremote: Compressing objects:  76% (5469/7195)   [Kremote: Compressing objects:  77% (5541/7195)   [Kremote: Compressing objects:  78% (5613/7195)   [Kremote: Compressing objects:  79% (5685/7195)   [Kremote: Compressing objects:  80% (5756/7195)   [Kremote: Compressing objects:  81% (5828/7195)   [Kremote: Compressing objects:  82% (5900/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  83% (5972/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  84% (6044/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  85% (6116/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  86% (6188/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  87% (6260/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  88% (6332/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  89% (6404/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  90% (6476/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  91% (6548/7195)   [Kremote: Compressing objects:  92% (6620/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  93% (6692/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  94% (6764/7195)   [Kremote: Compressing objects:  95% (6836/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  96% (6908/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  97% (6980/7195)   [K
+ DEBUG [ad352220] 	remote: Compressing objects:  98% (7052/7195)   [Kremote: Compressing objects:  99% (7124/7195)   [Kremote: Compressing objects: 100% (7195/7195)   [Kremote: Compressing objects: 100% (7195/7195), done.[K
+ DEBUG [ad352220] 	Receiving objects:   0% (1/9425)   
+ DEBUG [ad352220] 	Receiving objects:   1% (95/9425)   
+ DEBUG [ad352220] 	Receiving objects:   2% (189/9425)   
+ DEBUG [ad352220] 	Receiving objects:   3% (283/9425), 3.86 MiB | 7.48 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:   4% (377/9425), 3.86 MiB | 7.48 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:   5% (472/9425), 3.86 MiB | 7.48 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:   6% (566/9425), 3.86 MiB | 7.48 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:   7% (660/9425), 3.86 MiB | 7.48 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:   8% (754/9425), 3.86 MiB | 7.48 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:   9% (849/9425), 3.86 MiB | 7.48 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  10% (943/9425), 3.86 MiB | 7.48 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  11% (1037/9425), 3.86 MiB | 7.48 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  12% (1131/9425), 3.86 MiB | 7.48 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  13% (1226/9425), 3.86 MiB | 7.48 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  13% (1293/9425), 3.86 MiB | 7.48 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  14% (1320/9425), 3.86 MiB | 7.48 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  15% (1414/9425), 13.59 MiB | 13.38 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  16% (1508/9425), 13.59 MiB | 13.38 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  17% (1603/9425), 13.59 MiB | 13.38 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  18% (1697/9425), 13.59 MiB | 13.38 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  19% (1791/9425), 13.59 MiB | 13.38 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  20% (1885/9425), 13.59 MiB | 13.38 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  21% (1980/9425), 13.59 MiB | 13.38 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  22% (2074/9425), 13.59 MiB | 13.38 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  23% (2168/9425), 13.59 MiB | 13.38 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  24% (2262/9425), 13.59 MiB | 13.38 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  25% (2357/9425), 13.59 MiB | 13.38 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  26% (2451/9425), 13.59 MiB | 13.38 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  27% (2545/9425), 13.59 MiB | 13.38 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  28% (2639/9425), 13.59 MiB | 13.38 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  29% (2734/9425), 13.59 MiB | 13.38 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  30% (2828/9425), 13.59 MiB | 13.38 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  31% (2922/9425), 13.59 MiB | 13.38 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  32% (3016/9425), 13.59 MiB | 13.38 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  33% (3111/9425), 13.59 MiB | 13.38 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  34% (3205/9425), 13.59 MiB | 13.38 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  35% (3299/9425), 13.59 MiB | 13.38 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  36% (3393/9425), 13.59 MiB | 13.38 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  37% (3488/9425), 13.59 MiB | 13.38 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  38% (3582/9425), 25.36 MiB | 16.71 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  39% (3676/9425), 25.36 MiB | 16.71 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  40% (3770/9425), 25.36 MiB | 16.71 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  41% (3865/9425), 25.36 MiB | 16.71 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  42% (3959/9425), 25.36 MiB | 16.71 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  43% (4053/9425), 25.36 MiB | 16.71 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  44% (4147/9425), 25.36 MiB | 16.71 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  45% (4242/9425), 25.36 MiB | 16.71 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  46% (4336/9425), 25.36 MiB | 16.71 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  47% (4430/9425), 25.36 MiB | 16.71 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  48% (4524/9425), 25.36 MiB | 16.71 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  49% (4619/9425), 25.36 MiB | 16.71 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  50% (4713/9425), 25.36 MiB | 16.71 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  51% (4807/9425), 25.36 MiB | 16.71 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  52% (4901/9425), 25.36 MiB | 16.71 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  53% (4996/9425), 25.36 MiB | 16.71 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  54% (5090/9425), 25.36 MiB | 16.71 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  55% (5184/9425), 25.36 MiB | 16.71 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  56% (5278/9425), 25.36 MiB | 16.71 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  57% (5373/9425), 25.36 MiB | 16.71 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  58% (5467/9425), 25.36 MiB | 16.71 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  58% (5524/9425), 25.36 MiB | 16.71 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  59% (5561/9425), 25.36 MiB | 16.71 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  60% (5655/9425), 25.36 MiB | 16.71 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  61% (5750/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  62% (5844/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  63% (5938/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  64% (6032/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  65% (6127/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  66% (6221/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  67% (6315/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  68% (6409/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  69% (6504/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  70% (6598/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  71% (6692/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  72% (6786/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  73% (6881/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  74% (6975/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  75% (7069/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  76% (7163/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  77% (7258/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  78% (7352/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  79% (7446/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  80% (7540/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  81% (7635/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  82% (7729/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  83% (7823/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  84% (7917/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  85% (8012/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  86% (8106/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  87% (8200/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  88% (8294/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  89% (8389/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  90% (8483/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  91% (8577/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  92% (8671/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  93% (8766/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  94% (8860/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  95% (8954/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  96% (9048/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  97% (9143/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects:  98% (9237/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	remote: Total 9425 (delta 2612), reused 8358 (delta 1545), pack-reused 0[K
+ DEBUG [ad352220] 	Receiving objects:  99% (9331/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects: 100% (9425/9425), 37.42 MiB | 18.55 MiB/s   
+ DEBUG [ad352220] 	Receiving objects: 100% (9425/9425), 46.86 MiB | 18.55 MiB/s, done.
+ DEBUG [ad352220] 	Resolving deltas:   0% (0/2612)   
+ DEBUG [ad352220] 	Resolving deltas:   1% (28/2612)   
+ DEBUG [ad352220] 	Resolving deltas:   2% (53/2612)   
+ DEBUG [ad352220] 	Resolving deltas:   3% (81/2612)   
+ DEBUG [ad352220] 	Resolving deltas:   4% (106/2612)   
+ DEBUG [ad352220] 	Resolving deltas:   5% (132/2612)   
+ DEBUG [ad352220] 	Resolving deltas:   6% (170/2612)   
+ DEBUG [ad352220] 	Resolving deltas:   7% (193/2612)   
+ DEBUG [ad352220] 	Resolving deltas:   8% (212/2612)   
+ DEBUG [ad352220] 	Resolving deltas:   9% (240/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  10% (274/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  11% (290/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  12% (316/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  14% (380/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  16% (426/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  17% (446/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  18% (473/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  19% (497/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  20% (525/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  21% (549/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  22% (575/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  23% (602/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  24% (627/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  25% (653/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  26% (680/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  27% (707/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  28% (732/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  29% (758/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  30% (789/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  31% (810/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  32% (836/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  33% (862/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  34% (891/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  35% (916/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  36% (944/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  37% (967/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  38% (994/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  39% (1021/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  40% (1049/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  41% (1073/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  42% (1099/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  43% (1124/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  44% (1150/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  45% (1177/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  46% (1202/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  47% (1228/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  48% (1254/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  49% (1280/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  50% (1306/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  51% (1333/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  52% (1360/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  53% (1386/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  54% (1414/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  55% (1437/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  56% (1463/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  57% (1490/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  58% (1517/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  59% (1544/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  60% (1568/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  61% (1594/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  62% (1620/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  63% (1647/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  64% (1673/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  65% (1699/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  66% (1724/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  67% (1751/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  68% (1777/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  69% (1804/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  70% (1829/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  71% (1855/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  72% (1881/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  73% (1907/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  74% (1934/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  75% (1959/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  76% (1986/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  77% (2012/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  78% (2038/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  79% (2065/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  80% (2090/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  81% (2117/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  82% (2143/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  83% (2168/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  84% (2195/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  85% (2224/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  86% (2247/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  87% (2273/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  88% (2299/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  89% (2325/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  90% (2352/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  91% (2377/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  92% (2405/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  93% (2430/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  94% (2456/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  96% (2527/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  97% (2536/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  98% (2565/2612)   
+ DEBUG [ad352220] 	Resolving deltas:  99% (2587/2612)   
+ DEBUG [ad352220] 	Resolving deltas: 100% (2612/2612)   
+ DEBUG [ad352220] 	Resolving deltas: 100% (2612/2612), done.
+ DEBUG [ad352220] 	Checking connectivity... 
+ DEBUG [ad352220] 	done.
+  INFO [ad352220] Finished in 7.994 seconds with exit status 0 (successful).
+ DEBUG [32a7c3f1] Running if test ! -d /home/deploy/wine-grape/repo; then echo "Directory does not exist '/home/deploy/wine-grape/repo'" 1>&2; false; fi as deploy@212.111.43.97
+ DEBUG [32a7c3f1] Command: if test ! -d /home/deploy/wine-grape/repo; then echo "Directory does not exist '/home/deploy/wine-grape/repo'" 1>&2; false; fi
+ DEBUG [32a7c3f1] Finished in 0.820 seconds with exit status 0 (successful).
+  INFO [0f30f648] Running /usr/bin/env git remote update --prune as deploy@212.111.43.97
+ DEBUG [0f30f648] Command: cd /home/deploy/wine-grape/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wine-grape-production-dragonstar.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [0f30f648] 	Fetching origin
+  INFO [0f30f648] Finished in 2.508 seconds with exit status 0 (successful).
+ DEBUG [4c4e2dd5] Running if test ! -d /home/deploy/wine-grape/repo; then echo "Directory does not exist '/home/deploy/wine-grape/repo'" 1>&2; false; fi as deploy@212.111.43.97
+ DEBUG [4c4e2dd5] Command: if test ! -d /home/deploy/wine-grape/repo; then echo "Directory does not exist '/home/deploy/wine-grape/repo'" 1>&2; false; fi
+ DEBUG [4c4e2dd5] Finished in 0.839 seconds with exit status 0 (successful).
+  INFO [d2d18194] Running /usr/bin/env mkdir -p /home/deploy/wine-grape/releases/20180106032117 as deploy@212.111.43.97
+ DEBUG [d2d18194] Command: cd /home/deploy/wine-grape/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wine-grape-production-dragonstar.sh" ; /usr/bin/env mkdir -p /home/deploy/wine-grape/releases/20180106032117 )
+  INFO [d2d18194] Finished in 0.834 seconds with exit status 0 (successful).
+  INFO [dcd0cc71] Running /usr/bin/env git archive master | tar -x -f - -C /home/deploy/wine-grape/releases/20180106032117 as deploy@212.111.43.97
+ DEBUG [dcd0cc71] Command: cd /home/deploy/wine-grape/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wine-grape-production-dragonstar.sh" ; /usr/bin/env git archive master | tar -x -f - -C /home/deploy/wine-grape/releases/20180106032117 )
+  INFO [dcd0cc71] Finished in 1.432 seconds with exit status 0 (successful).
+ DEBUG [686aec1d] Running if test ! -d /home/deploy/wine-grape/repo; then echo "Directory does not exist '/home/deploy/wine-grape/repo'" 1>&2; false; fi as deploy@212.111.43.97
+ DEBUG [686aec1d] Command: if test ! -d /home/deploy/wine-grape/repo; then echo "Directory does not exist '/home/deploy/wine-grape/repo'" 1>&2; false; fi
+ DEBUG [686aec1d] Finished in 1.368 seconds with exit status 0 (successful).
+ DEBUG [671b1bbb] Running /usr/bin/env git rev-list --max-count=1 master as deploy@212.111.43.97
+ DEBUG [671b1bbb] Command: cd /home/deploy/wine-grape/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wine-grape-production-dragonstar.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [671b1bbb] 	7729b77c04a467272e64295e105c6d5fd49c7b0c
+ DEBUG [671b1bbb] Finished in 2.094 seconds with exit status 0 (successful).
+ DEBUG [ae6356b4] Running if test ! -d /home/deploy/wine-grape/releases/20180106032117; then echo "Directory does not exist '/home/deploy/wine-grape/releases/20180106032117'" 1>&2; false; fi as deploy@212.111.43.97
+ DEBUG [ae6356b4] Command: if test ! -d /home/deploy/wine-grape/releases/20180106032117; then echo "Directory does not exist '/home/deploy/wine-grape/releases/20180106032117'" 1>&2; false; fi
+ DEBUG [ae6356b4] Finished in 0.820 seconds with exit status 0 (successful).
+  INFO [15f344da] Running /usr/bin/env echo "7729b77c04a467272e64295e105c6d5fd49c7b0c" >> REVISION as deploy@212.111.43.97
+ DEBUG [15f344da] Command: cd /home/deploy/wine-grape/releases/20180106032117 && /usr/bin/env echo "7729b77c04a467272e64295e105c6d5fd49c7b0c" >> REVISION
+  INFO [15f344da] Finished in 0.837 seconds with exit status 0 (successful).
+  INFO [3b20b48a] Running /usr/bin/env mkdir -p /home/deploy/wine-grape/releases/20180106032117/config as deploy@212.111.43.97
+ DEBUG [3b20b48a] Command: /usr/bin/env mkdir -p /home/deploy/wine-grape/releases/20180106032117/config
+  INFO [3b20b48a] Finished in 0.833 seconds with exit status 0 (successful).
+ DEBUG [8c572886] Running [ -L /home/deploy/wine-grape/releases/20180106032117/config/database.yml ] as deploy@212.111.43.97
+ DEBUG [8c572886] Command: [ -L /home/deploy/wine-grape/releases/20180106032117/config/database.yml ]
+ DEBUG [8c572886] Finished in 0.817 seconds with exit status 1 (failed).
+ DEBUG [3444f2bc] Running [ -f /home/deploy/wine-grape/releases/20180106032117/config/database.yml ] as deploy@212.111.43.97
+ DEBUG [3444f2bc] Command: [ -f /home/deploy/wine-grape/releases/20180106032117/config/database.yml ]
+ DEBUG [3444f2bc] Finished in 0.846 seconds with exit status 1 (failed).
+  INFO [5eb12208] Running /usr/bin/env ln -s /home/deploy/wine-grape/shared/config/database.yml /home/deploy/wine-grape/releases/20180106032117/config/database.yml as deploy@212.111.43.97
+ DEBUG [5eb12208] Command: /usr/bin/env ln -s /home/deploy/wine-grape/shared/config/database.yml /home/deploy/wine-grape/releases/20180106032117/config/database.yml
+  INFO [5eb12208] Finished in 1.426 seconds with exit status 0 (successful).
+ DEBUG [4798985f] Running [ -L /home/deploy/wine-grape/releases/20180106032117/config/secrets.yml ] as deploy@212.111.43.97
+ DEBUG [4798985f] Command: [ -L /home/deploy/wine-grape/releases/20180106032117/config/secrets.yml ]
+ DEBUG [4798985f] Finished in 0.825 seconds with exit status 1 (failed).
+ DEBUG [f6e24dfd] Running [ -f /home/deploy/wine-grape/releases/20180106032117/config/secrets.yml ] as deploy@212.111.43.97
+ DEBUG [f6e24dfd] Command: [ -f /home/deploy/wine-grape/releases/20180106032117/config/secrets.yml ]
+ DEBUG [f6e24dfd] Finished in 1.498 seconds with exit status 1 (failed).
+  INFO [d6a29d26] Running /usr/bin/env ln -s /home/deploy/wine-grape/shared/config/secrets.yml /home/deploy/wine-grape/releases/20180106032117/config/secrets.yml as deploy@212.111.43.97
+ DEBUG [d6a29d26] Command: /usr/bin/env ln -s /home/deploy/wine-grape/shared/config/secrets.yml /home/deploy/wine-grape/releases/20180106032117/config/secrets.yml
+  INFO [d6a29d26] Finished in 0.993 seconds with exit status 0 (successful).
+  INFO [c5efc005] Running /usr/bin/env mkdir -p /home/deploy/wine-grape/releases/20180106032117 /home/deploy/wine-grape/releases/20180106032117/tmp /home/deploy/wine-grape/releases/20180106032117/vendor /home/deploy/wine-grape/releases/20180106032117/public as deploy@212.111.43.97
+ DEBUG [c5efc005] Command: /usr/bin/env mkdir -p /home/deploy/wine-grape/releases/20180106032117 /home/deploy/wine-grape/releases/20180106032117/tmp /home/deploy/wine-grape/releases/20180106032117/vendor /home/deploy/wine-grape/releases/20180106032117/public
+  INFO [c5efc005] Finished in 0.826 seconds with exit status 0 (successful).
+ DEBUG [99be5f92] Running [ -L /home/deploy/wine-grape/releases/20180106032117/bin ] as deploy@212.111.43.97
+ DEBUG [99be5f92] Command: [ -L /home/deploy/wine-grape/releases/20180106032117/bin ]
+ DEBUG [99be5f92] Finished in 0.843 seconds with exit status 1 (failed).
+ DEBUG [db8ed7c9] Running [ -d /home/deploy/wine-grape/releases/20180106032117/bin ] as deploy@212.111.43.97
+ DEBUG [db8ed7c9] Command: [ -d /home/deploy/wine-grape/releases/20180106032117/bin ]
+ DEBUG [db8ed7c9] Finished in 1.280 seconds with exit status 0 (successful).
+  INFO [52d2eeb2] Running /usr/bin/env rm -rf /home/deploy/wine-grape/releases/20180106032117/bin as deploy@212.111.43.97
+ DEBUG [52d2eeb2] Command: /usr/bin/env rm -rf /home/deploy/wine-grape/releases/20180106032117/bin
+  INFO [52d2eeb2] Finished in 0.844 seconds with exit status 0 (successful).
+  INFO [d2806b49] Running /usr/bin/env ln -s /home/deploy/wine-grape/shared/bin /home/deploy/wine-grape/releases/20180106032117/bin as deploy@212.111.43.97
+ DEBUG [d2806b49] Command: /usr/bin/env ln -s /home/deploy/wine-grape/shared/bin /home/deploy/wine-grape/releases/20180106032117/bin
+  INFO [d2806b49] Finished in 0.819 seconds with exit status 0 (successful).
+ DEBUG [63922521] Running [ -L /home/deploy/wine-grape/releases/20180106032117/log ] as deploy@212.111.43.97
+ DEBUG [63922521] Command: [ -L /home/deploy/wine-grape/releases/20180106032117/log ]
+ DEBUG [63922521] Finished in 0.824 seconds with exit status 1 (failed).
+ DEBUG [6404d450] Running [ -d /home/deploy/wine-grape/releases/20180106032117/log ] as deploy@212.111.43.97
+ DEBUG [6404d450] Command: [ -d /home/deploy/wine-grape/releases/20180106032117/log ]
+ DEBUG [6404d450] Finished in 0.838 seconds with exit status 0 (successful).
+  INFO [f338202b] Running /usr/bin/env rm -rf /home/deploy/wine-grape/releases/20180106032117/log as deploy@212.111.43.97
+ DEBUG [f338202b] Command: /usr/bin/env rm -rf /home/deploy/wine-grape/releases/20180106032117/log
+  INFO [f338202b] Finished in 0.837 seconds with exit status 0 (successful).
+  INFO [4acebd77] Running /usr/bin/env ln -s /home/deploy/wine-grape/shared/log /home/deploy/wine-grape/releases/20180106032117/log as deploy@212.111.43.97
+ DEBUG [4acebd77] Command: /usr/bin/env ln -s /home/deploy/wine-grape/shared/log /home/deploy/wine-grape/releases/20180106032117/log
+  INFO [4acebd77] Finished in 1.047 seconds with exit status 0 (successful).
+ DEBUG [f9c3e6ae] Running [ -L /home/deploy/wine-grape/releases/20180106032117/tmp/pids ] as deploy@212.111.43.97
+ DEBUG [f9c3e6ae] Command: [ -L /home/deploy/wine-grape/releases/20180106032117/tmp/pids ]
+ DEBUG [f9c3e6ae] Finished in 0.972 seconds with exit status 1 (failed).
+ DEBUG [687f6941] Running [ -d /home/deploy/wine-grape/releases/20180106032117/tmp/pids ] as deploy@212.111.43.97
+ DEBUG [687f6941] Command: [ -d /home/deploy/wine-grape/releases/20180106032117/tmp/pids ]
+ DEBUG [687f6941] Finished in 0.842 seconds with exit status 1 (failed).
+  INFO [7266909a] Running /usr/bin/env ln -s /home/deploy/wine-grape/shared/tmp/pids /home/deploy/wine-grape/releases/20180106032117/tmp/pids as deploy@212.111.43.97
+ DEBUG [7266909a] Command: /usr/bin/env ln -s /home/deploy/wine-grape/shared/tmp/pids /home/deploy/wine-grape/releases/20180106032117/tmp/pids
+  INFO [7266909a] Finished in 0.829 seconds with exit status 0 (successful).
+ DEBUG [8ff29404] Running [ -L /home/deploy/wine-grape/releases/20180106032117/tmp/cache ] as deploy@212.111.43.97
+ DEBUG [8ff29404] Command: [ -L /home/deploy/wine-grape/releases/20180106032117/tmp/cache ]
+ DEBUG [8ff29404] Finished in 0.808 seconds with exit status 1 (failed).
+ DEBUG [115e08d9] Running [ -d /home/deploy/wine-grape/releases/20180106032117/tmp/cache ] as deploy@212.111.43.97
+ DEBUG [115e08d9] Command: [ -d /home/deploy/wine-grape/releases/20180106032117/tmp/cache ]
+ DEBUG [115e08d9] Finished in 1.081 seconds with exit status 0 (successful).
+  INFO [88e76987] Running /usr/bin/env rm -rf /home/deploy/wine-grape/releases/20180106032117/tmp/cache as deploy@212.111.43.97
+ DEBUG [88e76987] Command: /usr/bin/env rm -rf /home/deploy/wine-grape/releases/20180106032117/tmp/cache
+  INFO [88e76987] Finished in 1.374 seconds with exit status 0 (successful).
+  INFO [92ee2ba9] Running /usr/bin/env ln -s /home/deploy/wine-grape/shared/tmp/cache /home/deploy/wine-grape/releases/20180106032117/tmp/cache as deploy@212.111.43.97
+ DEBUG [92ee2ba9] Command: /usr/bin/env ln -s /home/deploy/wine-grape/shared/tmp/cache /home/deploy/wine-grape/releases/20180106032117/tmp/cache
+  INFO [92ee2ba9] Finished in 0.839 seconds with exit status 0 (successful).
+ DEBUG [b3c8e7ee] Running [ -L /home/deploy/wine-grape/releases/20180106032117/tmp/sockets ] as deploy@212.111.43.97
+ DEBUG [b3c8e7ee] Command: [ -L /home/deploy/wine-grape/releases/20180106032117/tmp/sockets ]
+ DEBUG [b3c8e7ee] Finished in 0.836 seconds with exit status 1 (failed).
+ DEBUG [d848a5d7] Running [ -d /home/deploy/wine-grape/releases/20180106032117/tmp/sockets ] as deploy@212.111.43.97
+ DEBUG [d848a5d7] Command: [ -d /home/deploy/wine-grape/releases/20180106032117/tmp/sockets ]
+ DEBUG [d848a5d7] Finished in 0.814 seconds with exit status 1 (failed).
+  INFO [0791bb9b] Running /usr/bin/env ln -s /home/deploy/wine-grape/shared/tmp/sockets /home/deploy/wine-grape/releases/20180106032117/tmp/sockets as deploy@212.111.43.97
+ DEBUG [0791bb9b] Command: /usr/bin/env ln -s /home/deploy/wine-grape/shared/tmp/sockets /home/deploy/wine-grape/releases/20180106032117/tmp/sockets
+  INFO [0791bb9b] Finished in 0.842 seconds with exit status 0 (successful).
+ DEBUG [315aab59] Running [ -L /home/deploy/wine-grape/releases/20180106032117/vendor/bundle ] as deploy@212.111.43.97
+ DEBUG [315aab59] Command: [ -L /home/deploy/wine-grape/releases/20180106032117/vendor/bundle ]
+ DEBUG [315aab59] Finished in 0.817 seconds with exit status 1 (failed).
+ DEBUG [f70f7488] Running [ -d /home/deploy/wine-grape/releases/20180106032117/vendor/bundle ] as deploy@212.111.43.97
+ DEBUG [f70f7488] Command: [ -d /home/deploy/wine-grape/releases/20180106032117/vendor/bundle ]
+ DEBUG [f70f7488] Finished in 0.829 seconds with exit status 1 (failed).
+  INFO [7a772ccb] Running /usr/bin/env ln -s /home/deploy/wine-grape/shared/vendor/bundle /home/deploy/wine-grape/releases/20180106032117/vendor/bundle as deploy@212.111.43.97
+ DEBUG [7a772ccb] Command: /usr/bin/env ln -s /home/deploy/wine-grape/shared/vendor/bundle /home/deploy/wine-grape/releases/20180106032117/vendor/bundle
+  INFO [7a772ccb] Finished in 0.843 seconds with exit status 0 (successful).
+ DEBUG [8a4806de] Running [ -L /home/deploy/wine-grape/releases/20180106032117/public/system ] as deploy@212.111.43.97
+ DEBUG [8a4806de] Command: [ -L /home/deploy/wine-grape/releases/20180106032117/public/system ]
+ DEBUG [8a4806de] Finished in 0.835 seconds with exit status 1 (failed).
+ DEBUG [e32038bb] Running [ -d /home/deploy/wine-grape/releases/20180106032117/public/system ] as deploy@212.111.43.97
+ DEBUG [e32038bb] Command: [ -d /home/deploy/wine-grape/releases/20180106032117/public/system ]
+ DEBUG [e32038bb] Finished in 0.819 seconds with exit status 1 (failed).
+  INFO [95f053d9] Running /usr/bin/env ln -s /home/deploy/wine-grape/shared/public/system /home/deploy/wine-grape/releases/20180106032117/public/system as deploy@212.111.43.97
+ DEBUG [95f053d9] Command: /usr/bin/env ln -s /home/deploy/wine-grape/shared/public/system /home/deploy/wine-grape/releases/20180106032117/public/system
+  INFO [95f053d9] Finished in 0.845 seconds with exit status 0 (successful).
+ DEBUG [e2d48834] Running [ -L /home/deploy/wine-grape/releases/20180106032117/public/assets ] as deploy@212.111.43.97
+ DEBUG [e2d48834] Command: [ -L /home/deploy/wine-grape/releases/20180106032117/public/assets ]
+ DEBUG [e2d48834] Finished in 2.020 seconds with exit status 1 (failed).
+ DEBUG [e1ac120e] Running [ -d /home/deploy/wine-grape/releases/20180106032117/public/assets ] as deploy@212.111.43.97
+ DEBUG [e1ac120e] Command: [ -d /home/deploy/wine-grape/releases/20180106032117/public/assets ]
+ DEBUG [e1ac120e] Finished in 0.826 seconds with exit status 1 (failed).
+  INFO [ba07bfd1] Running /usr/bin/env ln -s /home/deploy/wine-grape/shared/public/assets /home/deploy/wine-grape/releases/20180106032117/public/assets as deploy@212.111.43.97
+ DEBUG [ba07bfd1] Command: /usr/bin/env ln -s /home/deploy/wine-grape/shared/public/assets /home/deploy/wine-grape/releases/20180106032117/public/assets
+  INFO [ba07bfd1] Finished in 0.814 seconds with exit status 0 (successful).
+ DEBUG [28e5e674] Running if test ! -d /home/deploy/wine-grape/releases/20180106032117; then echo "Directory does not exist '/home/deploy/wine-grape/releases/20180106032117'" 1>&2; false; fi as deploy@212.111.43.97
+ DEBUG [28e5e674] Command: if test ! -d /home/deploy/wine-grape/releases/20180106032117; then echo "Directory does not exist '/home/deploy/wine-grape/releases/20180106032117'" 1>&2; false; fi
+ DEBUG [28e5e674] Finished in 0.837 seconds with exit status 0 (successful).
+  INFO [e11df354] Running /usr/local/rvm/bin/rvm default do bundle install --path /home/deploy/wine-grape/shared/bundle --without development test --deployment --quiet as deploy@212.111.43.97
+ DEBUG [e11df354] Command: cd /home/deploy/wine-grape/releases/20180106032117 && /usr/local/rvm/bin/rvm default do bundle install --path /home/deploy/wine-grape/shared/bundle --without development test --deployment --quiet
+  INFO [e11df354] Finished in 104.785 seconds with exit status 0 (successful).
+ DEBUG [b32aab49] Running if test ! -d /home/deploy/wine-grape/releases/20180106032117; then echo "Directory does not exist '/home/deploy/wine-grape/releases/20180106032117'" 1>&2; false; fi as deploy@212.111.43.97
+ DEBUG [b32aab49] Command: if test ! -d /home/deploy/wine-grape/releases/20180106032117; then echo "Directory does not exist '/home/deploy/wine-grape/releases/20180106032117'" 1>&2; false; fi
+ DEBUG [b32aab49] Finished in 0.813 seconds with exit status 0 (successful).
+  INFO [c5f81462] Running /usr/local/rvm/bin/rvm default do bundle exec rake assets:precompile as deploy@212.111.43.97
+ DEBUG [c5f81462] Command: cd /home/deploy/wine-grape/releases/20180106032117 && ( export RAILS_ENV="production" ; /usr/local/rvm/bin/rvm default do bundle exec rake assets:precompile )
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:06.741396 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/active_admin-9adb589b6066889ef13cd02b17005346e469c5d1284834307248a5b874fd95b0.css
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:06.742104 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/active_admin-9adb589b6066889ef13cd02b17005346e469c5d1284834307248a5b874fd95b0.css.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:06.742524 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/active_admin/nested_menu_arrow-15084d93c65c1964d7077700ea748bd2d70cfa2d4c19707c58a9c64e232dd442.gif
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:06.743015 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/active_admin/nested_menu_arrow_dark-7c43b8e0a5f8823875f49a093c9d7a6b374f885b6f9cc248ae9cd7e6e9b29034.gif
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:06.743370 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/active_admin/orderable-29374dbb55b0012d78a37c614d573bb3474f0779849b478a147d0f1845ca6617.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:06.744184 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/active_admin-9adb589b6066889ef13cd02b17005346e469c5d1284834307248a5b874fd95b0.css
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:06.744334 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/active_admin-9adb589b6066889ef13cd02b17005346e469c5d1284834307248a5b874fd95b0.css.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:06.745045 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/active_admin/nested_menu_arrow_dark-7c43b8e0a5f8823875f49a093c9d7a6b374f885b6f9cc248ae9cd7e6e9b29034.gif
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.057673 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/active_admin/print-cf99cbf27fb92065a9eacd28e6fad48fa72cadaf6e0918790e8d35b11d8f99f6.css
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.058279 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/active_admin/print-cf99cbf27fb92065a9eacd28e6fad48fa72cadaf6e0918790e8d35b11d8f99f6.css.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.129830 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/active_admin-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.130212 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/active_admin-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.133789 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/adobe_casion_pro/adobe_caslon_pro_semibold-webfont-ae237bc2739a95cd08fca06bdd6dc5a1aace74693731f59021b2a054e68c0a17.eot
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.134190 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/adobe_casion_pro/adobe_caslon_pro_semibold-webfont-ae237bc2739a95cd08fca06bdd6dc5a1aace74693731f59021b2a054e68c0a17.eot.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.139167 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/adobe_casion_pro/adobe_caslon_pro_semibold-webfont-79caafcf576ac623171fef54356320b451cef6f9b76d0189e1170a9c4cb4fa3b.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.139866 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/adobe_casion_pro/adobe_caslon_pro_semibold-webfont-79caafcf576ac623171fef54356320b451cef6f9b76d0189e1170a9c4cb4fa3b.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.148283 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/adobe_casion_pro/adobe_caslon_pro_semibold-webfont-0699d565e660e8df3cc64c19bdb7a561352c9e7bec47c7312c70654eb1242586.ttf
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.148963 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/adobe_casion_pro/adobe_caslon_pro_semibold-webfont-0699d565e660e8df3cc64c19bdb7a561352c9e7bec47c7312c70654eb1242586.ttf.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.154126 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/adobe_casion_pro/adobe_caslon_pro_semibold-webfont-56d029080fd8758bc3dad0f5203dfba31817cea071a6cf90aa4be9af1189c5dd.woff
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.164846 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/adobe_casion_pro/adobe_caslon_pro_semibold-webfont-ef413f8430b052f2dc07b20c743c4ec0ad340bd9e1c7f57b13ee564d627389b7.woff2
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.169738 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/adobe_casion_pro/adobe_caslon_pro_semibold_italic-webfont-1047aa88c0c839a5f9be8f4c549e4327752144cf75ab3098bd658db0a5c7335f.eot
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.172595 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/adobe_casion_pro/adobe_caslon_pro_semibold_italic-webfont-1047aa88c0c839a5f9be8f4c549e4327752144cf75ab3098bd658db0a5c7335f.eot.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.176945 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/adobe_casion_pro/adobe_caslon_pro_semibold_italic-webfont-1d8b3d979db282d80b6226f5c71ecf04d6207a4a92f7cc674af4554f8c68e923.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.179269 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/adobe_casion_pro/adobe_caslon_pro_semibold_italic-webfont-1d8b3d979db282d80b6226f5c71ecf04d6207a4a92f7cc674af4554f8c68e923.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.187952 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/adobe_casion_pro/adobe_caslon_pro_semibold_italic-webfont-6d8bc74385d4439f7d34eb33332a0ce7ae8b88cfbe9d3b8a740e516778ec8b6e.ttf
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.192737 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/adobe_casion_pro/adobe_caslon_pro_semibold_italic-webfont-6d8bc74385d4439f7d34eb33332a0ce7ae8b88cfbe9d3b8a740e516778ec8b6e.ttf.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.200935 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/adobe_casion_pro/adobe_caslon_pro_semibold_italic-webfont-9c1e9fdcb8252d9f6007e78bdc643ef125ed4a5a7e05e2daa3be4f237c7fa512.woff
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.216004 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/adobe_casion_pro/adobe_caslon_pro_semibold_italic-webfont-b35bfe703adb90e57406dd0f379ed22f9d9fe663f09b56576ff28f48b02d0f4d.woff2
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.218289 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/glyphicons-halflings-regular-13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407.eot
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.225335 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/glyphicons-halflings-regular-13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407.eot.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.229125 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/glyphicons-halflings-regular-42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.229431 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/glyphicons-halflings-regular-42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.237146 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/glyphicons-halflings-regular-e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456.ttf
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.242539 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/glyphicons-halflings-regular-e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456.ttf.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.247727 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/glyphicons-halflings-regular-a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742.woff
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.254647 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.261586 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/proxima_nova/proxima_nova_bold-webfont-4277e652102b8d7fed4dcd79f466ceabf0a5b685d1f9a09c2817c8a2592de719.eot
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.266754 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/proxima_nova/proxima_nova_bold-webfont-4277e652102b8d7fed4dcd79f466ceabf0a5b685d1f9a09c2817c8a2592de719.eot.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.270075 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/proxima_nova/proxima_nova_bold-webfont-8ccf6c13d1b3bb8e1af4024f1a2530a8e3f4b68b0262079d9671432b09819828.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.270391 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/proxima_nova/proxima_nova_bold-webfont-8ccf6c13d1b3bb8e1af4024f1a2530a8e3f4b68b0262079d9671432b09819828.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.273024 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/proxima_nova/proxima_nova_bold-webfont-7b433f7eab2896c3ab3f07c2002b848d2a7e061b22f48014114900d6342ab1ec.ttf
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.275694 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/proxima_nova/proxima_nova_bold-webfont-7b433f7eab2896c3ab3f07c2002b848d2a7e061b22f48014114900d6342ab1ec.ttf.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.280512 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/proxima_nova/proxima_nova_bold-webfont-403a2abe0dd9dbeb729f9e0401c9dce0e12eff37325148bb0a8e84085f6174ef.woff
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.286637 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/proxima_nova/proxima_nova_bold-webfont-e41d809f4d83eff2c18923543912863d9e297818571afbbbf4c40e3aff87c143.woff2
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.290990 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/proxima_nova/proxima_nova_light-webfont-7b7ff5afff6ee863905dcad95b81a6fef64519b8a30ae4a01d9b1deb59e862de.eot
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.291417 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/proxima_nova/proxima_nova_light-webfont-7b7ff5afff6ee863905dcad95b81a6fef64519b8a30ae4a01d9b1deb59e862de.eot.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.294858 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/proxima_nova/proxima_nova_light-webfont-4fee3069bdc571f5861556bacac61061381aaac868a06768a1ea75a194e24954.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.295510 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/proxima_nova/proxima_nova_light-webfont-4fee3069bdc571f5861556bacac61061381aaac868a06768a1ea75a194e24954.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.303286 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/proxima_nova/proxima_nova_light-webfont-9ebdd43d6f074b55d035923256553a259b3026f09ad983e06c1d692920270f98.ttf
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.303641 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/proxima_nova/proxima_nova_light-webfont-9ebdd43d6f074b55d035923256553a259b3026f09ad983e06c1d692920270f98.ttf.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.307404 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/proxima_nova/proxima_nova_light-webfont-f1b9c4e1fc372fc2c996b569beafaa72f688fb6ddfe986be18277bc94aa17b85.woff
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.314820 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/proxima_nova/proxima_nova_light-webfont-7d2aaf786b5d6b13c953767b51994c0805c82ae8850ebad126971c7ed2e1914f.woff2
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.317229 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/proxima_nova/proximanova-regular-webfont-783a7551e6d7da665dc12ca5006dc63a4aa0fe4eb75e40f97d02c4a00556ea2d.eot
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.318264 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/proxima_nova/proximanova-regular-webfont-783a7551e6d7da665dc12ca5006dc63a4aa0fe4eb75e40f97d02c4a00556ea2d.eot.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.322425 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/proxima_nova/proximanova-regular-webfont-5a27b8235200cef890975ed43c88ad8fe8128eb3a55ace579b6e624a0859d813.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.322962 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/proxima_nova/proximanova-regular-webfont-5a27b8235200cef890975ed43c88ad8fe8128eb3a55ace579b6e624a0859d813.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.330670 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/proxima_nova/proximanova-regular-webfont-35812df852ac21314fe30907cfe9457674291284dc0dd191efc72b873ef4e84c.ttf
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.331017 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/proxima_nova/proximanova-regular-webfont-35812df852ac21314fe30907cfe9457674291284dc0dd191efc72b873ef4e84c.ttf.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.336865 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/proxima_nova/proximanova-regular-webfont-79e86aaa0cc14500d42ce0fa1a0b2ba782864d4b09da50fa79688989eb929988.woff
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.339377 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/proxima_nova/proximanova-regular-webfont-e3c3947f0c4073fa3b015ed7df3fdf3e721b5fe2020fb50abf6bb3525bf3b08b.woff2
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.342306 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/proxima_nova/proximanova-semibold-webfont-fe8aa381aec2f88d1b500ba2eae906842765b3906b8982e9f71a5fbafaf5fa23.eot
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.342467 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/proxima_nova/proximanova-semibold-webfont-fe8aa381aec2f88d1b500ba2eae906842765b3906b8982e9f71a5fbafaf5fa23.eot.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.345426 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/proxima_nova/proximanova-semibold-webfont-0a54b7808e256484ccfac9d869b94931111f2b528248ba211bf485bb560e90a4.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.345813 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/proxima_nova/proximanova-semibold-webfont-0a54b7808e256484ccfac9d869b94931111f2b528248ba211bf485bb560e90a4.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.350279 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/proxima_nova/proximanova-semibold-webfont-d5bf800568ac848e811245e2403a41dfa8aa46efb792ecfd941a16dfc426b6d8.ttf
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.352265 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/proxima_nova/proximanova-semibold-webfont-d5bf800568ac848e811245e2403a41dfa8aa46efb792ecfd941a16dfc426b6d8.ttf.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.358795 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/proxima_nova/proximanova-semibold-webfont-20f5139154e4970d85375add6c7b6583cfaabc6e6b779692f07f0af056c5da4a.woff
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.360693 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/proxima_nova/proximanova-semibold-webfont-459686225406339aa93a4548720f96ee19c4b8a12b8ed9f576ff9ecffbd910da.woff2
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.363051 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-bold-658b97e6bd3cda1c4eb96dcf1933faf98fabbb6c8853ee97334c2ac5f521782b.eot
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.363425 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-bold-658b97e6bd3cda1c4eb96dcf1933faf98fabbb6c8853ee97334c2ac5f521782b.eot.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.367636 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-bold-6e12461dec87b409daf5d3fa7c42273f146b4fb4c45b9215973cc3e55cc1257a.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.368393 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-bold-6e12461dec87b409daf5d3fa7c42273f146b4fb4c45b9215973cc3e55cc1257a.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.377683 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-bold-afb760a14291bee4a984d7413c5f67b96634f4a5ec4b06899482e6531ca559a4.ttf
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.378363 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-bold-afb760a14291bee4a984d7413c5f67b96634f4a5ec4b06899482e6531ca559a4.ttf.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.384458 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-bold-f19b824f0c61e5854dcb1d3975fbde70867acc1da5eda4502fb47eee3cc79525.woff
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.394015 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-extrabold-b21b955bd87b6a7deef8eadec1290df43f131c6f6aa572c33be07692f0566e0a.eot
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.394524 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-extrabold-b21b955bd87b6a7deef8eadec1290df43f131c6f6aa572c33be07692f0566e0a.eot.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.403454 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-extrabold-6eb26ad8297e834e65d1c9a0d7f2f3bfcb7a868e0a90c72bcadea2c99eb486cb.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.406098 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-extrabold-6eb26ad8297e834e65d1c9a0d7f2f3bfcb7a868e0a90c72bcadea2c99eb486cb.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.413680 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-extrabold-ca4ef70bd55e2179079d9d10c5415527912304a1ef9ad36934228543791fe515.ttf
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.415777 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-extrabold-ca4ef70bd55e2179079d9d10c5415527912304a1ef9ad36934228543791fe515.ttf.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.427744 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-extrabold-eb6817fab891144da6568ec8257da65cb602b3e7e3eed648e048b8d45e29a6fa.woff
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.433998 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-extralight-8cd05f63bb2113ead03df431e1a860d91d5be011c69ae78c9fb657d000783a84.eot
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.442555 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-extralight-8cd05f63bb2113ead03df431e1a860d91d5be011c69ae78c9fb657d000783a84.eot.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.447294 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-extralight-4f488b6393a70f220e12e3e2de895cfda1fea225fdc5c3943f9f0d57b0675b11.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.448221 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-extralight-4f488b6393a70f220e12e3e2de895cfda1fea225fdc5c3943f9f0d57b0675b11.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.462880 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-extralight-6479ed2edbca15d5cc67605a3aac9c3ba46e5918c7f6376265a6d5e7d7947697.ttf
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.465852 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-extralight-6479ed2edbca15d5cc67605a3aac9c3ba46e5918c7f6376265a6d5e7d7947697.ttf.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.485176 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-extralight-81910211d63808a3b47025c04266eb242e7ffa6b6d36beccb4133746e5212888.woff
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.495480 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-heavy-3060541037ee5c927e985fbe9dcf70ab6e5e1f5aca6aa0ff5bfd3b6a43c2220c.eot
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.496074 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-heavy-3060541037ee5c927e985fbe9dcf70ab6e5e1f5aca6aa0ff5bfd3b6a43c2220c.eot.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.501296 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-heavy-6788ccf10c35d1964ecc207941f3c64044fb71b24513bf85ee6fd338be7fbc0c.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.546059 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-heavy-6788ccf10c35d1964ecc207941f3c64044fb71b24513bf85ee6fd338be7fbc0c.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.560588 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-heavy-32bc93f95c36daf78fc29a21fd4df1c0bdc775421f9555bca9c9b9d775fc5150.ttf
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.562503 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-heavy-32bc93f95c36daf78fc29a21fd4df1c0bdc775421f9555bca9c9b9d775fc5150.ttf.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.570703 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-heavy-2d13373ad32264a46506b3fc092201494a56aa1fe8c523ffac9442f25587bc5f.woff
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.581673 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-light-714a778dc6e2b9b3de4a99565ff53d20301296995ef887a7d67602caa4ec11b2.eot
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.582185 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-light-714a778dc6e2b9b3de4a99565ff53d20301296995ef887a7d67602caa4ec11b2.eot.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.592641 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-light-51009b19082a56091d676dcb8095ca8f8b7c81825a4d8ff5c5be014f4b0d3114.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.593073 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-light-51009b19082a56091d676dcb8095ca8f8b7c81825a4d8ff5c5be014f4b0d3114.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.602495 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-light-3cd7f2f355aab8e932802e652518e21ec04d0a21c14a20ae33e103db841434f8.ttf
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.605842 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-light-3cd7f2f355aab8e932802e652518e21ec04d0a21c14a20ae33e103db841434f8.ttf.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.638964 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-light-25d025f218106ec36c020a190d2750081f1a3db99c9797eaa727dd5ba5a62d6f.woff
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.641726 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-medium-61eb2aa649bcd672246ac1a42fde6e520246af595bc1b9be1c493fc8be015a1a.eot
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.645788 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-medium-61eb2aa649bcd672246ac1a42fde6e520246af595bc1b9be1c493fc8be015a1a.eot.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.653608 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-medium-3316a7219bdea03cd0d753c3f66960fa9ed3100ea8b88a57a8bb9c59b0153afe.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.656536 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-medium-3316a7219bdea03cd0d753c3f66960fa9ed3100ea8b88a57a8bb9c59b0153afe.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.664442 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-medium-430ba45a35dd68ed5e57f0b910e627122774d7d27473e4a05c549ed22f696588.ttf
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.672795 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-medium-430ba45a35dd68ed5e57f0b910e627122774d7d27473e4a05c549ed22f696588.ttf.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.680565 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-medium-96947f0a2cd434e45cf778e7604260a8b2af2a444cd6f32350cad7560bc8c0d8.woff
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.692015 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-regular-79bb17b9efbadf9f9f7936bd6bb6d55261764754190d56ddc64d35ce19a204ce.eot
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.692673 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-regular-79bb17b9efbadf9f9f7936bd6bb6d55261764754190d56ddc64d35ce19a204ce.eot.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.699684 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-regular-6a31aff69e7082b8a815a109e25939afac41b0e892ca687d5d73c124ae1f80f1.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.705625 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-regular-6a31aff69e7082b8a815a109e25939afac41b0e892ca687d5d73c124ae1f80f1.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.714361 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-regular-ec065da245e2dff334e0c56e33cc762918bb92bac5516bc189b449e0018214c8.ttf
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.719218 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-regular-ec065da245e2dff334e0c56e33cc762918bb92bac5516bc189b449e0018214c8.ttf.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.727642 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-regular-6e3dfde6f69c1e6141e20b3445100bf4b1fab8e945f9298661403c6358475660.woff
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.736993 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-semibold-7de83eaaba74dcdf4ea94d33aeb7ad4e6f4347baeb8df6bfba4249f75f479734.eot
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.739035 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-semibold-7de83eaaba74dcdf4ea94d33aeb7ad4e6f4347baeb8df6bfba4249f75f479734.eot.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.750112 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-semibold-4ceb05b276951b5532d9dbd028e2df6f28c1257ac754fc8fac380a7ab66291d5.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.752714 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-semibold-4ceb05b276951b5532d9dbd028e2df6f28c1257ac754fc8fac380a7ab66291d5.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.761027 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-semibold-6a533d9d9d4335c4e85245d1bf23fc9342078ecefa718bf7ceb0814fd1b3a441.ttf
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.772524 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-semibold-6a533d9d9d4335c4e85245d1bf23fc9342078ecefa718bf7ceb0814fd1b3a441.ttf.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.780433 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-semibold-79b315557679036d5b8b6689e9dbb6ef3a6eefc228141616964d87fd4f41c182.woff
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.792973 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-thin-655d56fdca0ca814b8e69a84ee198a3f94de0130f0e44c1b2f91947d24c12f47.eot
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.793497 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-thin-655d56fdca0ca814b8e69a84ee198a3f94de0130f0e44c1b2f91947d24c12f47.eot.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.805451 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-thin-51e21d843d309eb3a5f1995b3d7d4ee23cc9f6168b0bd493c868796602fca6f2.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.806492 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-thin-51e21d843d309eb3a5f1995b3d7d4ee23cc9f6168b0bd493c868796602fca6f2.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.821348 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-thin-76f2baff70d612f2bba12488d821d826be7a0b82fd1315eebbdb219763471b31.ttf
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.825797 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-thin-76f2baff70d612f2bba12488d821d826be7a0b82fd1315eebbdb219763471b31.ttf.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.841186 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/raleway/raleway-thin-bf12cf913dc9c69e55b1828aaa30b77c83539ff4284b21e1e738ac9be9bb3d10.woff
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.856075 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/slick/slick-06d80cf01250132fd1068701108453feee68854b750d22c344ffc0de395e1dcb.eot
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.856570 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/slick/slick-06d80cf01250132fd1068701108453feee68854b750d22c344ffc0de395e1dcb.eot.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.860919 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/slick/slick-12459f221a0b787bf1eaebf2e4c48fca2bd9f8493f71256c3043e7a0c7e932f6.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.868975 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/slick/slick-12459f221a0b787bf1eaebf2e4c48fca2bd9f8493f71256c3043e7a0c7e932f6.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.872132 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/slick/slick-37bc99cfdbbc046193a26396787374d00e7b10d3a758a36045c07bd8886360d2.ttf
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.875549 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/slick/slick-37bc99cfdbbc046193a26396787374d00e7b10d3a758a36045c07bd8886360d2.ttf.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.881550 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/slick/slick-26726bac4060abb1226e6ceebc1336e84930fe7a7af1b3895a109d067f5b5dcc.woff
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.886930 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/Aglianico_del_Vulture_new-af4795abb2aa49f4b914a2d40d6229cfb4c6125d4d86c84825393667f42db899.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.891067 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/Albarola_new-ab0005098f332631e3d4b06aad2d6bc398f5cd43cc18eefcdec5de91c17cec0e.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.894775 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/Avana_new-40cd2500d278d4e93756c0dc8af1cdb952ea26560b42de2096aeb8369f3ba678.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.898358 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/Carmenere 1-a23f79e517bde7662e5c5bbeea985ef11bc88ba49b945acbb429b92233999ff8.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.902676 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/Carmenere 2-5420c29964fabb990bb1e6c1160c536bdbc7a1a24cef6bfbfe283f7b0f059a4e.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.907378 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/Carmenere 3-2a6ae027b08b648e507316800e98e747d75bff48756bdf34a2864c5b10d46578.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.914017 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/GrapepediaLogo (1)-f8301ad46f954b5dc6b5ec838ef2b25c46d5f60617847e68fb5cef52ca7ea430.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.917797 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/ajax-loader-f6ecff617ec2ba7f559e6f535cad9b70a3f91120737535dab4d4548a6c83576c.gif
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.921664 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/amarone_300x300-307a70b4768785efd7fc4ef7ac07b10955db9f3caf9c331b4d8d20c51b6ef0d9.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.928044 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/banner-place-image-72579124131fc948ee7eb08ff8dc5dabf88248a7cb7edf9ba2655a3cd11bce29.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.932873 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/best-of-san-francisco-badge-27da8343caadf56b729627ae6b79b3c43479cc116b362becc54c5bafc38e38e9.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.936150 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/direction-e8ae56f27a7d2b24461126d8128f5484f54dc29fcdeda65b58665b87fdadbb2e.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.939223 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/dish-a8242df29de1b1abbf5e3d5db6b4e561610bceb4f7f9937c4c0a2b90b098f4fa.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.942383 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/download-1-c34b1643158b8d8da42b1e5fdaf4b602903187d43c216f3d807e9e7a654f9fd3.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.945180 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/download-2-2373d2a2e6c671fe2d52c0f652d5929229893030bf865ccb59a49147cb2c710e.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.947743 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/download-3-9857d5fdf4fbaa4a9cd512d89fb81f831e0ffec8a9e0e73e51cf47eee1321175.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.950231 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/download-4-12f97f9371b815b5aafcf1647288b2f54bb605520fe7b1b7b09316ed20975647.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.952721 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/fashion-54ab6687b709d493e6740c07d7537aef273ab84e70c0e3e6aa631c0ecbcfca32.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.955007 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/favicon-4259080e480842a4d0aba63aacbaa2db16cda05840cdddb97c0b72d255f65b3a.ico
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.955376 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/favicon-4259080e480842a4d0aba63aacbaa2db16cda05840cdddb97c0b72d255f65b3a.ico.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.958676 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/grape-black-c1bd5532e561ff6117b25334a6476466e917994a7c62dd00c7504eb47f6e1d01.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.961031 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/grape-blue-2-a7a526331083961057ce796a4a268e56d568b0e350fd0a9f427ae0ddd5c5e30b.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.963393 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/grape-blue-83a6212e65d0743f0d3ccd2ebdf56db5c63a4e84bbdf1dde0e8b1b66065b31cb.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.966054 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/grape-green-966a3e8190d88b579e5971662b8bd901598ecf6fb757878486261caf84097324.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.968709 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/grape-pink-d591090521088691d573e92a9164a72e2c97d19df0b6a905bc7496cae8c06108.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.971279 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/grape-red-2-d4a300b6a85debd36dc4a2d2a6aac8e3040c82362f8dcca51ebe5a4cec65cb97.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.973761 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/grape-red-992486af6e0c4fa34098d2aef6e2d0b77f1678add9ad71d858e6a9354a1b7b73.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.976322 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/grape-yellow-f4bca0b17eafa11ffa5ea4b24823d6e85b4597c1f790972dda81caa3034ceee8.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.980019 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/grapes-poisoning-91ada0449f26a9135c4336aee29191ca172ed0a557cf201a1950cf1cdc80360f.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.983679 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/hotel-f0e553ad88ea37edeb3d231051dee7a253284ece761861759e2f261ab6acaa9d.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.986660 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-award-la-db2b1d59691f57974dcb96cdc36b8b107f934d9476b07cd3fc72ac4882647642.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.989620 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-award-ny-1bc78989a1b639fb7ae709971055dca2f61b59cb514a2ab521a49bb755d1b429.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.993359 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-award-cf9f14e8af4ea598e60780408a7a9311d76cc1fc11cb8253e5acbd9a1b582bd5.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:07.997635 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-comp-c098b7c5d903025345fd874a0ceb49b243f33f01a56f1f0913fa1d396e408eed.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.001296 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-download-ny-e5010f06182476ab387637dfcd5c79c563339a0f22d105d696f564d81f29d2d0.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.005006 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-download-a661970541e36affb3c553567eb19f5cc39113f39cb028c9c994d2e116742420.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.008810 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-expert-la-e7467c08ecdcdb26b11469f8d7a20d1b1dd9a9749242978b6b500692bda718d0.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.012178 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-expert-ny-7ebff2190ee13096bb2eaf9a61154d53cf675d998320593386581c55a3976cf0.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.015525 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-expert-18404f3f1c1ea824be7a5036cfe2e042c2acc4b76d10aab22661d55684298572.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.018882 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-food-c8a1daace3b852618195f778d204cc2dec10614937481f9c1ccf144331a698d0.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.021559 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-google-arrow-left-91732dfcdc0d981efa512c9ba33ccd924cddbca3e840dfe0b87464ce8896f1e9.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.024530 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-google-map-click-69ee7230a86b7b52129d62ce950c354e59755b720beaf46cbc3ee997235daf89.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.027589 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-google-map-54777801b8c2463b6cccffa7b626c741e819bb278861d2c4235d9490a667e0a8.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.030625 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-google-maps-sprite-51e54a76aa14496487cd0a4175c70dd0a45a21e5837fb041bc986b51a9765db0.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.035427 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-like-ab71b7c30598de8e1167f32ee1fb7c50fa0d52748378d3c331cc6b72102d078e.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.039476 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-location-3c1b109f57f11eae614c672cb72d7f80acc4c81733c3d47d224fc390d79588ac.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.042734 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-location1-3c1b109f57f11eae614c672cb72d7f80acc4c81733c3d47d224fc390d79588ac.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.046151 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-logos-sprite-c1ace34e94608650975bacf76659082f0dddf741c61a78c8f49270b6693d8707.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.049869 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-mail-e14e299a59e1b7c830f3ce50e79df23cd840a81f3f83722bd377c0d2fe394717.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.053168 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-map-96709ae6974319b50c637048931bc44a63d07d0749a2494f4a9c226913752175.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.056796 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-mic-0abfe63f8d269e9a394f65a492f675398841fe744c73bc18dee7f2f3d8ba4134.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.059874 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-mobile-comp-4f58e4aae61b27b7417c2b7dff238a1599adbc3770e950e9bb536fce54fe69c4.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.062634 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-mobile-food-d9336f69423913ede1e75737f9d0f1936cdc7e9bfde8ea9f3f137c82ca14c560.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.065180 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-mobile-map-18b3b918e603b0a5892a3a3f4c66fe9ba77d2eb9f6c3e6fffc46f4a3b702bb5b.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.067826 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-mobile-mic-b3a5764b90b89a0e7b8a8525561c7b9c3c69cbc3edfc6bd8f3c04216c321119d.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.070335 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-mobile-rocket-06c915c8a017e65f8d83cce7825654a945ced5c1c52376a711f24bcf7782b019.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.072754 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-next-button-7fe2af03eff2e9eca650758d1e5854f407d877c426e434ebb52e7a9bb180ca71.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.075200 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-phone-la-ef91c21957b39000031c302881eed3fa7c04a3d8e9c0888b8375e730743d6929.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.077436 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-phone-ny-690dd87248dab54bbe345982c00152407bf66bca912963cd139ec3b62665e353.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.079790 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-phone-b8664a9e8154d12693c4fb91ebc055b0abf6788f9f596c973a991b4d2ac7fb3f.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.082022 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-rocket-59f285463591cd840d183c0a9b87eb17f7604253243a0915d64652ec9f8024ec.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.084203 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-search-efbe99742d9a337acf1e41d04a7f51df178802a54825da19f5f9266f0c40a7de.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.086442 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-separator-mini-2c1d7109f38cb5361257563945aa08edb9c2a282f8a55042494817b451fd38c4.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.088857 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-separator-8369ff5ea0045b4c5b0a0a398e22ad6e05374922d541d1138113d9af030d775b.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.091082 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-share-white-81b964c1a62901fc65fe2cadb7a82d332f603bb193fa74c28fec5f98f461b567.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.093290 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-share-5e249817564fb617234112940edf1d904bbf994d604389c962da38ac33135518.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.095401 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-slide-left-8238ddf411127413f361207e3234d277f6a655e63ac8a15efa16edd41202800c.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.097456 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-slide-right-1817ff1c454e41530a9526dac53b3f0bd39bd69487fe9941e3d4e5b31fae80c8.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.099618 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-social-sprite-7ce3c2c3bad229ceb61a6b85f34697e1c6500361239966a74b04b8e9fde346a6.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.102069 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-view-menu-d35defb973b34df3a2cd41a67da44555df2bba005e0809f3a0354768ee84cd62.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.104752 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icon-website-73612006f3c1506937f2657c6c7e9e74ca8c8016a575a502497c052e294d7130.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.107113 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icons-advatages-la-sprite-1f152e70b94a25e65b6efe839bc9003af37430a58e186867e612ae11656f60fa.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.109515 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icons-advatages-ny-sprite-4f41f5dbe75cafbc2c9779844e196b393690ec2ea5ff14f0fdf33751db77b897.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.111783 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icons-advatages-sprite-cfff83898ced24b892e3c4e9eab8aa92dede1617ae8609c4ead9e62ab82bf895.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.113971 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icons-find-la-sprite-0952af8b82e0258ecd9ceedca7413355691c0086dc2eacc314a805158e5eb774.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.116622 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icons-find-ny-sprite-7dbc58527a5ab79f6f19295b322fa7f1d45198d2b3d2db08a7779228688492b4.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.119395 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icons-find-sprite-65d75817e82cfdeb0643eecc309c56ba166529da6b257ce8e314bd43bb283358.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.121444 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icons-partner-1-46975177b79da7fcee5de68ee5dd58518489d41c8ca86765ba416b0e52aa39be.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.123498 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icons-partner-2-b60d78b2a6b55d4e4fde44c1dc44174dfbe9d55090667dce399a8277f2828e9f.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.125590 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icons-partner-3-e7a6c8fc22197c9d6b044b20629325673e0d30aa851c45f4150a81242e87bf86.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.127719 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icons-partner-4-47c21f69bdd291be9ac7b17e78844d172b407a4ec9df49921f73796ef8473f62.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.129886 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icons-partner-5-065ef3ca60b5677950b8191046204193172b410973d3137a335db518ea0aa262.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.132126 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icons-partner-6-8e63482372547f53deaaeebb6f5037a6b124c41fc24412dc0da74e5b5d950f75.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.134284 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icons-social-about-us-adc4a94f9b6c300a010ba64401808d519a448abb82aa08f6896a2ffeac21ed89.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.136332 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icons-social-la-sprite-df0a4e38bceb9972ece752ab92a3e300bc310e1774622d6a9f0bd4c233357a34.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.138378 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icons-social-ny-sprite-6d05e129b713aa64deeae0239c85abf738a15ddec858e281f5afd0c246abcc0f.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.140626 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/icons-social-sprite-815d49dd24163da1703f980221f3dcfd59b1b981c62deb1a116b5697cea0f380.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.142989 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/image-feature-bd4be0ea235c200f5ea6c2fb68ffa247c572b3bd9a5b84789d326c27140b7b1f.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.145734 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/image-places-brands-86c9ed8ce2b4cd5062a2925924f3d380f901a573db129942feb3905e79b640ee.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.148224 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/image-places-brands2 copy-ac5f37d910615382ccde8286043cea2311d52dc5cebc628c26cab6c7ebe0891e.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.150790 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/image-places-brewery-42ff408d8f9be3f8268fc30f4d13f43ff2a9c576073fa10af037d142c14b2ce5.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.153207 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/image-places-brewery2-0097a054d1cde3420ca422d431568555f374cc5f0c51c5ed880b703965b08f05.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.156531 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/image-places-events-84831652d0b1bc1fbd864e3bd828b68a448b33b8d4473ff617f36ba75edf1ac8.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.159581 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/image-places-events-d7271e5f1589f444cac835e7290412113a575dbb4faa551cb3936f6192833511.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.162559 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/image-places-events2-7cbf5a849e8a4227fcbd49be41b3e352cd5ec0cb22c7066f9962f0b208eb41ff.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.165525 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/image-places-parks-cc1cf0ca7b865feddd9103263e9a7f4c9d2db78c0233df05d37cefac25c65d24.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.168105 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/image-places-parks2-d016f89922b82435537f96b8e11278d58e7cf33ce32616b62184456f55af9510.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.170966 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/image-places-travel-8b0a7575458e18fb45b29c4fb17d8f5cdaa1400cf58dd3f8d5ce1a32f82a01ee.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.174052 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/image-places-7e7b388403470344dfd7d65e65876c8dece903b350a5ba6aa1e4031dbf5fdb05.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.176991 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/images-places-1-0-81dc2f7d630a6f370e9b07383bb711ad8cfcbf5962eebc3405e1366cb69a7d55.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.179684 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/images-places-1-b7a441597425c1fd4d5fcb919ddde32fb793d63de8f9e6589ff2d5451e81cbcb.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.182044 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/images-places-2-52a883cd2743186d8ab1d03a1f069906b140ebbc55f79a6f0c3603f4e0ead4d6.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.184394 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/images-places-3-1f5b7547745cf183c98704d43e126784cc2952c4e5a93d329f035f4e6b0572aa.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.186979 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/images-places-4-ebd38478948d8908c8bba696109201f5d84eb3b0c832d9f69d425be5a5264f53.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.190018 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/images-places-5-468a1a0aef2adc7c217adbd61c500ae6b356f1b20d7e672a113196b72528d0a6.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.193453 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/images-places-6-81dc2f7d630a6f370e9b07383bb711ad8cfcbf5962eebc3405e1366cb69a7d55.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.196458 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/images-places-7-0a6ebd20e998f334ce476565f8e930dbfde8dd1c1188791b16ca425d1c80fbfb.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.199977 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/images-places-8-468a1a0aef2adc7c217adbd61c500ae6b356f1b20d7e672a113196b72528d0a6.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.202862 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/images-wine-1-2dc24b4f8053f3aebc7509e89ed36437c4126bae4751e3989999bbeec493a0c7.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.205476 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/images-wine-2-115a1f35befb210305ff4b0a029b5f37b81f6349cfeaf5348e4c4b765aa4f36c.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.207777 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/images-wine-3-3ce6053543a7c9104705908ddfbad58d6c9263df26acf7ff4eea694ca0154364.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.210300 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/inbox-aca320608c300d0d393209641939264ded8462c83d295b4ede7d602a929d2b16.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.213424 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/la-back-1f370030d447c5e8a6136548f9cfabe568055c3975f88e59999404e3329c6403.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.216238 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/line-189d2397187d5c2d2bcbfe75c9835af3c5fec8227c35e120974650092a75ef54.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.218680 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/logo-bacardi-6dc42e7ac0b8349088e03fb307a087084bb2e528ce5303336b438f9bbc593b05.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.221160 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/logo-don-bda042261ba05b2795b2a3ad9adac21351c264ceb0423fe02713a13f82315adf.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.223629 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/logo-koloa-46b54f5ae356e24a123ce58993cd066f0e4d5d31ac6bdacf0a751226d25ed265.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.230418 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/logo-kraken-59808523e026a5e2d6c2d2ad526d4ce97232a93464c1f8e801fcd28adc223fd2.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.233723 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/logo-malibu-4af265c0c4fe3d3167e6e76c3751685034fbdcb535cb3ab9f7bf3d102674d153.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.236422 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/logo-mount-14681cba4652d830f133a156bffa95e095ad63967c6189050678b3f5f598c326.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.239028 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/mask-e502f82fa48ec3e8cd3eb1312530d4baeaa097161fbf0db6e30831247c93b206.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.241919 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/media-mashable-09a555a1be33f3d8c840789f0c19b34d41dd5f6096ae30d64379f04efe553eed.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.245130 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/media-ny-98802bcad1be5bb3da6cefbd5387da843fa3edbef21cde62a9b481001897c19d.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.247911 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/media-telecrunch-448becd213632cb71a881e3444675ca40961527ee323e7524fbf9bd3f21b6414.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.250954 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/media-tnw-41640dac8f0a0136d1baf22cbee529881f2e6d79c2295b432597e26baa253e43.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.254301 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/media-wsj-a92a9e9f1f1d53e6389782ba0ccabe40c660cca3218acdaefed67c96d5809fd8.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.257304 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/member-2-about-us-183b1d2708338e7389e4cac77273237b7cfdaa612e0efd578f0f3f62d2bc066d.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.260410 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/member-3-about-us-b22c11ae49d03e7eb4aefadeb467c22df3afe01961ac9ada7798893e8f3db339.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.263635 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/member-4-about-us-d2e73db67b853948ff3bc2a6e612bbf3878726162ce60670eba3390f5fdbdab6.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.266868 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/member-5-about-us-163dbfb7ef9c7df0c122bfea63611d54e9cb39766dd2493116d3c2aa181eaf3c.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.270037 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/member-6-about-us-f8830d341182ab0a2948a0c0866d51ff7885b8added3b1cc3e3acc1ed92afe17.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.275362 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/member-7-about-us-5308de358b3c3620b778d71e516357a01d563a17161a2efbe68408446894b78b.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.279828 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/member-jessica-e4aa194f0197d64c5f984869091bea1d2fed51ce998c2aaa67f83086d2441f65.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.283764 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/ny-back-d8f22aca454e2ad91f34ca71288f38d42286b2c80e3d9ec37f6e8189afca103a.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.287880 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/original_grow-your-own-grape-vine-38af371ba78d7aefd0b2aed5eac65bb3b736cb8cf6008aa5319bde12604ac98a.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.291715 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/pasta-5dee58b598b90074149d5551197660054e3f0cf81a025ae77014c526fd296e07.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.296087 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/place-google-map-ab17d7bd5e3310a3c3c25f2d6d197dee28eb196ee1645dba0ee9bd1b5ab743fe.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.300644 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/place-image-fb2321faabf69099d9f9c79425ff382bfca02f2f9504a04f5a3822bc3ccb2035.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.305011 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/place-slide-1-60d11bb14368bfc9789918ca92d94194de7761aaa321a3e25de4a8dd2fb02336.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.310015 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/place-slide-2-f8ac02ec7c0ca76b2c70a2fb1709267f8f4b13778492f60193e8afd00d11ab1b.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.314242 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/place-slide-3-0bb7dfe038343c964c37d8f18ffcdacf674f86545b3de91ef3db31981b86533b.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.318243 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/place-slide-4-e1453df5b676644e1e00e29ce5ae3270fdde20e1a12a86db305124c777139693.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.321758 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/polygen-8430cff41a372922fa7dbe038d8ff1cc8dddbf319cce2b74f3b2f110dba8e4cc.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.325253 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/select2-spinner-f6ecff617ec2ba7f559e6f535cad9b70a3f91120737535dab4d4548a6c83576c.gif
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.328478 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/select2-d6b5d8d83dbc18fb8d77c8761d331cd9e5123c9684950bab0406e98a24ac5ae8.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.332301 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/select2x2-6fe28d687dc0ed4d96016238c608ba1e7198c9c9accfa0b360b78018b9fb9bc2.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.336872 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/sf-back-250c76334dc36c7ff8dbef933522b5e213071fda17baa9132eef98d0d239cbf1.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.340987 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/sf-back2-e4fb30460ec8da2cf5d1f89db83b626e82f82a8842e1c5f4932efb5d7325c6a8.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.344059 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/reddit-2516a6fee901c62aa046e95f2631270724dfe7acfc3cb66af29a0ee1604c1953.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.344391 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/reddit-2516a6fee901c62aa046e95f2631270724dfe7acfc3cb66af29a0ee1604c1953.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.347543 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/travel-1404ed0a667f408cde77cd6ab863598cdeb08c635c4d5e9764f5eedc5f67de50.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.351527 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/uploadimages-wine-2-115a1f35befb210305ff4b0a029b5f37b81f6349cfeaf5348e4c4b765aa4f36c.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.355293 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/uploadimages-wine-3-72b5f9b54bad6f0b0a58c92693412f1a95962cc34c513a6ab8bf9f9e7bedca66.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.364226 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/wine/blog4-905c08fb76789dc8d4e8a36779fe9f7d0feab42997f2f894a874d904f9203de8.png
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:08.372086 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/wine/grape-expectations-wine-cel-a099ffb4ff8466935913599e58bf3dd2429fd523bb5e17b4b99c29ed8361106b.jpg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:14.073633 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/application-008af017c90f2a1f34a5f9cadd17f3d3eee6b1042799635ebad832966760394b.js
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:14.074422 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/application-008af017c90f2a1f34a5f9cadd17f3d3eee6b1042799635ebad832966760394b.js.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:39.959508 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/application-81ae1d0d1608e89cb798d81c2a6252ec138fdf0a981e8e05af6d0351bde7399d.css
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:39.960373 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/application-81ae1d0d1608e89cb798d81c2a6252ec138fdf0a981e8e05af6d0351bde7399d.css.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:39.991939 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/twitter-7b64ce0117a85c5d52ed45c27707af61d9b0e0d590284baa287cfe87867b9ae1.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:39.992367 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/twitter-7b64ce0117a85c5d52ed45c27707af61d9b0e0d590284baa287cfe87867b9ae1.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:39.992698 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/facebook-03210e1663ee772e93ed5d344cdb36657b68342821aaebe982f2f984915990b3.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:39.993316 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/facebook-03210e1663ee772e93ed5d344cdb36657b68342821aaebe982f2f984915990b3.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:39.993645 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/google_bookmark-bb4c960c0421cb7dce602d10e744692bcc1c54f323410f4965d508f96e2255ce.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:39.994199 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/google_bookmark-bb4c960c0421cb7dce602d10e744692bcc1c54f323410f4965d508f96e2255ce.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:39.994528 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/google_plus-50c049fbb29cd3346f1bf9349017b644bcd00a53b56bd156728850f57bd85c0a.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:39.995116 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/google_plus-50c049fbb29cd3346f1bf9349017b644bcd00a53b56bd156728850f57bd85c0a.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:39.995463 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/weibo-a345a6ca554e6f388da9eb35746bb0425cb018c16408ba82852c66d375245d6f.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:39.997024 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/weibo-a345a6ca554e6f388da9eb35746bb0425cb018c16408ba82852c66d375245d6f.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:39.997336 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/qq-4dbae8223fc7823f6d73bc7fbe113eb894f4c174ec3ae93103ca382c78a2bf67.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:39.998081 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/qq-4dbae8223fc7823f6d73bc7fbe113eb894f4c174ec3ae93103ca382c78a2bf67.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:39.998396 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/delicious-0c55f72f821aae5352691f13eb64bf3435573e2169d0720477ed367b2f1ed28e.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:39.999099 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/delicious-0c55f72f821aae5352691f13eb64bf3435573e2169d0720477ed367b2f1ed28e.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:39.999413 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/linkedin-b7fd42895b291003c444a9c2acf867ea813671e0b725a5d7c05dbb13f5c0fdd3.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:40.000123 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/linkedin-b7fd42895b291003c444a9c2acf867ea813671e0b725a5d7c05dbb13f5c0fdd3.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:40.000596 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/tumblr-330a37f93cce7c27a750188d0bfdbed3a22f566b807e64d21131dcdc94e08ec3.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:40.000996 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/tumblr-330a37f93cce7c27a750188d0bfdbed3a22f566b807e64d21131dcdc94e08ec3.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:40.001316 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/pinterest-86203d156197cce4087fee058b920d275c535df5fd59d8caa83da0ef41d1ec7f.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:40.002102 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/pinterest-86203d156197cce4087fee058b920d275c535df5fd59d8caa83da0ef41d1ec7f.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:40.002413 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/douban-46298c27e3bc6d59951c0bbc464339a5ba1b44e3b25b571874f1baacd7af2495.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:40.003047 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/douban-46298c27e3bc6d59951c0bbc464339a5ba1b44e3b25b571874f1baacd7af2495.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:40.003363 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/wechat-d8852cc3396a7a53eba39595d2e9f638c93a34ab1a0f41bae4ff391b63815f56.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:40.003916 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/wechat-d8852cc3396a7a53eba39595d2e9f638c93a34ab1a0f41bae4ff391b63815f56.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:40.004231 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/vkontakte-0c2b68277fade991d74efcbdb6f7b359a35e65156cbada9625a3fe8f73151c14.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:40.004878 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/vkontakte-0c2b68277fade991d74efcbdb6f7b359a35e65156cbada9625a3fe8f73151c14.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:40.005227 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/odnoklassniki-579bf782bd70fe94748254cac2c8c3dc150cceb0d2a143399e3062246b5ecb39.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:40.005788 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/odnoklassniki-579bf782bd70fe94748254cac2c8c3dc150cceb0d2a143399e3062246b5ecb39.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:40.006108 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/xing-0ebccb4042c8c7220e471c4f569df2bf27da227db425525819b6848c86a1603e.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:40.006673 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/xing-0ebccb4042c8c7220e471c4f569df2bf27da227db425525819b6848c86a1603e.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:40.006989 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/email-7067143cbe69d9d8cf25e67fda1a315d133c2b79074a09088bd712cc5c81135d.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:40.007599 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/email-7067143cbe69d9d8cf25e67fda1a315d133c2b79074a09088bd712cc5c81135d.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:40.008427 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/hacker_news-d89b13fec49355a787389a776f2e03a0a38314abf93777b8865f8c5f146eaf8d.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:40.008782 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/hacker_news-d89b13fec49355a787389a776f2e03a0a38314abf93777b8865f8c5f146eaf8d.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:40.009107 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/telegram-a6b5607917f3e3efbcf35c3ed43356b05622fcfc533d2fbf5066621b78c1dbe4.svg
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:40.009660 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/social-share-button/telegram-a6b5607917f3e3efbcf35c3ed43356b05622fcfc533d2fbf5066621b78c1dbe4.svg.gz
+ DEBUG [c5f81462] 	I, [2018-01-06T03:24:40.014643 #16121]  INFO -- : Writing /home/deploy/wine-grape/releases/20180106032117/public/assets/styles.css-12de2f6ea3daa89670c6f8cf6dff66d1bdaad48a5ba4ff3e00e1d40a21179b99.map
+  INFO [c5f81462] Finished in 41.507 seconds with exit status 0 (successful).
+ DEBUG [b373b5b7] Running if test ! -d /home/deploy/wine-grape/releases/20180106032117; then echo "Directory does not exist '/home/deploy/wine-grape/releases/20180106032117'" 1>&2; false; fi as deploy@212.111.43.97
+ DEBUG [b373b5b7] Command: if test ! -d /home/deploy/wine-grape/releases/20180106032117; then echo "Directory does not exist '/home/deploy/wine-grape/releases/20180106032117'" 1>&2; false; fi
+ DEBUG [b373b5b7] Finished in 1.382 seconds with exit status 0 (successful).
+  INFO [368b4114] Running /usr/bin/env mkdir -p /home/deploy/wine-grape/releases/20180106032117/assets_manifest_backup as deploy@212.111.43.97
+ DEBUG [368b4114] Command: cd /home/deploy/wine-grape/releases/20180106032117 && /usr/bin/env mkdir -p /home/deploy/wine-grape/releases/20180106032117/assets_manifest_backup
+  INFO [368b4114] Finished in 0.819 seconds with exit status 0 (successful).
+ DEBUG [0e434737] Running /usr/bin/env ls /home/deploy/wine-grape/releases/20180106032117/public/assets/.sprockets-manifest* as deploy@212.111.43.97
+ DEBUG [0e434737] Command: cd /home/deploy/wine-grape/releases/20180106032117 && /usr/bin/env ls /home/deploy/wine-grape/releases/20180106032117/public/assets/.sprockets-manifest*
+ DEBUG [0e434737] 	/home/deploy/wine-grape/releases/20180106032117/public/assets/.sprockets-manifest-cba0853b7f2fc0509c4e7620256601cd.json
+ DEBUG [0e434737] Finished in 0.817 seconds with exit status 0 (successful).
+ DEBUG [a7a2eb2f] Running /usr/bin/env ls /home/deploy/wine-grape/releases/20180106032117/public/assets/.sprockets-manifest* as deploy@212.111.43.97
+ DEBUG [a7a2eb2f] Command: cd /home/deploy/wine-grape/releases/20180106032117 && /usr/bin/env ls /home/deploy/wine-grape/releases/20180106032117/public/assets/.sprockets-manifest*
+ DEBUG [a7a2eb2f] 	/home/deploy/wine-grape/releases/20180106032117/public/assets/.sprockets-manifest-cba0853b7f2fc0509c4e7620256601cd.json
+ DEBUG [a7a2eb2f] Finished in 0.826 seconds with exit status 0 (successful).
+  INFO [168de1bc] Running /usr/bin/env cp /home/deploy/wine-grape/releases/20180106032117/public/assets/.sprockets-manifest-cba0853b7f2fc0509c4e7620256601cd.json /home/deploy/wine-grape/releases/20180106032117/assets_manifest_backup as deploy@212.111.43.97
+ DEBUG [168de1bc] Command: cd /home/deploy/wine-grape/releases/20180106032117 && /usr/bin/env cp /home/deploy/wine-grape/releases/20180106032117/public/assets/.sprockets-manifest-cba0853b7f2fc0509c4e7620256601cd.json /home/deploy/wine-grape/releases/20180106032117/assets_manifest_backup
+  INFO [168de1bc] Finished in 0.827 seconds with exit status 0 (successful).
+  INFO [deploy:migrate] Run `rake db:migrate`
+ DEBUG [4d1350b2] Running if test ! -d /home/deploy/wine-grape/releases/20180106032117; then echo "Directory does not exist '/home/deploy/wine-grape/releases/20180106032117'" 1>&2; false; fi as deploy@212.111.43.97
+ DEBUG [4d1350b2] Command: if test ! -d /home/deploy/wine-grape/releases/20180106032117; then echo "Directory does not exist '/home/deploy/wine-grape/releases/20180106032117'" 1>&2; false; fi
+ DEBUG [4d1350b2] Finished in 0.794 seconds with exit status 0 (successful).
+  INFO [a3f478c7] Running /usr/local/rvm/bin/rvm default do bundle exec rake db:migrate as deploy@212.111.43.97
+ DEBUG [a3f478c7] Command: cd /home/deploy/wine-grape/releases/20180106032117 && ( export RAILS_ENV="production" ; /usr/local/rvm/bin/rvm default do bundle exec rake db:migrate )
+ DEBUG [a3f478c7] 	== 20161208181218 CreateCompanies: migrating ==================================
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	-- create_table(:companies)
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	   -> 0.0076s
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	== 20161208181218 CreateCompanies: migrated (0.0079s) =========================
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	== 20161208193054 CreateCategories: migrating =================================
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	-- create_table(:categories)
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	   -> 0.0067s
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	== 20161208193054 CreateCategories: migrated (0.0070s) ========================
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	== 20161208195733 CreateSubCategories: migrating ==============================
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	-- create_table(:sub_categories)
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	   -> 0.0266s
+-- add_index(:sub_categories, [:category_id, :created_at])
+ DEBUG [a3f478c7] 	   -> 0.0089s
+== 20161208195733 CreateSubCategories: migrated (0.0358s) =====================
+
+ DEBUG [a3f478c7] 	== 20161220162436 AddPosToCompanies: migrating ================================
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	-- add_column(:companies, :lat, :real)
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	   -> 0.0108s
+-- add_column(:companies, :lng, :real)
+ DEBUG [a3f478c7] 	   -> 0.0098s
+-- add_column(:companies, :photo, :string)
+ DEBUG [a3f478c7] 	   -> 0.0093s
+== 20161220162436 AddPosToCompanies: migrated (0.0301s) =======================
+
+ DEBUG [a3f478c7] 	== 20161220182804 AddAddressToCompanies: migrating ============================
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	-- add_column(:companies, :address, :string)
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	   -> 0.0097s
+== 20161220182804 AddAddressToCompanies: migrated (0.0098s) ===================
+
+ DEBUG [a3f478c7] 	== 20161221193327 CreateIps: migrating ========================================
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	-- create_table(:ips)
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	   -> 0.0047s
+== 20161221193327 CreateIps: migrated (0.0048s) ===============================
+
+ DEBUG [a3f478c7] 	== 20161221212623 AddCompanyToIps: migrating ==================================
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	-- add_column(:ips, :company_id, :integer)
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	   -> 0.0097s
+-- add_column(:ips, :share, :integer)
+ DEBUG [a3f478c7] 	   -> 0.0085s
+-- add_column(:ips, :like, :integer)
+ DEBUG [a3f478c7] 	   -> 0.0088s
+== 20161221212623 AddCompanyToIps: migrated (0.0271s) =========================
+
+ DEBUG [a3f478c7] 	== 20171223014330 CreateUsers: migrating ======================================
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	-- create_table(:users)
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	   -> 0.0077s
+== 20171223014330 CreateUsers: migrated (0.0078s) =============================
+
+ DEBUG [a3f478c7] 	== 20171223022248 AddPasswordDigestToUsers: migrating =========================
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	-- add_column(:users, :password_digest, :string)
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	   -> 0.0090s
+== 20171223022248 AddPasswordDigestToUsers: migrated (0.0091s) ================
+
+ DEBUG [a3f478c7] 	== 20171223134906 DeviseCreateAdminUsers: migrating ===========================
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	-- create_table(:admin_users)
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	   -> 0.0047s
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	-- add_index(:admin_users, :email, {:unique=>true})
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	   -> 0.0060s
+-- add_index(:admin_users, :reset_password_token, {:unique=>true})
+ DEBUG [a3f478c7] 	   -> 0.0098s
+== 20171223134906 DeviseCreateAdminUsers: migrated (0.0209s) ==================
+
+ DEBUG [a3f478c7] 	== 20171223134907 CreateActiveAdminComments: migrating ========================
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	-- create_table(:active_admin_comments)
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	   -> 0.0105s
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	-- add_index(:active_admin_comments, [:namespace])
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	   -> 0.0065s
+== 20171223134907 CreateActiveAdminComments: migrated (0.0175s) ===============
+
+ DEBUG [a3f478c7] 	== 20171225025915 CreateGrapes: migrating =====================================
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	-- create_table(:grapes)
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	   -> 0.0062s
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	== 20171225025915 CreateGrapes: migrated (0.0064s) ============================
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	== 20171225045159 CreateWines: migrating ======================================
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	-- create_table(:wines)
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	   -> 0.0057s
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	== 20171225045159 CreateWines: migrated (0.0059s) =============================
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	== 20171225160806 AddColumnsToGrape: migrating ================================
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	-- add_column(:grapes, :supply, :string)
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	   -> 0.0114s
+-- add_column(:grapes, :share, :string)
+ DEBUG [a3f478c7] 	   -> 0.0089s
+-- add_column(:grapes, :like, :string)
+ DEBUG [a3f478c7] 	   -> 0.0089s
+== 20171225160806 AddColumnsToGrape: migrated (0.0293s) =======================
+
+ DEBUG [a3f478c7] 	== 20171225180435 AddColumnsToWine: migrating =================================
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	-- add_column(:wines, :share, :string)
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	   -> 0.0094s
+-- add_column(:wines, :like, :string)
+ DEBUG [a3f478c7] 	   -> 0.0101s
+== 20171225180435 AddColumnsToWine: migrated (0.0197s) ========================
+
+ DEBUG [a3f478c7] 	== 20171226124230 ChangeColumnName: migrating =================================
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	-- rename_column(:grapes, :logn_des, :long_des)
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	   -> 0.0053s
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	== 20171226124230 ChangeColumnName: migrated (0.0055s) ========================
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	== 20171227050836 CreateFirmwareImages: migrating =============================
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	-- create_table(:firmware_images)
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	   -> 0.0071s
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	== 20171227050836 CreateFirmwareImages: migrated (0.0073s) ====================
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	== 20171228010214 CreateBlogs: migrating ======================================
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	-- create_table(:blogs)
+ DEBUG [a3f478c7] 	
+ DEBUG [a3f478c7] 	   -> 0.0905s
+== 20171228010214 CreateBlogs: migrated (0.0906s) =============================
+
+  INFO [a3f478c7] Finished in 5.408 seconds with exit status 0 (successful).
+  INFO [d4948504] Running /usr/bin/env ln -s /home/deploy/wine-grape/releases/20180106032117 /home/deploy/wine-grape/releases/current as deploy@212.111.43.97
+ DEBUG [d4948504] Command: /usr/bin/env ln -s /home/deploy/wine-grape/releases/20180106032117 /home/deploy/wine-grape/releases/current
+  INFO [d4948504] Finished in 0.799 seconds with exit status 0 (successful).
+  INFO [98382112] Running /usr/bin/env mv /home/deploy/wine-grape/releases/current /home/deploy/wine-grape as deploy@212.111.43.97
+ DEBUG [98382112] Command: /usr/bin/env mv /home/deploy/wine-grape/releases/current /home/deploy/wine-grape
+  INFO [98382112] Finished in 1.051 seconds with exit status 0 (successful).
+ DEBUG [be53a3b7] Running /usr/bin/env ls -xtr /home/deploy/wine-grape/releases as deploy@212.111.43.97
+ DEBUG [be53a3b7] Command: /usr/bin/env ls -xtr /home/deploy/wine-grape/releases
+ DEBUG [be53a3b7] 	20180106032117
+ DEBUG [be53a3b7] Finished in 0.812 seconds with exit status 0 (successful).
+  INFO [e46b981e] Running mkdir /home/deploy/wine-grape/shared/tmp/sockets -p as deploy@212.111.43.97
+ DEBUG [e46b981e] Command: mkdir /home/deploy/wine-grape/shared/tmp/sockets -p
+  INFO [e46b981e] Finished in 0.796 seconds with exit status 0 (successful).
+  INFO [09bc2fa6] Running mkdir /home/deploy/wine-grape/shared/tmp/pids -p as deploy@212.111.43.97
+ DEBUG [09bc2fa6] Command: mkdir /home/deploy/wine-grape/shared/tmp/pids -p
+  INFO [09bc2fa6] Finished in 0.820 seconds with exit status 0 (successful).
+ DEBUG [d92d2436] Running [ -f /home/deploy/wine-grape/shared/config/puma.rb ] as deploy@212.111.43.97
+ DEBUG [d92d2436] Command: [ -f /home/deploy/wine-grape/shared/config/puma.rb ]
+ DEBUG [d92d2436] Finished in 0.808 seconds with exit status 0 (successful).
+  INFO using conf file /home/deploy/wine-grape/shared/config/puma.rb
+ DEBUG [71d8e0d9] Running if test ! -d /home/deploy/wine-grape/current; then echo "Directory does not exist '/home/deploy/wine-grape/current'" 1>&2; false; fi as deploy@212.111.43.97
+ DEBUG [71d8e0d9] Command: if test ! -d /home/deploy/wine-grape/current; then echo "Directory does not exist '/home/deploy/wine-grape/current'" 1>&2; false; fi
+ DEBUG [71d8e0d9] Finished in 0.811 seconds with exit status 0 (successful).
+  INFO [491c06a6] Running /usr/local/rvm/bin/rvm default do bundle exec puma -C /home/deploy/wine-grape/shared/config/puma.rb --daemon as deploy@212.111.43.97
+ DEBUG [491c06a6] Command: cd /home/deploy/wine-grape/current && ( export RACK_ENV="production" ; /usr/local/rvm/bin/rvm default do bundle exec puma -C /home/deploy/wine-grape/shared/config/puma.rb --daemon )
+ DEBUG [491c06a6] 	Puma starting in single mode...
+ DEBUG [491c06a6] 	
+ DEBUG [491c06a6] 	* Version 3.11.0 (ruby 2.3.1-p112), codename: Love Song
+ DEBUG [491c06a6] 	
+ DEBUG [491c06a6] 	* Min threads: 4, max threads: 16
+ DEBUG [491c06a6] 	
+ DEBUG [491c06a6] 	* Environment: production
+ DEBUG [491c06a6] 	
+ DEBUG [491c06a6] 	* Daemonizing...
+ DEBUG [491c06a6] 	
+  INFO [491c06a6] Finished in 1.685 seconds with exit status 0 (successful).
+ DEBUG [4932b4a9] Running if test ! -d /home/deploy/wine-grape/current; then echo "Directory does not exist '/home/deploy/wine-grape/current'" 1>&2; false; fi as deploy@212.111.43.97
+ DEBUG [4932b4a9] Command: if test ! -d /home/deploy/wine-grape/current; then echo "Directory does not exist '/home/deploy/wine-grape/current'" 1>&2; false; fi
+ DEBUG [4932b4a9] Finished in 1.039 seconds with exit status 0 (successful).
+ DEBUG [0a67bce2] Running [ -f /home/deploy/wine-grape/shared/tmp/pids/puma.pid ] as deploy@212.111.43.97
+ DEBUG [0a67bce2] Command: [ -f /home/deploy/wine-grape/shared/tmp/pids/puma.pid ]
+ DEBUG [0a67bce2] Finished in 0.781 seconds with exit status 1 (failed).
+ DEBUG [7f286bae] Running if test ! -d /home/deploy/wine-grape/releases; then echo "Directory does not exist '/home/deploy/wine-grape/releases'" 1>&2; false; fi as deploy@212.111.43.97
+ DEBUG [7f286bae] Command: if test ! -d /home/deploy/wine-grape/releases; then echo "Directory does not exist '/home/deploy/wine-grape/releases'" 1>&2; false; fi
+ DEBUG [7f286bae] Finished in 0.805 seconds with exit status 0 (successful).
+  INFO [04d7a736] Running /usr/bin/env echo "Branch master (at 7729b77c04a467272e64295e105c6d5fd49c7b0c) deployed as release 20180106032117 by dragonstar" >> /home/deploy/wine-grape/revisions.log as deploy@212.111.43.97
+ DEBUG [04d7a736] Command: cd /home/deploy/wine-grape/releases && /usr/bin/env echo "Branch master (at 7729b77c04a467272e64295e105c6d5fd49c7b0c) deployed as release 20180106032117 by dragonstar" >> /home/deploy/wine-grape/revisions.log
+  INFO [04d7a736] Finished in 0.824 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-05 19:31:17 -0800 cap production seed
+  INFO ---------------------------------------------------------------------------
+ DEBUG [398110e9] Running [ -d ~/.rvm ] as deploy@212.111.43.97
+ DEBUG [398110e9] Command: [ -d ~/.rvm ]
+ DEBUG [398110e9] Finished in 12.217 seconds with exit status 1 (failed).
+ DEBUG [655d631d] Running [ -d /usr/local/rvm ] as deploy@212.111.43.97
+ DEBUG [655d631d] Command: [ -d /usr/local/rvm ]
+ DEBUG [655d631d] Finished in 0.843 seconds with exit status 0 (successful).
+ DEBUG [2a78245c] Running /usr/local/rvm/bin/rvm version as deploy@212.111.43.97
+ DEBUG [2a78245c] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [2a78245c] 	rvm 1.29.3 (master) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [2a78245c] Finished in 0.997 seconds with exit status 0 (successful).
+ DEBUG [365e40ec] Running /usr/local/rvm/bin/rvm current as deploy@212.111.43.97
+ DEBUG [365e40ec] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [365e40ec] 	ruby-2.3.1
+ DEBUG [365e40ec] Finished in 0.991 seconds with exit status 0 (successful).
+ DEBUG [9e6d7870] Running /usr/local/rvm/bin/rvm default do ruby --version as deploy@212.111.43.97
+ DEBUG [9e6d7870] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [9e6d7870] 	ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-linux]
+ DEBUG [9e6d7870] Finished in 1.111 seconds with exit status 0 (successful).
+ DEBUG [0160d112] Running if test ! -d /home/deploy/wine-grape/current; then echo "Directory does not exist '/home/deploy/wine-grape/current'" 1>&2; false; fi as deploy@212.111.43.97
+ DEBUG [0160d112] Command: if test ! -d /home/deploy/wine-grape/current; then echo "Directory does not exist '/home/deploy/wine-grape/current'" 1>&2; false; fi
+ DEBUG [0160d112] Finished in 0.845 seconds with exit status 0 (successful).
+  INFO [8ed86f26] Running /usr/local/rvm/bin/rvm default do bundle exec rake db:seed as deploy@212.111.43.97
+ DEBUG [8ed86f26] Command: cd /home/deploy/wine-grape/current && ( export RAILS_ENV="production" ; /usr/local/rvm/bin/rvm default do bundle exec rake db:seed )
+ DEBUG [8ed86f26] 	rake aborted!
+ DEBUG [8ed86f26] 	ActiveRecord::ValueTooLong: Mysql2::Error: Data too long for column 'photo' at row 1: INSERT INTO `companies` (`name`, `category`, `city`, `share`, `like`, `created_at`, `updated_at`, `lat`, `lng`, `photo`, `address`) VALUES ('Four Seasons Hotel San Francisco', 3, 'San Francisco', 11, 39, '2018-01-06 03:31:38', '2018-01-06 03:31:38', 37.786134, -122.4043034, 'https://maps.googleapis.com/maps/api/place/photo?maxheight=400&photoreference=CoQBdwAAADdGfQb1pmgcMLZD6s89vWbz-ylO7WVeYpmQGM8UIocDD8aMJI1eYjxpNITjMf3P7alUhskBXts6biqw0uNjMr91U89W-J0Pf7VEKyva9egkVSgUPgzDTgl88C_AM6M9lcEPa7FcuN5xzsoIlm-Lp1SvBioAh6uFgEe-ln-_DyFjEhDBKk7xhK-V5v6oF07C_scuGhTPeEiQCUMrHrCaYHBPQanr5NNgwg&key=AIzaSyD_mMKLGBULdpg7KvEFfdoHQpdbu83EG-Q', '757 Market St, San Francisco, CA 94103, United States')
+ DEBUG [8ed86f26] 	/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/mysql2-0.4.10/lib/mysql2/client.rb:120:in `_query'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/mysql2-0.4.10/lib/mysql2/client.rb:120:in `block in query'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/mysql2-0.4.10/lib/mysql2/client.rb:119:in `handle_interrupt'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/mysql2-0.4.10/lib/mysql2/client.rb:119:in `query'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:218:in `block in execute'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/connection_adapters/abstract_adapter.rb:590:in `block in log'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/connection_adapters/abstract_adapter.rb:583:in `log'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:218:in `execute'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/connection_adapters/mysql/database_statements.rb:31:in `execute'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:225:in `execute_and_free'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/connection_adapters/mysql/database_statements.rb:36:in `exec_query'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/connection_adapters/abstract/database_statements.rb:92:in `exec_insert'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/connection_adapters/abstract/database_statements.rb:124:in `insert'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/a
+ DEBUG [8ed86f26] 	ctiverecord-5.0.6/lib/active_record/connection_adapters/abstract/query_cache.rb:17:in `insert'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/relation.rb:65:in `insert'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/persistence.rb:572:in `_create_record'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/counter_cache.rb:128:in `_create_record'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/locking/optimistic.rb:75:in `_create_record'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/attribute_methods/dirty.rb:123:in `_create_record'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/callbacks.rb:302:in `block in _create_record'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/callbacks.rb:750:in `_run_create_callbacks'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/callbacks.rb:302:in `_create_record'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/timestamp.rb:68:in `_create_record'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/persistence.rb:548:in `create_or_update'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/callbacks.rb:298:in `block in create_or_update'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/callbacks.rb:750:in `_run_save_callbacks'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/callb
+ DEBUG [8ed86f26] 	acks.rb:298:in `create_or_update'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/persistence.rb:160:in `save!'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/validations.rb:50:in `save!'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/attribute_methods/dirty.rb:30:in `save!'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/transactions.rb:324:in `block in save!'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/transactions.rb:395:in `block in with_transaction_returning_status'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/connection_adapters/abstract/database_statements.rb:232:in `block in transaction'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/connection_adapters/abstract/transaction.rb:189:in `within_new_transaction'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/connection_adapters/abstract/database_statements.rb:232:in `transaction'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/transactions.rb:211:in `transaction'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/transactions.rb:392:in `with_transaction_returning_status'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/transactions.rb:324:in `save!'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/suppressor.rb:45:in `save!'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/persistence.rb:51:in `create!'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/persistence.rb:48:in `block in create!'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/li
+ DEBUG [8ed86f26] 	b/active_record/persistence.rb:48:in `collect'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/persistence.rb:48:in `create!'
+/home/deploy/wine-grape/releases/20180106032117/db/seeds.rb:20:in `<top (required)>'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/dependencies.rb:287:in `load'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/dependencies.rb:287:in `block in load'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/dependencies.rb:259:in `load_dependency'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/dependencies.rb:287:in `load'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/railties-5.0.6/lib/rails/engine.rb:549:in `load_seed'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/tasks/database_tasks.rb:270:in `load_seed'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/railties/databases.rake:184:in `block (2 levels) in <top (required)>'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/rake-12.3.0/exe/rake:27:in `<top (required)>'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/lib/bundler/cli/exec.rb:75:in `load'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/lib/bundler/cli/exec.rb:75:in `kernel_load'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/lib/bundler/cli/exec.rb:28:in `run'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/lib/bundler/cli.rb:424:in `exec'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/lib/bundler/vendor/thor/lib/thor.rb:387:in `dispatch'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/lib/bundler/cli.rb:27:in `dispatch'
+/usr
+ DEBUG [8ed86f26] 	/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/lib/bundler/vendor/thor/lib/thor/base.rb:466:in `start'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/lib/bundler/cli.rb:18:in `start'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/exe/bundle:30:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/lib/bundler/friendly_errors.rb:122:in `with_friendly_errors'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/exe/bundle:22:in `<top (required)>'
+/usr/local/rvm/gems/ruby-2.3.1/bin/bundle:23:in `load'
+/usr/local/rvm/gems/ruby-2.3.1/bin/bundle:23:in `<main>'
+/usr/local/rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `eval'
+/usr/local/rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `<main>'
+ DEBUG [8ed86f26] 	
+Caused by:
+ DEBUG [8ed86f26] 	Mysql2::Error: Data too long for column 'photo' at row 1
+ DEBUG [8ed86f26] 	/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/mysql2-0.4.10/lib/mysql2/client.rb:120:in `_query'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/mysql2-0.4.10/lib/mysql2/client.rb:120:in `block in query'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/mysql2-0.4.10/lib/mysql2/client.rb:119:in `handle_interrupt'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/mysql2-0.4.10/lib/mysql2/client.rb:119:in `query'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:218:in `block in execute'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/connection_adapters/abstract_adapter.rb:590:in `block in log'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/connection_adapters/abstract_adapter.rb:583:in `log'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:218:in `execute'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/connection_adapters/mysql/database_statements.rb:31:in `execute'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:225:in `execute_and_free'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/connection_adapters/mysql/database_statements.rb:36:in `exec_query'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/connection_adapters/abstract/database_statements.rb:92:in `exec_insert'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/connection_adapters/abstract/database_statements.rb:124:in `insert'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/a
+ DEBUG [8ed86f26] 	ctiverecord-5.0.6/lib/active_record/connection_adapters/abstract/query_cache.rb:17:in `insert'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/relation.rb:65:in `insert'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/persistence.rb:572:in `_create_record'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/counter_cache.rb:128:in `_create_record'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/locking/optimistic.rb:75:in `_create_record'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/attribute_methods/dirty.rb:123:in `_create_record'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/callbacks.rb:302:in `block in _create_record'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/callbacks.rb:750:in `_run_create_callbacks'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/callbacks.rb:302:in `_create_record'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/timestamp.rb:68:in `_create_record'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/persistence.rb:548:in `create_or_update'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/callbacks.rb:298:in `block in create_or_update'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/callbacks.rb:750:in `_run_save_callbacks'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/callb
+ DEBUG [8ed86f26] 	acks.rb:298:in `create_or_update'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/persistence.rb:160:in `save!'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/validations.rb:50:in `save!'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/attribute_methods/dirty.rb:30:in `save!'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/transactions.rb:324:in `block in save!'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/transactions.rb:395:in `block in with_transaction_returning_status'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/connection_adapters/abstract/database_statements.rb:232:in `block in transaction'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/connection_adapters/abstract/transaction.rb:189:in `within_new_transaction'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/connection_adapters/abstract/database_statements.rb:232:in `transaction'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/transactions.rb:211:in `transaction'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/transactions.rb:392:in `with_transaction_returning_status'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/transactions.rb:324:in `save!'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/suppressor.rb:45:in `save!'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/persistence.rb:51:in `create!'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/persistence.rb:48:in `block in create!'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/li
+ DEBUG [8ed86f26] 	b/active_record/persistence.rb:48:in `collect'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/persistence.rb:48:in `create!'
+/home/deploy/wine-grape/releases/20180106032117/db/seeds.rb:20:in `<top (required)>'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/dependencies.rb:287:in `load'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/dependencies.rb:287:in `block in load'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/dependencies.rb:259:in `load_dependency'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/dependencies.rb:287:in `load'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/railties-5.0.6/lib/rails/engine.rb:549:in `load_seed'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/tasks/database_tasks.rb:270:in `load_seed'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/railties/databases.rake:184:in `block (2 levels) in <top (required)>'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/rake-12.3.0/exe/rake:27:in `<top (required)>'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/lib/bundler/cli/exec.rb:75:in `load'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/lib/bundler/cli/exec.rb:75:in `kernel_load'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/lib/bundler/cli/exec.rb:28:in `run'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/lib/bundler/cli.rb:424:in `exec'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/lib/bundler/vendor/thor/lib/thor.rb:387:in `dispatch'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/lib/bundler/cli.rb:27:in `dispatch'
+/usr
+ DEBUG [8ed86f26] 	/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/lib/bundler/vendor/thor/lib/thor/base.rb:466:in `start'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/lib/bundler/cli.rb:18:in `start'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/exe/bundle:30:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/lib/bundler/friendly_errors.rb:122:in `with_friendly_errors'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/exe/bundle:22:in `<top (required)>'
+/usr/local/rvm/gems/ruby-2.3.1/bin/bundle:23:in `load'
+/usr/local/rvm/gems/ruby-2.3.1/bin/bundle:23:in `<main>'
+/usr/local/rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `eval'
+/usr/local/rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `<main>'
+ DEBUG [8ed86f26] 	Tasks: TOP => db:seed
+ DEBUG [8ed86f26] 	(See full trace by running task with --trace)

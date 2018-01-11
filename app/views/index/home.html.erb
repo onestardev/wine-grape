@@ -19,13 +19,7 @@
           <%= form_for(:search_form, url:search_path, :method => 'get') do |f| %>
             <div class="search-wrapper">
               <span class="search_icon"></span>
-              <%= text_field_tag :search, '', placeholder: "Search by Category", class:"search_field_input" %>
-              <select name="search_select" id="search_select">
-                <option></option>
-                <% Category.all.each do |category| %>
-                  <option value="<%= category.id %>"><%= category.name %></option>
-                <% end %>
-              </select>
+              <%= text_field_tag :search, '', placeholder: "Search by name", class:"search_field_input" %>
               <%= f.submit 'Coming Soon!', class: "search_button sf" %>
             </div>
           <% end %>

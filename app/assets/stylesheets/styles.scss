@@ -142,15 +142,13 @@
       padding-left: 0px;
       float: left; }
       .header .navbar .pages-section .pages-list li.page-link {
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 700;
         line-height: 24px;
         display: inline-block;
-        text-transform: uppercase;
         margin-top: 10px;
         color: #8FA93E; }
         .header .navbar .pages-section .pages-list li.page-link a {
-          text-transform: uppercase;
           color: #8FA93E;
           font-family: "Raleway",sans-serif;
           margin-right: 40px; }
@@ -182,7 +180,6 @@
       font-size: 12px;
       font-weight: 700;
       line-height: 24px;
-      text-transform: uppercase;
       font-family: "Raleway",sans-serif;
       height: 100%;
       min-height: 45px;
@@ -321,7 +318,6 @@
         padding-left: 22px;
         text-align: left; }
         .header .navbar .menu-list-wrapper .menu-listings-section .list-wrapper .list-heading {
-          text-transform: uppercase;
           color: #d01544;
           font-weight: 700;
           font-size: 12px;
@@ -496,7 +492,7 @@
         margin-top: 21px;
         margin-left: 21px; }
       .search-section .container-fluid .search-field-container .search-wrapper .search_field_input {
-        max-width: 290px;
+        max-width: 420px;
         float: left;
         font-family: Raleway, sans-serif;
         font-weight: 600;
@@ -2261,7 +2257,9 @@ footer {
       width: 13px;
       height: 23px;
       color: transparent;
-      background-image: url(asset_path('icon-slide-right.png')); }
+      background-image: url(asset_path('icon-slide-right.png'));
+      background-position: 6px 0px;
+       }
   .place-page .b_slider__slide {
     margin-left: 10px;
     margin-right: 10px; }

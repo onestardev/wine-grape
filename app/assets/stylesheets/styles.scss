@@ -1716,6 +1716,33 @@ footer {
   height: 450px;
   background-position: center 50%;
   width: 100%; }
+  .ranking-page .main-banner-section .banner-container-week {
+  position: relative;
+  background-image: url(asset_path('grape-back-1.png'));
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 450px;
+  height: 450px;
+  background-position: center 50%;
+  width: 100%; }
+  .ranking-page .main-banner-section .banner-container-wine {
+  position: relative;
+  background-image: url(asset_path('wine-back-1.png'));
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 450px;
+  height: 450px;
+  background-position: center 50%;
+  width: 100%; }
+  .ranking-page .main-banner-section .banner-container-wine-week {
+  position: relative;
+  background-image: url(asset_path('wine-week-back.png'));
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 450px;
+  height: 450px;
+  background-position: center 50%;
+  width: 100%; }
   .ranking-page .main-banner-section .banner-container h1 {
     margin: 0px;
     display: inline-block; }

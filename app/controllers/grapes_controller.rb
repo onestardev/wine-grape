@@ -1,9 +1,10 @@
 class GrapesController < InheritedResources::Base
 
-  private
-
-    def grape_params
-      params.require(:grape).permit(:name, :short_des, :long_des, :pic, :regions, :publish, :supply, :share, :like)
-    end
+   def index
+    @grapes = Grape.where(publish: 't')
+   end
+   def week
+    @grapes = Grape.where(publish: 't',week_pub: 't')
+   end
 end
 

@@ -1,9 +1,16 @@
 class WinesController < InheritedResources::Base
 
-  private
+	def index
 
-    def wine_params
-      params.require(:wine).permit(:name, :short_des, :long_des, :pic, :regions, :wine, :publish)
-    end
+		@wines = Wine.where(publish: 't')
+		
+	end
+
+	def week
+
+		@wines = Wine.where(publish: 't',week_pub: 't')
+
+	end
+
 end
 

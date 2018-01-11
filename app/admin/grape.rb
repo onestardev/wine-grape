@@ -9,6 +9,7 @@ ActiveAdmin.register Grape do
   	column :pic
   	column :regions
   	column :publish
+    column :week_pub
   	column :supply
   	column :updated_at
   	actions

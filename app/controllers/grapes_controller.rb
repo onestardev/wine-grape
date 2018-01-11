@@ -4,7 +4,7 @@ class GrapesController < InheritedResources::Base
     @grapes = Grape.where(publish: '1')
    end
    def week
-    @grapes = Grape.where(publish: 't',week_pub: '1')
+    @grapes = Grape.where(publish: '1',week_pub: '1')
    end
 end
 

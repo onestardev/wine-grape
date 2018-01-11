@@ -7676,3 +7676,8 @@ Caused by:
   INFO [6138c13e] Running /usr/bin/env echo "Branch master (at 97a82ef5fe2bb6307deed134009d3ffbbd4a19d8) deployed as release 20180111162039 by dragonstar" >> /home/deploy/wine-grape/revisions.log as deploy@212.111.43.97
  DEBUG [6138c13e] Command: cd /home/deploy/wine-grape/releases && /usr/bin/env echo "Branch master (at 97a82ef5fe2bb6307deed134009d3ffbbd4a19d8) deployed as release 20180111162039 by dragonstar" >> /home/deploy/wine-grape/revisions.log
   INFO [6138c13e] Finished in 1.127 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-11 08:26:33 -0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [f4eabe21] Running [ -d ~/.rvm ] as deploy@212.111.43.97
+ DEBUG [f4eabe21] Command: [ -d ~/.rvm ]

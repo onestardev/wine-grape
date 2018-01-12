@@ -3104,3 +3104,23 @@ footer {
 .about-us-page .place-container{
     padding: 20px 0px;
 }
+.blog-title{
+  margin-left: 40px;
+  color: #bbc568;
+}
+.scroll-up-container {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.72);
+        color: #fff;
+        visibility: hidden;
+        opacity: 0;
+        -webkit-transition: opacity 0.3s ease;
+        -moz-transition: opacity 0.3s ease;
+        -ms-transition: opacity 0.3s ease;
+        -o-transition: opacity 0.3s ease;
+        transition: opacity 0.3s ease; 
+      }

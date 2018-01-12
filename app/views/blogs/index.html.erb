@@ -8,7 +8,6 @@
                 <div class="row">
                     <h1 class="title-container col-xs-12 col-sm-12 col-lg-12">
                         <div class="city-name">Blogs</div>
-                        <div class="qoute-container col-xs-12 col-sm-12 col-lg-12">Learn More About US</div>
                     </h1>
                 </div>
                 <div class="row">
@@ -47,32 +46,14 @@
 
                 <!--Member-->
                 <% @blogs.each do |blog| %>
+                <%= link_to(blog) do %>
                 <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6 no-padding team-member">
-                   <%= image_tag "/uploads/" + blog.pic , class: 'img-responsive', alt: 'brunch places in San Francisco' %>
+                   <%= image_tag "/uploads/" + blog.pic , class: 'img-responsive', alt: blog.pic %>
                     <div class="info-container">
                         <div class="name-container"><%= blog.title %></div>
-                        <div class="separator"></div>
-                        <div class="role-container"><%= blog.tags %></div>
-                    </div>
-                    <div class="scroll-up-container">
-
-                        <div class="name-container">ELISE JOHNSON</div>
-                        <div class="separator"></div>
-                        <div class="role-container">Founder</div>
-                        <div class="text-container">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
-                        </div>
-                        <div class="social-container">
-                            <ul class="social-list">
-                                <li class="mail"><a href="#"></a></li>
-                                <li class="instagram"><a href="#"></a></li>
-                                <li class="facebook"><a href="#"></a></li>
-                                <li class="twitter"><a href="#"></a></li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
+                <% end %>
                  <% end %>
                 
             </div>

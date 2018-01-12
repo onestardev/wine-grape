@@ -40,7 +40,7 @@ ActiveAdmin.register Wine do
   		@wine[:week_pub] = attrs[:week_pub]
   		@wine[:pic] = attrs[:pic].original_filename
   		tmp = attrs[:pic].tempfile
-  		file = File.join("public/uploads", attrs[:pic].original_filename)
+  		file = Rails.root.join('public', 'uploads', attrs[:pic].original_filename)
   		FileUtils.cp tmp.path, file
   		if @wine.save
   			redirect_to admin_wine_path(@wine)
@@ -61,7 +61,7 @@ ActiveAdmin.register Wine do
   		@wine[:week_pub] = attrs[:week_pub]
   		@wine[:pic] = attrs[:pic].original_filename
   		tmp = attrs[:pic].tempfile
-  		file = File.join("public/uploads", attrs[:pic].original_filename)
+  		file = Rails.root.join('public', 'uploads', attrs[:pic].original_filename)
   		FileUtils.cp tmp.path, file
   		if @wine.save
   			redirect_to admin_wine_path(@wine)

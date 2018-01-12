@@ -42,7 +42,7 @@ ActiveAdmin.register Grape do
   		@grape[:week_pub] = attrs[:week_pub]
   		@grape[:pic] = attrs[:pic].original_filename
   		tmp = attrs[:pic].tempfile
-  		file = File.join("public/uploads", attrs[:pic].original_filename)
+  		file = Rails.root.join('public', 'uploads', attrs[:pic].original_filename)
   		FileUtils.cp tmp.path, file
   		if @grape.save
   			redirect_to admin_grape_path(@grape)
@@ -63,7 +63,7 @@ ActiveAdmin.register Grape do
   		@grape[:week_pub] = attrs[:week_pub]
   		@grape[:pic] = attrs[:pic].original_filename
   		tmp = attrs[:pic].tempfile
-  		file = File.join("public/uploads", attrs[:pic].original_filename)
+  		file = Rails.root.join('public', 'uploads', attrs[:pic].original_filename)
   		FileUtils.cp tmp.path, file
   		if @grape.save
   			redirect_to admin_grape_path(@grape)

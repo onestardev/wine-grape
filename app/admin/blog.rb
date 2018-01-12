@@ -49,7 +49,7 @@ ActiveAdmin.register Blog do
   		@blog[:publish] = attrs[:publish]
   		@blog[:pic] = attrs[:picture].original_filename
   		tmp = attrs[:picture].tempfile
-  		file = File.join("public/uploads", attrs[:picture].original_filename)
+  		file = File.join("uploads/", attrs[:picture].original_filename)
   		FileUtils.cp tmp.path, file
       if @blog.save
       	redirect_to admin_blog_path(@blog)
@@ -67,7 +67,7 @@ ActiveAdmin.register Blog do
      @blog[:tags] = attrs[:tags]
      @blog[:pic] = attrs[:picture].original_filename
      tmp = attrs[:picture].tempfile
-     file = File.join("public/uploads", attrs[:picture].original_filename)
+     file = File.join("uploads/", attrs[:picture].original_filename)
      FileUtils.cp tmp.path, file
 
       if @blog.save

@@ -10681,3 +10681,372 @@ Caused by:
   INFO [4ec27c97] Running /usr/local/rvm/bin/rvm default do bundle exec rake db:seed as deploy@212.111.43.97
  DEBUG [4ec27c97] Command: cd /home/deploy/wine-grape/current && ( export RAILS_ENV="production" ; /usr/local/rvm/bin/rvm default do bundle exec rake db:seed )
   INFO [4ec27c97] Finished in 4.148 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-11 21:06:50 -0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [c450d3be] Running [ -d ~/.rvm ] as deploy@212.111.43.97
+ DEBUG [c450d3be] Command: [ -d ~/.rvm ]
+ DEBUG [c450d3be] Finished in 9.684 seconds with exit status 1 (failed).
+ DEBUG [f075ab22] Running [ -d /usr/local/rvm ] as deploy@212.111.43.97
+ DEBUG [f075ab22] Command: [ -d /usr/local/rvm ]
+ DEBUG [f075ab22] Finished in 1.058 seconds with exit status 0 (successful).
+ DEBUG [0b293198] Running /usr/local/rvm/bin/rvm version as deploy@212.111.43.97
+ DEBUG [0b293198] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [0b293198] 	rvm 1.29.3 (master) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [0b293198] Finished in 1.327 seconds with exit status 0 (successful).
+ DEBUG [08a21377] Running /usr/local/rvm/bin/rvm current as deploy@212.111.43.97
+ DEBUG [08a21377] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [08a21377] 	ruby-2.3.1
+ DEBUG [08a21377] Finished in 1.462 seconds with exit status 0 (successful).
+ DEBUG [4b609df9] Running /usr/local/rvm/bin/rvm default do ruby --version as deploy@212.111.43.97
+ DEBUG [4b609df9] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [4b609df9] 	ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-linux]
+ DEBUG [4b609df9] Finished in 1.259 seconds with exit status 0 (successful).
+  INFO [7fe51aec] Running /usr/bin/env mkdir -p /tmp as deploy@212.111.43.97
+ DEBUG [7fe51aec] Command: /usr/bin/env mkdir -p /tmp
+  INFO [7fe51aec] Finished in 1.446 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-wine-grape-production-dragonstar.sh 0.0%
+  INFO Uploading /tmp/git-ssh-wine-grape-production-dragonstar.sh 100.0%
+  INFO [085f1ce8] Running /usr/bin/env chmod 700 /tmp/git-ssh-wine-grape-production-dragonstar.sh as deploy@212.111.43.97
+ DEBUG [085f1ce8] Command: /usr/bin/env chmod 700 /tmp/git-ssh-wine-grape-production-dragonstar.sh
+  INFO [085f1ce8] Finished in 2.304 seconds with exit status 0 (successful).
+  INFO [ee8f2797] Running /usr/bin/env git ls-remote --heads git@github.com:smart-web-rock/wine-grape.git as deploy@212.111.43.97
+ DEBUG [ee8f2797] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wine-grape-production-dragonstar.sh" ; /usr/bin/env git ls-remote --heads git@github.com:smart-web-rock/wine-grape.git )
+ DEBUG [ee8f2797] 	0b2fccddd0bf10fef49abc1fe281e35a932e7c84	refs/heads/master
+  INFO [ee8f2797] Finished in 4.059 seconds with exit status 0 (successful).
+  INFO [72b5188d] Running /usr/bin/env mkdir -p /home/deploy/wine-grape/shared /home/deploy/wine-grape/releases as deploy@212.111.43.97
+ DEBUG [72b5188d] Command: /usr/bin/env mkdir -p /home/deploy/wine-grape/shared /home/deploy/wine-grape/releases
+  INFO [72b5188d] Finished in 1.064 seconds with exit status 0 (successful).
+  INFO [e8220e08] Running /usr/bin/env mkdir -p /home/deploy/wine-grape/shared/bin /home/deploy/wine-grape/shared/log /home/deploy/wine-grape/shared/tmp/pids /home/deploy/wine-grape/shared/tmp/cache /home/deploy/wine-grape/shared/tmp/sockets /home/deploy/wine-grape/shared/vendor/bundle /home/deploy/wine-grape/shared/public/system /home/deploy/wine-grape/shared/public/assets as deploy@212.111.43.97
+ DEBUG [e8220e08] Command: /usr/bin/env mkdir -p /home/deploy/wine-grape/shared/bin /home/deploy/wine-grape/shared/log /home/deploy/wine-grape/shared/tmp/pids /home/deploy/wine-grape/shared/tmp/cache /home/deploy/wine-grape/shared/tmp/sockets /home/deploy/wine-grape/shared/vendor/bundle /home/deploy/wine-grape/shared/public/system /home/deploy/wine-grape/shared/public/assets
+  INFO [e8220e08] Finished in 1.061 seconds with exit status 0 (successful).
+  INFO [c5f3a0fe] Running /usr/bin/env mkdir -p /home/deploy/wine-grape/shared/config as deploy@212.111.43.97
+ DEBUG [c5f3a0fe] Command: /usr/bin/env mkdir -p /home/deploy/wine-grape/shared/config
+  INFO [c5f3a0fe] Finished in 1.467 seconds with exit status 0 (successful).
+ DEBUG [3d32a6a7] Running [ -f /home/deploy/wine-grape/shared/config/database.yml ] as deploy@212.111.43.97
+ DEBUG [3d32a6a7] Command: [ -f /home/deploy/wine-grape/shared/config/database.yml ]
+ DEBUG [3d32a6a7] Finished in 1.503 seconds with exit status 0 (successful).
+ DEBUG [a6d07d44] Running [ -f /home/deploy/wine-grape/shared/config/secrets.yml ] as deploy@212.111.43.97
+ DEBUG [a6d07d44] Command: [ -f /home/deploy/wine-grape/shared/config/secrets.yml ]
+ DEBUG [a6d07d44] Finished in 1.072 seconds with exit status 0 (successful).
+ DEBUG [7e1b382c] Running [ -f /home/deploy/wine-grape/shared/config/puma.rb ] as deploy@212.111.43.97
+ DEBUG [7e1b382c] Command: [ -f /home/deploy/wine-grape/shared/config/puma.rb ]
+ DEBUG [7e1b382c] Finished in 1.469 seconds with exit status 0 (successful).
+ DEBUG [439afad6] Running [ -f /home/deploy/wine-grape/current/REVISION ] as deploy@212.111.43.97
+ DEBUG [439afad6] Command: [ -f /home/deploy/wine-grape/current/REVISION ]
+ DEBUG [439afad6] Finished in 1.065 seconds with exit status 0 (successful).
+ DEBUG [37d38db8] Running /usr/bin/env cat /home/deploy/wine-grape/current/REVISION 2>/dev/null as deploy@212.111.43.97
+ DEBUG [37d38db8] Command: /usr/bin/env cat /home/deploy/wine-grape/current/REVISION 2>/dev/null
+ DEBUG [37d38db8] 	384426dfeb7e33e45a2d37d25d2ad0f454033c2e
+ DEBUG [37d38db8] Finished in 1.061 seconds with exit status 0 (successful).
+ DEBUG [b4e1cd2c] Running [ -f /home/deploy/wine-grape/repo/HEAD ] as deploy@212.111.43.97
+ DEBUG [b4e1cd2c] Command: [ -f /home/deploy/wine-grape/repo/HEAD ]
+ DEBUG [b4e1cd2c] Finished in 1.090 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/deploy/wine-grape/repo
+ DEBUG [6f48b945] Running if test ! -d /home/deploy/wine-grape/repo; then echo "Directory does not exist '/home/deploy/wine-grape/repo'" 1>&2; false; fi as deploy@212.111.43.97
+ DEBUG [6f48b945] Command: if test ! -d /home/deploy/wine-grape/repo; then echo "Directory does not exist '/home/deploy/wine-grape/repo'" 1>&2; false; fi
+ DEBUG [6f48b945] Finished in 1.521 seconds with exit status 0 (successful).
+  INFO [8d6bfb2d] Running /usr/bin/env git remote update --prune as deploy@212.111.43.97
+ DEBUG [8d6bfb2d] Command: cd /home/deploy/wine-grape/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wine-grape-production-dragonstar.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [8d6bfb2d] 	Fetching origin
+ DEBUG [8d6bfb2d] 	remote: Counting objects: 13, done.[K
+ DEBUG [8d6bfb2d] 	remote: Compressing objects:  33% (1/3)   [K
+ DEBUG [8d6bfb2d] 	remote: Compressing objects:  66% (2/3)   [K
+ DEBUG [8d6bfb2d] 	remote: Compressing objects: 100% (3/3)   [K
+ DEBUG [8d6bfb2d] 	remote: Compressing objects: 100% (3/3), done.[K
+ DEBUG [8d6bfb2d] 	Unpacking objects:   7% (1/13)   
+ DEBUG [8d6bfb2d] 	Unpacking objects:  15% (2/13)   
+ DEBUG [8d6bfb2d] 	Unpacking objects:  23% (3/13)   
+ DEBUG [8d6bfb2d] 	Unpacking objects:  30% (4/13)   
+ DEBUG [8d6bfb2d] 	Unpacking objects:  38% (5/13)   
+ DEBUG [8d6bfb2d] 	Unpacking objects:  46% (6/13)   
+ DEBUG [8d6bfb2d] 	Unpacking objects:  53% (7/13)   
+ DEBUG [8d6bfb2d] 	Unpacking objects:  61% (8/13)   
+ DEBUG [8d6bfb2d] 	Unpacking objects:  69% (9/13)   
+ DEBUG [8d6bfb2d] 	remote: Total 13 (delta 10), reused 13 (delta 10), pack-reused 0[K
+ DEBUG [8d6bfb2d] 	Unpacking objects:  76% (10/13)   
+ DEBUG [8d6bfb2d] 	Unpacking objects:  84% (11/13)   
+ DEBUG [8d6bfb2d] 	Unpacking objects:  92% (12/13)   
+ DEBUG [8d6bfb2d] 	Unpacking objects: 100% (13/13)   
+ DEBUG [8d6bfb2d] 	Unpacking objects: 100% (13/13), done.
+ DEBUG [8d6bfb2d] 	From github.com:smart-web-rock/wine-grape
+   384426d..0b2fccd  master     -> master
+  INFO [8d6bfb2d] Finished in 4.896 seconds with exit status 0 (successful).
+ DEBUG [8b2a39aa] Running if test ! -d /home/deploy/wine-grape/repo; then echo "Directory does not exist '/home/deploy/wine-grape/repo'" 1>&2; false; fi as deploy@212.111.43.97
+ DEBUG [8b2a39aa] Command: if test ! -d /home/deploy/wine-grape/repo; then echo "Directory does not exist '/home/deploy/wine-grape/repo'" 1>&2; false; fi
+ DEBUG [8b2a39aa] Finished in 1.059 seconds with exit status 0 (successful).
+  INFO [9ca5bddb] Running /usr/bin/env mkdir -p /home/deploy/wine-grape/releases/20180112050725 as deploy@212.111.43.97
+ DEBUG [9ca5bddb] Command: cd /home/deploy/wine-grape/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wine-grape-production-dragonstar.sh" ; /usr/bin/env mkdir -p /home/deploy/wine-grape/releases/20180112050725 )
+  INFO [9ca5bddb] Finished in 1.464 seconds with exit status 0 (successful).
+  INFO [b8c0ef69] Running /usr/bin/env git archive master | tar -x -f - -C /home/deploy/wine-grape/releases/20180112050725 as deploy@212.111.43.97
+ DEBUG [b8c0ef69] Command: cd /home/deploy/wine-grape/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wine-grape-production-dragonstar.sh" ; /usr/bin/env git archive master | tar -x -f - -C /home/deploy/wine-grape/releases/20180112050725 )
+  INFO [b8c0ef69] Finished in 1.936 seconds with exit status 0 (successful).
+ DEBUG [6e62247f] Running if test ! -d /home/deploy/wine-grape/repo; then echo "Directory does not exist '/home/deploy/wine-grape/repo'" 1>&2; false; fi as deploy@212.111.43.97
+ DEBUG [6e62247f] Command: if test ! -d /home/deploy/wine-grape/repo; then echo "Directory does not exist '/home/deploy/wine-grape/repo'" 1>&2; false; fi
+ DEBUG [6e62247f] Finished in 1.063 seconds with exit status 0 (successful).
+ DEBUG [e1ee7e0b] Running /usr/bin/env git rev-list --max-count=1 master as deploy@212.111.43.97
+ DEBUG [e1ee7e0b] Command: cd /home/deploy/wine-grape/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wine-grape-production-dragonstar.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [e1ee7e0b] 	0b2fccddd0bf10fef49abc1fe281e35a932e7c84
+ DEBUG [e1ee7e0b] Finished in 1.063 seconds with exit status 0 (successful).
+ DEBUG [9b55ee4d] Running if test ! -d /home/deploy/wine-grape/releases/20180112050725; then echo "Directory does not exist '/home/deploy/wine-grape/releases/20180112050725'" 1>&2; false; fi as deploy@212.111.43.97
+ DEBUG [9b55ee4d] Command: if test ! -d /home/deploy/wine-grape/releases/20180112050725; then echo "Directory does not exist '/home/deploy/wine-grape/releases/20180112050725'" 1>&2; false; fi
+ DEBUG [9b55ee4d] Finished in 2.264 seconds with exit status 0 (successful).
+  INFO [7f6b1a5f] Running /usr/bin/env echo "0b2fccddd0bf10fef49abc1fe281e35a932e7c84" >> REVISION as deploy@212.111.43.97
+ DEBUG [7f6b1a5f] Command: cd /home/deploy/wine-grape/releases/20180112050725 && /usr/bin/env echo "0b2fccddd0bf10fef49abc1fe281e35a932e7c84" >> REVISION
+  INFO [7f6b1a5f] Finished in 1.463 seconds with exit status 0 (successful).
+  INFO [ae25b312] Running /usr/bin/env mkdir -p /home/deploy/wine-grape/releases/20180112050725/config as deploy@212.111.43.97
+ DEBUG [ae25b312] Command: /usr/bin/env mkdir -p /home/deploy/wine-grape/releases/20180112050725/config
+  INFO [ae25b312] Finished in 1.058 seconds with exit status 0 (successful).
+ DEBUG [0e06455f] Running [ -L /home/deploy/wine-grape/releases/20180112050725/config/database.yml ] as deploy@212.111.43.97
+ DEBUG [0e06455f] Command: [ -L /home/deploy/wine-grape/releases/20180112050725/config/database.yml ]
+ DEBUG [0e06455f] Finished in 1.063 seconds with exit status 1 (failed).
+ DEBUG [47bdadda] Running [ -f /home/deploy/wine-grape/releases/20180112050725/config/database.yml ] as deploy@212.111.43.97
+ DEBUG [47bdadda] Command: [ -f /home/deploy/wine-grape/releases/20180112050725/config/database.yml ]
+ DEBUG [47bdadda] Finished in 1.062 seconds with exit status 0 (successful).
+  INFO [c24ef845] Running /usr/bin/env rm /home/deploy/wine-grape/releases/20180112050725/config/database.yml as deploy@212.111.43.97
+ DEBUG [c24ef845] Command: /usr/bin/env rm /home/deploy/wine-grape/releases/20180112050725/config/database.yml
+  INFO [c24ef845] Finished in 1.062 seconds with exit status 0 (successful).
+  INFO [b589e887] Running /usr/bin/env ln -s /home/deploy/wine-grape/shared/config/database.yml /home/deploy/wine-grape/releases/20180112050725/config/database.yml as deploy@212.111.43.97
+ DEBUG [b589e887] Command: /usr/bin/env ln -s /home/deploy/wine-grape/shared/config/database.yml /home/deploy/wine-grape/releases/20180112050725/config/database.yml
+  INFO [b589e887] Finished in 1.461 seconds with exit status 0 (successful).
+ DEBUG [b9256716] Running [ -L /home/deploy/wine-grape/releases/20180112050725/config/secrets.yml ] as deploy@212.111.43.97
+ DEBUG [b9256716] Command: [ -L /home/deploy/wine-grape/releases/20180112050725/config/secrets.yml ]
+ DEBUG [b9256716] Finished in 1.057 seconds with exit status 1 (failed).
+ DEBUG [3abfdf0e] Running [ -f /home/deploy/wine-grape/releases/20180112050725/config/secrets.yml ] as deploy@212.111.43.97
+ DEBUG [3abfdf0e] Command: [ -f /home/deploy/wine-grape/releases/20180112050725/config/secrets.yml ]
+ DEBUG [3abfdf0e] Finished in 1.458 seconds with exit status 1 (failed).
+  INFO [56d7eeda] Running /usr/bin/env ln -s /home/deploy/wine-grape/shared/config/secrets.yml /home/deploy/wine-grape/releases/20180112050725/config/secrets.yml as deploy@212.111.43.97
+ DEBUG [56d7eeda] Command: /usr/bin/env ln -s /home/deploy/wine-grape/shared/config/secrets.yml /home/deploy/wine-grape/releases/20180112050725/config/secrets.yml
+  INFO [56d7eeda] Finished in 1.060 seconds with exit status 0 (successful).
+  INFO [477d9cb4] Running /usr/bin/env mkdir -p /home/deploy/wine-grape/releases/20180112050725 /home/deploy/wine-grape/releases/20180112050725/tmp /home/deploy/wine-grape/releases/20180112050725/vendor /home/deploy/wine-grape/releases/20180112050725/public as deploy@212.111.43.97
+ DEBUG [477d9cb4] Command: /usr/bin/env mkdir -p /home/deploy/wine-grape/releases/20180112050725 /home/deploy/wine-grape/releases/20180112050725/tmp /home/deploy/wine-grape/releases/20180112050725/vendor /home/deploy/wine-grape/releases/20180112050725/public
+  INFO [477d9cb4] Finished in 1.458 seconds with exit status 0 (successful).
+ DEBUG [c22de233] Running [ -L /home/deploy/wine-grape/releases/20180112050725/bin ] as deploy@212.111.43.97
+ DEBUG [c22de233] Command: [ -L /home/deploy/wine-grape/releases/20180112050725/bin ]
+ DEBUG [c22de233] Finished in 1.063 seconds with exit status 1 (failed).
+ DEBUG [553fd23f] Running [ -d /home/deploy/wine-grape/releases/20180112050725/bin ] as deploy@212.111.43.97
+ DEBUG [553fd23f] Command: [ -d /home/deploy/wine-grape/releases/20180112050725/bin ]
+ DEBUG [553fd23f] Finished in 2.262 seconds with exit status 0 (successful).
+  INFO [10afa7c5] Running /usr/bin/env rm -rf /home/deploy/wine-grape/releases/20180112050725/bin as deploy@212.111.43.97
+ DEBUG [10afa7c5] Command: /usr/bin/env rm -rf /home/deploy/wine-grape/releases/20180112050725/bin
+  INFO [10afa7c5] Finished in 1.464 seconds with exit status 0 (successful).
+  INFO [3173c148] Running /usr/bin/env ln -s /home/deploy/wine-grape/shared/bin /home/deploy/wine-grape/releases/20180112050725/bin as deploy@212.111.43.97
+ DEBUG [3173c148] Command: /usr/bin/env ln -s /home/deploy/wine-grape/shared/bin /home/deploy/wine-grape/releases/20180112050725/bin
+  INFO [3173c148] Finished in 1.059 seconds with exit status 0 (successful).
+ DEBUG [4ee6c2a9] Running [ -L /home/deploy/wine-grape/releases/20180112050725/log ] as deploy@212.111.43.97
+ DEBUG [4ee6c2a9] Command: [ -L /home/deploy/wine-grape/releases/20180112050725/log ]
+ DEBUG [4ee6c2a9] Finished in 1.461 seconds with exit status 1 (failed).
+ DEBUG [e7918e0c] Running [ -d /home/deploy/wine-grape/releases/20180112050725/log ] as deploy@212.111.43.97
+ DEBUG [e7918e0c] Command: [ -d /home/deploy/wine-grape/releases/20180112050725/log ]
+ DEBUG [e7918e0c] Finished in 6.656 seconds with exit status 0 (successful).
+  INFO [0e81297e] Running /usr/bin/env rm -rf /home/deploy/wine-grape/releases/20180112050725/log as deploy@212.111.43.97
+ DEBUG [0e81297e] Command: /usr/bin/env rm -rf /home/deploy/wine-grape/releases/20180112050725/log
+  INFO [0e81297e] Finished in 1.459 seconds with exit status 0 (successful).
+  INFO [02996669] Running /usr/bin/env ln -s /home/deploy/wine-grape/shared/log /home/deploy/wine-grape/releases/20180112050725/log as deploy@212.111.43.97
+ DEBUG [02996669] Command: /usr/bin/env ln -s /home/deploy/wine-grape/shared/log /home/deploy/wine-grape/releases/20180112050725/log
+  INFO [02996669] Finished in 1.094 seconds with exit status 0 (successful).
+ DEBUG [333d09df] Running [ -L /home/deploy/wine-grape/releases/20180112050725/tmp/pids ] as deploy@212.111.43.97
+ DEBUG [333d09df] Command: [ -L /home/deploy/wine-grape/releases/20180112050725/tmp/pids ]
+ DEBUG [333d09df] Finished in 1.867 seconds with exit status 1 (failed).
+ DEBUG [6f03e1c4] Running [ -d /home/deploy/wine-grape/releases/20180112050725/tmp/pids ] as deploy@212.111.43.97
+ DEBUG [6f03e1c4] Command: [ -d /home/deploy/wine-grape/releases/20180112050725/tmp/pids ]
+ DEBUG [6f03e1c4] Finished in 1.066 seconds with exit status 0 (successful).
+  INFO [6512118d] Running /usr/bin/env rm -rf /home/deploy/wine-grape/releases/20180112050725/tmp/pids as deploy@212.111.43.97
+ DEBUG [6512118d] Command: /usr/bin/env rm -rf /home/deploy/wine-grape/releases/20180112050725/tmp/pids
+  INFO [6512118d] Finished in 1.460 seconds with exit status 0 (successful).
+  INFO [52210490] Running /usr/bin/env ln -s /home/deploy/wine-grape/shared/tmp/pids /home/deploy/wine-grape/releases/20180112050725/tmp/pids as deploy@212.111.43.97
+ DEBUG [52210490] Command: /usr/bin/env ln -s /home/deploy/wine-grape/shared/tmp/pids /home/deploy/wine-grape/releases/20180112050725/tmp/pids
+  INFO [52210490] Finished in 1.062 seconds with exit status 0 (successful).
+ DEBUG [14a4d0c5] Running [ -L /home/deploy/wine-grape/releases/20180112050725/tmp/cache ] as deploy@212.111.43.97
+ DEBUG [14a4d0c5] Command: [ -L /home/deploy/wine-grape/releases/20180112050725/tmp/cache ]
+ DEBUG [14a4d0c5] Finished in 1.060 seconds with exit status 1 (failed).
+ DEBUG [a4dace02] Running [ -d /home/deploy/wine-grape/releases/20180112050725/tmp/cache ] as deploy@212.111.43.97
+ DEBUG [a4dace02] Command: [ -d /home/deploy/wine-grape/releases/20180112050725/tmp/cache ]
+ DEBUG [a4dace02] Finished in 1.459 seconds with exit status 0 (successful).
+  INFO [79314fb7] Running /usr/bin/env rm -rf /home/deploy/wine-grape/releases/20180112050725/tmp/cache as deploy@212.111.43.97
+ DEBUG [79314fb7] Command: /usr/bin/env rm -rf /home/deploy/wine-grape/releases/20180112050725/tmp/cache
+  INFO [79314fb7] Finished in 1.461 seconds with exit status 0 (successful).
+  INFO [a49ec10c] Running /usr/bin/env ln -s /home/deploy/wine-grape/shared/tmp/cache /home/deploy/wine-grape/releases/20180112050725/tmp/cache as deploy@212.111.43.97
+ DEBUG [a49ec10c] Command: /usr/bin/env ln -s /home/deploy/wine-grape/shared/tmp/cache /home/deploy/wine-grape/releases/20180112050725/tmp/cache
+  INFO [a49ec10c] Finished in 1.060 seconds with exit status 0 (successful).
+ DEBUG [5bfa5d65] Running [ -L /home/deploy/wine-grape/releases/20180112050725/tmp/sockets ] as deploy@212.111.43.97
+ DEBUG [5bfa5d65] Command: [ -L /home/deploy/wine-grape/releases/20180112050725/tmp/sockets ]
+ DEBUG [5bfa5d65] Finished in 1.062 seconds with exit status 1 (failed).
+ DEBUG [c9b04449] Running [ -d /home/deploy/wine-grape/releases/20180112050725/tmp/sockets ] as deploy@212.111.43.97
+ DEBUG [c9b04449] Command: [ -d /home/deploy/wine-grape/releases/20180112050725/tmp/sockets ]
+ DEBUG [c9b04449] Finished in 1.059 seconds with exit status 1 (failed).
+  INFO [93d41846] Running /usr/bin/env ln -s /home/deploy/wine-grape/shared/tmp/sockets /home/deploy/wine-grape/releases/20180112050725/tmp/sockets as deploy@212.111.43.97
+ DEBUG [93d41846] Command: /usr/bin/env ln -s /home/deploy/wine-grape/shared/tmp/sockets /home/deploy/wine-grape/releases/20180112050725/tmp/sockets
+  INFO [93d41846] Finished in 1.457 seconds with exit status 0 (successful).
+ DEBUG [962181fe] Running [ -L /home/deploy/wine-grape/releases/20180112050725/vendor/bundle ] as deploy@212.111.43.97
+ DEBUG [962181fe] Command: [ -L /home/deploy/wine-grape/releases/20180112050725/vendor/bundle ]
+ DEBUG [962181fe] Finished in 1.459 seconds with exit status 1 (failed).
+ DEBUG [a597d039] Running [ -d /home/deploy/wine-grape/releases/20180112050725/vendor/bundle ] as deploy@212.111.43.97
+ DEBUG [a597d039] Command: [ -d /home/deploy/wine-grape/releases/20180112050725/vendor/bundle ]
+ DEBUG [a597d039] Finished in 1.458 seconds with exit status 1 (failed).
+  INFO [19e508ff] Running /usr/bin/env ln -s /home/deploy/wine-grape/shared/vendor/bundle /home/deploy/wine-grape/releases/20180112050725/vendor/bundle as deploy@212.111.43.97
+ DEBUG [19e508ff] Command: /usr/bin/env ln -s /home/deploy/wine-grape/shared/vendor/bundle /home/deploy/wine-grape/releases/20180112050725/vendor/bundle
+  INFO [19e508ff] Finished in 1.462 seconds with exit status 0 (successful).
+ DEBUG [01b0090d] Running [ -L /home/deploy/wine-grape/releases/20180112050725/public/system ] as deploy@212.111.43.97
+ DEBUG [01b0090d] Command: [ -L /home/deploy/wine-grape/releases/20180112050725/public/system ]
+ DEBUG [01b0090d] Finished in 1.460 seconds with exit status 1 (failed).
+ DEBUG [60b61fa8] Running [ -d /home/deploy/wine-grape/releases/20180112050725/public/system ] as deploy@212.111.43.97
+ DEBUG [60b61fa8] Command: [ -d /home/deploy/wine-grape/releases/20180112050725/public/system ]
+ DEBUG [60b61fa8] Finished in 1.072 seconds with exit status 1 (failed).
+  INFO [f9fe64a5] Running /usr/bin/env ln -s /home/deploy/wine-grape/shared/public/system /home/deploy/wine-grape/releases/20180112050725/public/system as deploy@212.111.43.97
+ DEBUG [f9fe64a5] Command: /usr/bin/env ln -s /home/deploy/wine-grape/shared/public/system /home/deploy/wine-grape/releases/20180112050725/public/system
+  INFO [f9fe64a5] Finished in 1.860 seconds with exit status 0 (successful).
+ DEBUG [cdace24f] Running [ -L /home/deploy/wine-grape/releases/20180112050725/public/assets ] as deploy@212.111.43.97
+ DEBUG [cdace24f] Command: [ -L /home/deploy/wine-grape/releases/20180112050725/public/assets ]
+ DEBUG [cdace24f] Finished in 1.062 seconds with exit status 1 (failed).
+ DEBUG [c5b333cd] Running [ -d /home/deploy/wine-grape/releases/20180112050725/public/assets ] as deploy@212.111.43.97
+ DEBUG [c5b333cd] Command: [ -d /home/deploy/wine-grape/releases/20180112050725/public/assets ]
+ DEBUG [c5b333cd] Finished in 1.065 seconds with exit status 1 (failed).
+  INFO [22985698] Running /usr/bin/env ln -s /home/deploy/wine-grape/shared/public/assets /home/deploy/wine-grape/releases/20180112050725/public/assets as deploy@212.111.43.97
+ DEBUG [22985698] Command: /usr/bin/env ln -s /home/deploy/wine-grape/shared/public/assets /home/deploy/wine-grape/releases/20180112050725/public/assets
+  INFO [22985698] Finished in 1.057 seconds with exit status 0 (successful).
+ DEBUG [991d6153] Running if test ! -d /home/deploy/wine-grape/releases/20180112050725; then echo "Directory does not exist '/home/deploy/wine-grape/releases/20180112050725'" 1>&2; false; fi as deploy@212.111.43.97
+ DEBUG [991d6153] Command: if test ! -d /home/deploy/wine-grape/releases/20180112050725; then echo "Directory does not exist '/home/deploy/wine-grape/releases/20180112050725'" 1>&2; false; fi
+ DEBUG [991d6153] Finished in 1.060 seconds with exit status 0 (successful).
+  INFO [47d253a4] Running /usr/local/rvm/bin/rvm default do bundle install --path /home/deploy/wine-grape/shared/bundle --without development test --deployment --quiet as deploy@212.111.43.97
+ DEBUG [47d253a4] Command: cd /home/deploy/wine-grape/releases/20180112050725 && /usr/local/rvm/bin/rvm default do bundle install --path /home/deploy/wine-grape/shared/bundle --without development test --deployment --quiet
+  INFO [47d253a4] Finished in 2.186 seconds with exit status 0 (successful).
+ DEBUG [6a742b48] Running if test ! -d /home/deploy/wine-grape/releases/20180112050725; then echo "Directory does not exist '/home/deploy/wine-grape/releases/20180112050725'" 1>&2; false; fi as deploy@212.111.43.97
+ DEBUG [6a742b48] Command: if test ! -d /home/deploy/wine-grape/releases/20180112050725; then echo "Directory does not exist '/home/deploy/wine-grape/releases/20180112050725'" 1>&2; false; fi
+ DEBUG [6a742b48] Finished in 1.072 seconds with exit status 0 (successful).
+  INFO [bb1e3954] Running /usr/local/rvm/bin/rvm default do bundle exec rake assets:precompile as deploy@212.111.43.97
+ DEBUG [bb1e3954] Command: cd /home/deploy/wine-grape/releases/20180112050725 && ( export RAILS_ENV="production" ; /usr/local/rvm/bin/rvm default do bundle exec rake assets:precompile )
+  INFO [bb1e3954] Finished in 5.197 seconds with exit status 0 (successful).
+ DEBUG [a15d446a] Running if test ! -d /home/deploy/wine-grape/releases/20180112050725; then echo "Directory does not exist '/home/deploy/wine-grape/releases/20180112050725'" 1>&2; false; fi as deploy@212.111.43.97
+ DEBUG [a15d446a] Command: if test ! -d /home/deploy/wine-grape/releases/20180112050725; then echo "Directory does not exist '/home/deploy/wine-grape/releases/20180112050725'" 1>&2; false; fi
+ DEBUG [a15d446a] Finished in 1.461 seconds with exit status 0 (successful).
+  INFO [e0d5484d] Running /usr/bin/env mkdir -p /home/deploy/wine-grape/releases/20180112050725/assets_manifest_backup as deploy@212.111.43.97
+ DEBUG [e0d5484d] Command: cd /home/deploy/wine-grape/releases/20180112050725 && /usr/bin/env mkdir -p /home/deploy/wine-grape/releases/20180112050725/assets_manifest_backup
+  INFO [e0d5484d] Finished in 1.459 seconds with exit status 0 (successful).
+ DEBUG [8ccaa6a1] Running /usr/bin/env ls /home/deploy/wine-grape/releases/20180112050725/public/assets/.sprockets-manifest* as deploy@212.111.43.97
+ DEBUG [8ccaa6a1] Command: cd /home/deploy/wine-grape/releases/20180112050725 && /usr/bin/env ls /home/deploy/wine-grape/releases/20180112050725/public/assets/.sprockets-manifest*
+ DEBUG [8ccaa6a1] 	/home/deploy/wine-grape/releases/20180112050725/public/assets/.sprockets-manifest-cba0853b7f2fc0509c4e7620256601cd.json
+ DEBUG [8ccaa6a1] Finished in 1.062 seconds with exit status 0 (successful).
+ DEBUG [5df7023f] Running /usr/bin/env ls /home/deploy/wine-grape/releases/20180112050725/public/assets/.sprockets-manifest* as deploy@212.111.43.97
+ DEBUG [5df7023f] Command: cd /home/deploy/wine-grape/releases/20180112050725 && /usr/bin/env ls /home/deploy/wine-grape/releases/20180112050725/public/assets/.sprockets-manifest*
+ DEBUG [5df7023f] 	/home/deploy/wine-grape/releases/20180112050725/public/assets/.sprockets-manifest-cba0853b7f2fc0509c4e7620256601cd.json
+ DEBUG [5df7023f] Finished in 1.062 seconds with exit status 0 (successful).
+  INFO [397ad06d] Running /usr/bin/env cp /home/deploy/wine-grape/releases/20180112050725/public/assets/.sprockets-manifest-cba0853b7f2fc0509c4e7620256601cd.json /home/deploy/wine-grape/releases/20180112050725/assets_manifest_backup as deploy@212.111.43.97
+ DEBUG [397ad06d] Command: cd /home/deploy/wine-grape/releases/20180112050725 && /usr/bin/env cp /home/deploy/wine-grape/releases/20180112050725/public/assets/.sprockets-manifest-cba0853b7f2fc0509c4e7620256601cd.json /home/deploy/wine-grape/releases/20180112050725/assets_manifest_backup
+  INFO [397ad06d] Finished in 1.060 seconds with exit status 0 (successful).
+  INFO [deploy:migrate] Run `rake db:migrate`
+ DEBUG [29827e7f] Running if test ! -d /home/deploy/wine-grape/releases/20180112050725; then echo "Directory does not exist '/home/deploy/wine-grape/releases/20180112050725'" 1>&2; false; fi as deploy@212.111.43.97
+ DEBUG [29827e7f] Command: if test ! -d /home/deploy/wine-grape/releases/20180112050725; then echo "Directory does not exist '/home/deploy/wine-grape/releases/20180112050725'" 1>&2; false; fi
+ DEBUG [29827e7f] Finished in 1.460 seconds with exit status 0 (successful).
+  INFO [5be7d422] Running /usr/local/rvm/bin/rvm default do bundle exec rake db:migrate as deploy@212.111.43.97
+ DEBUG [5be7d422] Command: cd /home/deploy/wine-grape/releases/20180112050725 && ( export RAILS_ENV="production" ; /usr/local/rvm/bin/rvm default do bundle exec rake db:migrate )
+  INFO [5be7d422] Finished in 4.447 seconds with exit status 0 (successful).
+  INFO [e28a0ac3] Running /usr/bin/env ln -s /home/deploy/wine-grape/releases/20180112050725 /home/deploy/wine-grape/releases/current as deploy@212.111.43.97
+ DEBUG [e28a0ac3] Command: /usr/bin/env ln -s /home/deploy/wine-grape/releases/20180112050725 /home/deploy/wine-grape/releases/current
+  INFO [e28a0ac3] Finished in 1.108 seconds with exit status 0 (successful).
+  INFO [6da2c564] Running /usr/bin/env mv /home/deploy/wine-grape/releases/current /home/deploy/wine-grape as deploy@212.111.43.97
+ DEBUG [6da2c564] Command: /usr/bin/env mv /home/deploy/wine-grape/releases/current /home/deploy/wine-grape
+  INFO [6da2c564] Finished in 1.861 seconds with exit status 0 (successful).
+ DEBUG [5a5f437d] Running /usr/bin/env ls -xtr /home/deploy/wine-grape/releases as deploy@212.111.43.97
+ DEBUG [5a5f437d] Command: /usr/bin/env ls -xtr /home/deploy/wine-grape/releases
+ DEBUG [5a5f437d] 	20180112025752	20180112031400	20180112033429	20180112034552	20180112044837
+ DEBUG [5a5f437d] 	20180112050725
+ DEBUG [5a5f437d] Finished in 1.058 seconds with exit status 0 (successful).
+  INFO Keeping 5 of 6 deployed releases on 212.111.43.97
+  INFO [34abd316] Running /usr/bin/env rm -rf /home/deploy/wine-grape/releases/20180112025752 as deploy@212.111.43.97
+ DEBUG [34abd316] Command: /usr/bin/env rm -rf /home/deploy/wine-grape/releases/20180112025752
+  INFO [34abd316] Finished in 1.054 seconds with exit status 0 (successful).
+ DEBUG [4119c2f9] Running if test ! -d /home/deploy/wine-grape/current; then echo "Directory does not exist '/home/deploy/wine-grape/current'" 1>&2; false; fi as deploy@212.111.43.97
+ DEBUG [4119c2f9] Command: if test ! -d /home/deploy/wine-grape/current; then echo "Directory does not exist '/home/deploy/wine-grape/current'" 1>&2; false; fi
+ DEBUG [4119c2f9] Finished in 1.876 seconds with exit status 0 (successful).
+ DEBUG [1292844b] Running [ -f /home/deploy/wine-grape/shared/tmp/pids/puma.pid ] as deploy@212.111.43.97
+ DEBUG [1292844b] Command: [ -f /home/deploy/wine-grape/shared/tmp/pids/puma.pid ]
+ DEBUG [1292844b] Finished in 2.366 seconds with exit status 0 (successful).
+ DEBUG [a965a561] Running kill -0 $( cat /home/deploy/wine-grape/shared/tmp/pids/puma.pid ) as deploy@212.111.43.97
+ DEBUG [a965a561] Command: kill -0 $( cat /home/deploy/wine-grape/shared/tmp/pids/puma.pid )
+ DEBUG [a965a561] Finished in 1.519 seconds with exit status 0 (successful).
+  INFO [7bc66a98] Running /usr/local/rvm/bin/rvm default do bundle exec pumactl -S /home/deploy/wine-grape/shared/tmp/pids/puma.state restart as deploy@212.111.43.97
+ DEBUG [7bc66a98] Command: cd /home/deploy/wine-grape/current && ( export RACK_ENV="production" ; /usr/local/rvm/bin/rvm default do bundle exec pumactl -S /home/deploy/wine-grape/shared/tmp/pids/puma.state restart )
+ DEBUG [7bc66a98] 	Command restart sent success
+ DEBUG [7bc66a98] 	
+  INFO [7bc66a98] Finished in 1.895 seconds with exit status 0 (successful).
+ DEBUG [a42d873f] Running if test ! -d /home/deploy/wine-grape/releases; then echo "Directory does not exist '/home/deploy/wine-grape/releases'" 1>&2; false; fi as deploy@212.111.43.97
+ DEBUG [a42d873f] Command: if test ! -d /home/deploy/wine-grape/releases; then echo "Directory does not exist '/home/deploy/wine-grape/releases'" 1>&2; false; fi
+ DEBUG [a42d873f] Finished in 2.360 seconds with exit status 0 (successful).
+  INFO [6ab1646d] Running /usr/bin/env echo "Branch master (at 0b2fccddd0bf10fef49abc1fe281e35a932e7c84) deployed as release 20180112050725 by dragonstar" >> /home/deploy/wine-grape/revisions.log as deploy@212.111.43.97
+ DEBUG [6ab1646d] Command: cd /home/deploy/wine-grape/releases && /usr/bin/env echo "Branch master (at 0b2fccddd0bf10fef49abc1fe281e35a932e7c84) deployed as release 20180112050725 by dragonstar" >> /home/deploy/wine-grape/revisions.log
+  INFO [6ab1646d] Finished in 2.728 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-11 21:09:39 -0800 cap production seed
+  INFO ---------------------------------------------------------------------------
+ DEBUG [6a47ec3e] Running [ -d ~/.rvm ] as deploy@212.111.43.97
+ DEBUG [6a47ec3e] Command: [ -d ~/.rvm ]
+ DEBUG [6a47ec3e] Finished in 9.637 seconds with exit status 1 (failed).
+ DEBUG [b69f4959] Running [ -d /usr/local/rvm ] as deploy@212.111.43.97
+ DEBUG [b69f4959] Command: [ -d /usr/local/rvm ]
+ DEBUG [b69f4959] Finished in 1.072 seconds with exit status 0 (successful).
+ DEBUG [17ad5cf2] Running /usr/local/rvm/bin/rvm version as deploy@212.111.43.97
+ DEBUG [17ad5cf2] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [17ad5cf2] 	rvm 1.29.3 (master) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [17ad5cf2] Finished in 1.690 seconds with exit status 0 (successful).
+ DEBUG [fa43efe8] Running /usr/local/rvm/bin/rvm current as deploy@212.111.43.97
+ DEBUG [fa43efe8] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [fa43efe8] 	ruby-2.3.1
+ DEBUG [fa43efe8] Finished in 3.597 seconds with exit status 0 (successful).
+ DEBUG [e978239f] Running /usr/local/rvm/bin/rvm default do ruby --version as deploy@212.111.43.97
+ DEBUG [e978239f] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [e978239f] 	ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-linux]
+ DEBUG [e978239f] Finished in 1.733 seconds with exit status 0 (successful).
+ DEBUG [a8d90201] Running if test ! -d /home/deploy/wine-grape/current; then echo "Directory does not exist '/home/deploy/wine-grape/current'" 1>&2; false; fi as deploy@212.111.43.97
+ DEBUG [a8d90201] Command: if test ! -d /home/deploy/wine-grape/current; then echo "Directory does not exist '/home/deploy/wine-grape/current'" 1>&2; false; fi
+ DEBUG [a8d90201] Finished in 1.151 seconds with exit status 0 (successful).
+  INFO [630715ea] Running /usr/local/rvm/bin/rvm default do bundle exec rake db:seed as deploy@212.111.43.97
+ DEBUG [630715ea] Command: cd /home/deploy/wine-grape/current && ( export RAILS_ENV="production" ; /usr/local/rvm/bin/rvm default do bundle exec rake db:seed )
+ DEBUG [630715ea] 	rake aborted!
+ DEBUG [630715ea] 	ActiveRecord::RecordInvalid: Validation failed: Name has already been taken
+ DEBUG [630715ea] 	/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/validations.rb:78:in `raise_validation_error'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/validations.rb:50:in `save!'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/attribute_methods/dirty.rb:30:in `save!'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/transactions.rb:324:in `block in save!'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/transactions.rb:395:in `block in with_transaction_returning_status'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/connection_adapters/abstract/database_statements.rb:232:in `block in transaction'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/connection_adapters/abstract/transaction.rb:189:in `within_new_transaction'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/connection_adapters/abstract/database_statements.rb:232:in `transaction'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/transactions.rb:211:in `transaction'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/transactions.rb:392:in `with_transaction_returning_status'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/transactions.rb:324:in `save!'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/suppressor.rb:45:in `save!'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/persistence.rb:51:in `create!'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/persistence.rb:48:in `block in create!'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/pe
+ DEBUG [630715ea] 	rsistence.rb:48:in `collect'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/persistence.rb:48:in `create!'
+/home/deploy/wine-grape/releases/20180112050725/db/seeds.rb:22:in `<top (required)>'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/dependencies.rb:287:in `load'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/dependencies.rb:287:in `block in load'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/dependencies.rb:259:in `load_dependency'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activesupport-5.0.6/lib/active_support/dependencies.rb:287:in `load'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/railties-5.0.6/lib/rails/engine.rb:549:in `load_seed'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/tasks/database_tasks.rb:270:in `load_seed'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/activerecord-5.0.6/lib/active_record/railties/databases.rake:184:in `block (2 levels) in <top (required)>'
+/home/deploy/wine-grape/shared/bundle/ruby/2.3.0/gems/rake-12.3.0/exe/rake:27:in `<top (required)>'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/lib/bundler/cli/exec.rb:75:in `load'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/lib/bundler/cli/exec.rb:75:in `kernel_load'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/lib/bundler/cli/exec.rb:28:in `run'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/lib/bundler/cli.rb:424:in `exec'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/lib/bundler/vendor/thor/lib/thor.rb:387:in `dispatch'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/lib/bundler/cli.rb:27:in `dispatch'
+/usr/local/rvm/gems/ru
+ DEBUG [630715ea] 	by-2.3.1/gems/bundler-1.16.1/lib/bundler/vendor/thor/lib/thor/base.rb:466:in `start'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/lib/bundler/cli.rb:18:in `start'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/exe/bundle:30:in `block in <top (required)>'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/lib/bundler/friendly_errors.rb:122:in `with_friendly_errors'
+/usr/local/rvm/gems/ruby-2.3.1/gems/bundler-1.16.1/exe/bundle:22:in `<top (required)>'
+/usr/local/rvm/gems/ruby-2.3.1/bin/bundle:23:in `load'
+/usr/local/rvm/gems/ruby-2.3.1/bin/bundle:23:in `<main>'
+/usr/local/rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `eval'
+/usr/local/rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `<main>'
+ DEBUG [630715ea] 	Tasks: TOP => db:seed
+ DEBUG [630715ea] 	(See full trace by running task with --trace)

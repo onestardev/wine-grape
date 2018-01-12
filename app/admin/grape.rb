@@ -1,6 +1,5 @@
 ActiveAdmin.register Grape do
   # everything happens here :D
-  scope :all, default: true
   permit_params :name, :short_des, :long_des, :pic, :regions, :publish, :supply, :share, :like, :week_pub
   index do
 
@@ -71,6 +70,6 @@ ActiveAdmin.register Grape do
   			render :new
   		end
   	end
-  end
+    end
 
 end

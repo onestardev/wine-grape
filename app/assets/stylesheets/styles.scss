@@ -150,7 +150,7 @@
         color: #8FA93E; }
         .header .navbar .pages-section .pages-list li.page-link a {
           color: #8FA93E;
-          font-family: "Raleway",sans-serif;
+          font-family: "Arapey",sans-serif;
           margin-right: 40px; }
     .header .navbar .pages-section .search-field-wrapper {
       float: left;
@@ -3080,4 +3080,27 @@ footer {
   .info-container .social-container{
     color: #571623;
   }
+}
+.search-result .title-container{
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    color: #323232;
+    font-size: 27px;
+    line-height: 17px;
+    width: 100%;
+    float: left;
+    margin-left: 51px;
+    margin-top: -18px;
+    margin-bottom: 20px;
+}
+.about-us-page .search-result .header-section .number-container {
+    float: left;
+    color: #cf0f40;
+    font-family: Proxima_nova, sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 18px;
+}
+.about-us-page .place-container{
+    padding: 20px 0px;
 }

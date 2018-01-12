@@ -41,12 +41,14 @@ class IndexController < ApplicationController
 	def search	
 		if params[:search_select] == 'Wine'
 			
-			@wines = Wine.where("name LIKE ?", "%#{params[:search]}%") 
+			@wines = Wine.where("name LIKE ?", "%#{params[:search]}%")
+			@wines = Wine.where(publish: '1') 
 			@grapes = nil
 		end
 		if params[:search_select] == 'Grape'
 			
 			@grapes = Grape.where("name LIKE ?", "%#{params[:search]}%")
+			@grapes = Grape.where(publish: '1')
 			@wines = nil
 			
 		end

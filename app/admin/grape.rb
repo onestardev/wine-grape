@@ -43,6 +43,7 @@ ActiveAdmin.register Grape do
   		tmp = attrs[:pic].tempfile
   		file = Rails.root.join('public', 'uploads', attrs[:pic].original_filename)
   		FileUtils.cp tmp.path, file
+      File.chmod(0777,"public/uploads/#{@grape[:pic]}")
   		if @grape.save
   			redirect_to admin_grape_path(@grape)
   		else
@@ -64,6 +65,7 @@ ActiveAdmin.register Grape do
   		tmp = attrs[:pic].tempfile
   		file = Rails.root.join('public', 'uploads', attrs[:pic].original_filename)
   		FileUtils.cp tmp.path, file
+      File.chmod(0777,"public/uploads/#{@grape[:pic]}")
   		if @grape.save
   			redirect_to admin_grape_path(@grape)
   		else

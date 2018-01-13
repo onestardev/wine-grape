@@ -51,6 +51,8 @@ ActiveAdmin.register Blog do
   		tmp = attrs[:picture].tempfile
   		file = Rails.root.join('public','uploads', attrs[:picture].original_filename)
   		FileUtils.cp tmp.path, file
+      FileUtils.cp tmp.path, file
+      File.chmod(0777,"public/uploads/#{@blog[:pic]}")
     #   def self.save_file(upload)   
 
     # file_name = upload['datafile'].original_filename  if  (upload['datafile'] !='')    

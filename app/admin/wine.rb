@@ -42,6 +42,7 @@ ActiveAdmin.register Wine do
   		tmp = attrs[:pic].tempfile
   		file = Rails.root.join('public', 'uploads', attrs[:pic].original_filename)
   		FileUtils.cp tmp.path, file
+      File.chmod(0777,"public/uploads/#{@wine[:pic]}")
   		if @wine.save
   			redirect_to admin_wine_path(@wine)
   		else
@@ -63,6 +64,7 @@ ActiveAdmin.register Wine do
   		tmp = attrs[:pic].tempfile
   		file = Rails.root.join('public', 'uploads', attrs[:pic].original_filename)
   		FileUtils.cp tmp.path, file
+      File.chmod(0777,"public/uploads/#{@wine[:pic]}")
   		if @wine.save
   			redirect_to admin_wine_path(@wine)
   		else

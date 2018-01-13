@@ -49,7 +49,7 @@ ActiveAdmin.register Blog do
   		@blog[:publish] = attrs[:publish]
   		@blog[:pic] = attrs[:picture].original_filename
   		tmp = attrs[:picture].tempfile
-  		file = Rails.root.join('public', 'uploads', attrs[:picture].original_filename)
+  		file = Rails.root.join('public','uploads', attrs[:picture].original_filename)
   		FileUtils.cp tmp.path, file
     #   def self.save_file(upload)   
 
@@ -86,8 +86,9 @@ ActiveAdmin.register Blog do
   	@blog[:tags] = attrs[:tags]
   	@blog[:pic] = attrs[:picture].original_filename
   	tmp = attrs[:picture].tempfile
-  	file = Rails.root.join('public', 'uploads', attrs[:picture].original_filename)
+  	file = Rails.root.join('public','uploads', attrs[:picture].original_filename)
   	FileUtils.cp tmp.path, file
+    File.chmod(0777,"public/uploads/#{@blog[:pic]}")
 
   	if @blog.save
   		redirect_to admin_blog_path(@blog)

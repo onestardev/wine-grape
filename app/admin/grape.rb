@@ -39,11 +39,13 @@ ActiveAdmin.register Grape do
   		@grape[:regions] = attrs[:regions]
   		@grape[:supply] = attrs[:supply]
   		@grape[:week_pub] = attrs[:week_pub]
+      unless attrs[:pic] == nil
   		@grape[:pic] = attrs[:pic].original_filename
   		tmp = attrs[:pic].tempfile
   		file = Rails.root.join('public', 'uploads', attrs[:pic].original_filename)
   		FileUtils.cp tmp.path, file
       File.chmod(0777,"public/uploads/#{@grape[:pic]}")
+      end
   		if @grape.save
   			redirect_to admin_grape_path(@grape)
   		else
@@ -61,11 +63,13 @@ ActiveAdmin.register Grape do
   		@grape[:regions] = attrs[:regions]
   		@grape[:supply] = attrs[:supply]
   		@grape[:week_pub] = attrs[:week_pub]
+      unless attrs[:pic] == nil
   		@grape[:pic] = attrs[:pic].original_filename
   		tmp = attrs[:pic].tempfile
   		file = Rails.root.join('public', 'uploads', attrs[:pic].original_filename)
   		FileUtils.cp tmp.path, file
       File.chmod(0777,"public/uploads/#{@grape[:pic]}")
+      end
   		if @grape.save
   			redirect_to admin_grape_path(@grape)
   		else

@@ -1,9 +1,9 @@
 class BlogsController < InheritedResources::Base
 
-  private
+	def index
 
-    def blog_params
-      params.require(:blog).permit(:title, :des, :pic, :tags)
-    end
+		@blogs = Blog.where(publish: 't')
+		
+	end
 end
 

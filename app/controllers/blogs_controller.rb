@@ -2,7 +2,7 @@ class BlogsController < InheritedResources::Base
 
 	def index
 
-		@blogs = Blog.where(publish: '1')
+		@blogs = Blog.where(publish: 't')
 		
 	end
 end

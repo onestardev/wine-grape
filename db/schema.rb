@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180111032425) do
+ActiveRecord::Schema.define(version: 20180115061227) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string   "namespace"
@@ -94,6 +94,7 @@ ActiveRecord::Schema.define(version: 20180111032425) do
     t.string   "share"
     t.string   "like"
     t.boolean  "week_pub"
+    t.string   "supply_url"
   end
 
   create_table "ips", force: :cascade do |t|
@@ -128,13 +129,14 @@ ActiveRecord::Schema.define(version: 20180111032425) do
     t.text     "long_des"
     t.string   "pic"
     t.string   "regions"
-    t.string   "wine"
     t.boolean  "publish"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string   "share"
     t.string   "like"
     t.boolean  "week_pub"
+    t.string   "supply"
+    t.string   "supply_url"
   end
 
 end

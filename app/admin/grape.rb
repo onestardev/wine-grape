@@ -1,6 +1,6 @@
 ActiveAdmin.register Grape do
   # everything happens here :D
-  permit_params :name, :short_des, :long_des, :pic, :regions, :publish, :supply, :share, :like, :week_pub
+  permit_params :name, :short_des, :long_des, :pic, :regions, :publish, :supply, :share, :like, :week_pub, :supply_url
   index do
 
   	column :id
@@ -19,8 +19,9 @@ ActiveAdmin.register Grape do
   		f.input :short_des, as: :string
   		f.input :long_des, as: :text
   		f.input :pic, as: :file
-  		f.input :regions, as: :string
-  		f.input :supply, as: :string
+  		f.input :regions, input_html:{data:{role:'tagsinput'}} 
+      f.input :supply, input_html:{data:{role:'tagsinput'}} 
+      f.input :supply_url, input_html:{data:{role:'tagsinput'}}
   		f.input :publish, as: :boolean
   		f.input :week_pub, as: :boolean
   	end
@@ -38,6 +39,7 @@ ActiveAdmin.register Grape do
   		@grape[:publish] = attrs[:publish]
   		@grape[:regions] = attrs[:regions]
   		@grape[:supply] = attrs[:supply]
+      @grape[:supply_url] = attrs[:supply_url]
   		@grape[:week_pub] = attrs[:week_pub]
       unless attrs[:pic] == nil
   		@grape[:pic] = attrs[:pic].original_filename
@@ -62,6 +64,7 @@ ActiveAdmin.register Grape do
   		@grape[:publish] = attrs[:publish]
   		@grape[:regions] = attrs[:regions]
   		@grape[:supply] = attrs[:supply]
+      @grape[:supply_url] = attrs[:supply_url]
   		@grape[:week_pub] = attrs[:week_pub]
       unless attrs[:pic] == nil
   		@grape[:pic] = attrs[:pic].original_filename

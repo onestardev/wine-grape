@@ -41,19 +41,19 @@
             </div>
             <div class="col-md-8 text-container">
               <div class="grape-title">
-                <h1 class="text-left text-success"><%= @grape.name %></h1>
+                <h1 class="text-left"><%= @grape.name %></h1>
             </div>
             <div class="grape-long_description">
                 <span>
                  <%= @grape.long_des %>
              </span>
-         </div>
+            </div>
          <div class="grape-region">
              <strong class="text-info" >Regions:</strong><span style="margin-left: 14px">
                 <% unless @grape.regions == nil %>
                 <% @grape.regions.split(',').each do |element| %>
                 <a href="#">
-                  <span class="regions-element bg-success text-white"><%=  element %></span>
+                  <span class="regions-element"><%=  element %></span>
                   <% end %>
               </span>
           </a>
@@ -65,7 +65,7 @@
             <% unless @grape.supply == nil %>
             <% @grape.supply.split(',').each_with_index do |element,index| %>
             <a href="<%= @grape.supply_url.split(',').fetch(index) %>">
-              <span class="regions-element bg-success text-white"><%=  element %></span>
+              <span class="regions-element"><%=  element %></span>
               <% end %>
           </span>
         </a>

@@ -42,10 +42,10 @@
       </div>
       <div class="col-md-8 text-container">
         <div class="wine-title">
-          <h1 class="text-left text-success"><%= @wine.name %></h1>
+          <h1 class="text-left"><%= @wine.name %></h1>
         </div>
         <div class="wine-short_description">
-          <span class="text-info">
+          <span class="">
            <%= @wine.short_des %>
          </span>
        </div>
@@ -59,7 +59,7 @@
         <% unless @wine.regions == nil %>
         <% @wine.regions.split(',').each do |element| %>
         <a href="#">
-          <span class="regions-element bg-success text-white"><%=  element %></span>
+          <span class="regions-element "><%=  element %></span>
           <% end %>
         </span>
       </a>
@@ -71,7 +71,7 @@
         <% unless @wine.supply == nil %>
         <% @wine.supply.split(',').each_with_index do |element,index| %>
         <a href="<%= @wine.supply_url.split(',').fetch(index) %>">
-          <span class="regions-element bg-success text-white"><%=  element %></span>
+          <span class="regions-element "><%=  element %></span>
           <% end %>
         </span>
         </a>

@@ -1035,10 +1035,9 @@ $la_color: #ffae00;
       line-height: 52px;
     }
     .quote-container {
-      text-transform: uppercase;
       font-family: Raleway, sans-serif;
-      font-weight: 700;
-      color: #bababa;
+      font-weight: 400;
+      color: #6b6b6b;
       font-size: 14px;
       line-height: 24px;
       text-align: center;
@@ -1048,7 +1047,7 @@ $la_color: #ffae00;
       text-align: center;
       margin-bottom: 60px;
       a {
-        max-width: 280px;
+        max-width: 220px;
         background-color: #cf0f40;
         font-family: Raleway, sans-serif;
         font-weight: 700;
@@ -1370,9 +1369,8 @@ $la_color: #ffae00;
       font-size: 30px;
     }
     .quote-container {
-      text-transform: uppercase;
-      font-weight: 700;
-      color: #bababa;
+      font-weight: 400;
+      color: #6b6b6b;
       font-size: 14px;
       line-height: 24px;
       text-align: center;
@@ -1384,7 +1382,7 @@ $la_color: #ffae00;
       text-align: center;
       margin-bottom: 60px;
       a {
-        max-width: 280px;
+        max-width: 220px;
         background-color: #cf0f40;
         font-family: Raleway, sans-serif;
         font-weight: 700;
@@ -1435,7 +1433,7 @@ $la_color: #ffae00;
   }
 }
 footer {
-  background-color: #1b252d;
+  background-color: #fff;
   .main-footer {
     border-left: 1px solid #161f26;
     border-right: 1px solid #161f26;
@@ -1728,7 +1726,7 @@ footer {
     }
   }
   .container-fluid {
-    background-color: #161f26;
+    background-color: #fff;
   }
   .copyright-container {
     text-align: center;

@@ -27,8 +27,8 @@
 <div class="social-modal">
     <div class="container">
       <h1>Share</h1>
-        <span class="glyphicon glyphicon-remove-circle"></span>
-    </div>
+      <span class="glyphicon glyphicon-remove-circle"></span>
+  </div>
 </div> 
 <!--Start of main info container-->
 <section class="main-info-container">
@@ -41,19 +41,40 @@
             </div>
             <div class="col-md-8 text-container">
               <div class="grape-title">
-                <h1 class="text-center"><%= @grape.name %></h1>
-              </div>
-              <div class="grape-long_description">
-                <span>
-                   <%= @grape.long_des %>
-                </span>
-              </div>
-              <div class="grape-region">
-               <span>Region:</span><strong><%= @grape.regions %></strong>
-              </div>   
+                <h1 class="text-left"><%= @grape.name %></h1>
             </div>
+            <div class="grape-long_description">
+                <span>
+                 <%= @grape.long_des %>
+             </span>
+            </div>
+         <div class="grape-region">
+             <strong class="text-info" >Regions:</strong><span style="margin-left: 14px">
+                <% unless @grape.regions == nil %>
+                <% @grape.regions.split(',').each do |element| %>
+                <a href="#">
+                  <span class="regions-element"><%=  element %></span>
+                  <% end %>
+              </span>
+          </a>
+          <% end %>
         </div>
-    </div>
+        <div class="wine-supplyer">
+         <strong class="text-info">Supplyer:</strong>
+         <span style="margin-left: 14px">
+            <% unless @grape.supply == nil %>
+            <% @grape.supply.split(',').each_with_index do |element,index| %>
+            <a href="<%= @grape.supply_url.split(',').fetch(index) %>">
+              <span class="regions-element"><%=  element %></span>
+              <% end %>
+          </span>
+        </a>
+        <% end %>
+        </span>
+        </div>   
+</div>
+</div>
+</div>
 </section>
 <!--end of main info container -->
 <section class="place-slider-section">

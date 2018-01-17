@@ -1,15 +1,15 @@
 ActiveAdmin.register Wine do
   # everything happens here :D
-  permit_params :wine, :name, :short_des, :long_des, :pic, :regions, :wine, :publish, :share, :like, :week_pub
+  permit_params :wine, :name, :short_des, :long_des, :pic, :regions, :publish, :share, :like, :week_pub, :supply, :supply_url
   index do
   	column :id
   	column :name
   	column :pic
   	column :regions
-  	column :wine
   	column :publish
   	column :week_pub
   	column :updated_at
+    column :supply
   	actions
   end
   form do |f|
@@ -18,8 +18,9 @@ ActiveAdmin.register Wine do
   		f.input :short_des, as: :string
   		f.input :long_des, as: :text
   		f.input :pic, as: :file
-  		f.input :wine, as: :string
-  		f.input :regions, as: :string
+      f.input :supply, input_html:{data:{role:'tagsinput'}}
+      f.input :supply_url, input_html:{data:{role:'tagsinput'}}
+      f.input :regions, input_html:{data:{role:'tagsinput'}} 
   		f.input :publish, as: :boolean
   		f.input :week_pub, as: :boolean
   	end
@@ -34,12 +35,13 @@ ActiveAdmin.register Wine do
   		@wine[:name] = attrs[:name]
   		@wine[:short_des] = attrs[:short_des]
   		@wine[:long_des] = attrs[:long_des]
+      @wine[:supply] = attrs[:supply]
+      @wine[:supply_url] = attrs[:supply_url]
   		@wine[:publish] = attrs[:publish]
-  		@wine[:wine] = attrs[:wine]
   		@wine[:regions] = attrs[:regions]
   		@wine[:week_pub] = attrs[:week_pub]
-  		@wine[:pic] = attrs[:pic].original_filename
       unless attrs[:pic] == nil
+      @wine[:pic] = attrs[:pic].original_filename
   		tmp = attrs[:pic].tempfile
   		file = Rails.root.join('public', 'uploads', attrs[:pic].original_filename)
   		FileUtils.cp tmp.path, file
@@ -58,8 +60,9 @@ ActiveAdmin.register Wine do
   		@wine[:name] = attrs[:name]
   		@wine[:short_des] = attrs[:short_des]
   		@wine[:long_des] = attrs[:long_des]
+      @wine[:supply] = attrs[:supply]
+      @wine[:supply_url] = attrs[:supply_url]
   		@wine[:publish] = attrs[:publish]
-  		@wine[:wine] = attrs[:wine]
   		@wine[:regions] = attrs[:regions]
   		@wine[:week_pub] = attrs[:week_pub]
       unless attrs[:pic] == nil

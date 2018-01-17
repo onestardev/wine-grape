@@ -24,7 +24,7 @@
                 <option>Wine</option>
                 <option>Grape</option>
               </select>
-              <%= f.submit 'Coming Soon!', class: "search_button sf" %>
+              <%= f.submit 'Search', class: "search_button sf" %>
             </div>
           <% end %>
           </div>
@@ -59,18 +59,6 @@
             <div class="info-container">
               <div class="category-container">Grapes</div>
               <div class="title-container"><strong>Grape of the week</strong></div>
-              <div class="social-container">
-                <ul class="social-list">
-                  <li class="share-button">
-                    <a href="#"></a></li>
-                  <li class="like-button">
-                    <a href="#"></a>
-                  </li>
-                  <li class="chat-container">
-                    <a href="#"></a>
-                  </li>
-                </ul>
-              </div>
             </div>
           </div>
         </div>
@@ -86,11 +74,6 @@
                 <div class="info-container">
                   <div class="title-container"><strong>Help us growing</strong></div>
                   <div class="social-container">
-                    <ul class="social-list">
-                      <li class="share-button"><a href="#"></a></li>
-                      <li class="like-button"><a href="#"></a></li>
-                      <li class="chat-container"><a href="#"></a></li>
-                    </ul>
                   </div>
                 </div>
               </div>
@@ -101,13 +84,6 @@
                 <%= image_tag 'image-places-parks.jpg', class: 'img-responsive', alt: 'brunch places in San Francisco' %>
                 <div class="info-container">
                   <div class="title-container"><strong>Wine of the week</strong> </div>
-                  <div class="social-container">
-                    <ul class="social-list">
-                      <li class="share-button"><a href="#"></a></li>
-                      <li class="like-button"><a href="#"></a></li>
-                      <li class="chat-container"><a href="#"></a></li>
-                    </ul>
-                  </div>
                 </div>
               </div>
             </div>
@@ -117,13 +93,6 @@
                 <%= image_tag 'image-places-travel.jpg', class: 'img-responsive', alt: 'brunch places in San Francisco' %>
                 <div class="info-container">
                   <div class="title-container"><strong>About Us</strong> </div>
-                  <div class="social-container">
-                    <ul class="social-list">
-                      <li class="share-button"><a href="#"></a></li>
-                      <li class="like-button"><a href="#"></a></li>
-                      <li class="chat-container"><a href="#"></a></li>
-                    </ul>
-                  </div>
                 </div>
               </div>
             </div>
@@ -133,13 +102,6 @@
                 <%= image_tag 'image-places-brewery.jpg', class: 'img-responsive', alt: 'brunch places in San Francisco' %>
                 <div class="info-container">
                   <div class="title-container"><strong>Blogs</strong></div>
-                  <div class="social-container">
-                    <ul class="social-list">
-                      <li class="share-button"><a href="#"></a></li>
-                      <li class="like-button"><a href="#"></a></li>
-                      <li class="chat-container"><a href="#"></a></li>
-                    </ul>
-                  </div>
                 </div>
               </div>
             </div>
@@ -187,23 +149,6 @@ For each grape you will find information on where the grape is grown, its histor
       </div>
     </div>
   </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="city-guide-container">
-          <div class="title-container col-md-12">
-            <div class="text">Ever wonder how wine is made? </div>
-          </div>
-          <div class="quote-container col-md-12">
-            <div class="text">Digging deep to uncover the 'cool,' the 'trendy,' and the 'timeless'</div>
-          </div>
-          <div class="link-container col-md-12">
-            <a class="sf" href="#">About Making Wine</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 </section>
   <!--End we make it easy section-->
 
@@ -215,10 +160,10 @@ For each grape you will find information on where the grape is grown, its histor
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <div class="category-container">Best Grape& Wines</div>
+              <div class="category-container">Grapedia</div>
             </div>
             <div class="col-md-12">
-              <div class="title-container">TEN BEST Places</div>
+              <div class="title-container">Best Grape& Wines</div>
             </div>
             <div class="col-md-7 wow pulse" data-wow-duration="0.25s" style="visibility: visible; animation-duration: 0.25s; animation-iteration-count: 5; animation-name: pulse;">
               <div class="text-container">Ever wonder how wine is made? Or why some bottles of wine are more expensive than others? Here's some information for you to better understand wine and what makes its cost
@@ -236,30 +181,6 @@ For each grape you will find information on where the grape is grown, its histor
                     <li class="chat-container"><a href="#"></a></li>
                   </ul>
                 </div>
-              </div>
-            </div>
-            <div class="col-md-12">
-              <div class="logos-container">
-                <ul class="logos-list">
-                  <li>
-                    <a href="#"><%= image_tag 'logo-bacardi.png', class: 'img-responsive' %> </a>
-                  </li>
-                  <li>
-                    <a href="#"><%= image_tag 'logo-malibu.png', class: 'img-responsive' %> </a>                    
-                  </li>
-                  <li>
-                    <a href="#"><%= image_tag 'logo-kraken.png', class: 'img-responsive' %> </a>                    
-                  </li>
-                  <li>
-                    <a href="#"><%= image_tag 'logo-koloa.png', class: 'img-responsive' %> </a>                    
-                  </li>
-                  <li>
-                    <a href="#"><%= image_tag 'logo-mount.png', class: 'img-responsive' %> </a>                    
-                  </li>
-                  <li>
-                    <a href="#"><%= image_tag 'logo-don.png', class: 'img-responsive' %> </a>                    
-                  </li>
-                </ul>
               </div>
             </div>
           </div>
@@ -333,40 +254,7 @@ For each grape you will find information on where the grape is grown, its histor
 </section>
 <!--End Learn More Section-->
   <!--Media section-->
-<section class="media-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 col-xs-12 col-lg-12 col-sm-12">
-        <a href="#"><%= image_tag 'grape-red.png', class: 'media-ny' %> </a>
-        <a href="#"><%= image_tag 'grape-blue.png', class: 'media-ny' %> </a>
-        <a href="#"><%= image_tag 'grape-blue-2.png', class: 'media-ny' %> </a>
-        <a href="#"><%= image_tag 'grape-black.png', class: 'media-ny' %> </a>
-        <a href="#"><%= image_tag 'grape-yellow.png', class: 'media-ny' %> </a>
-        <a href="#"><%= image_tag 'grape-pink.png', class: 'media-ny' %> </a>
-      </div>
-    </div>
-  </div>
-</section>
 <!--End of Media section-->
 <!--City Guide Section-->
-<section  class="city-guide-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="city-guide-container">
-          <div class="title-container col-md-12">
-            <div class="text">Ever wonder how wine is made? </div>
-          </div>
-          <div class="quote-container col-md-12">
-            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit</div>
-          </div>
-          <div class="link-container col-md-12">
-            <a class="sf" href="#">About Making Wine</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-  <!--End of city guide -->
 
+  <!--End of city guide -->

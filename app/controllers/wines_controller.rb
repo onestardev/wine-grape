@@ -2,13 +2,13 @@ class WinesController < InheritedResources::Base
 
 	def index
 
-		@wines = Wine.where(publish: '1')
+		@wines = Wine.where(publish: 't')
 		
 	end
 
 	def week
 
-		@wines = Wine.where(publish: '1',week_pub: '1')
+		@wines = Wine.where(publish: 't',week_pub: 't')
 
 	end
 

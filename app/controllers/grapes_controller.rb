@@ -1,3 +1,4 @@
+# grape controller
 class GrapesController < InheritedResources::Base
 
    def index
